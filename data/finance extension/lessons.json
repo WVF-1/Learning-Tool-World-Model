@@ -1,0 +1,313 @@
+{
+  "lessons": [
+
+    // ─────────────────────────────────────────────
+    // L000 — INTRODUCTION TO FINANCE
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L000",
+      "topic": "Introduction to Finance",
+      "lesson_path_id": 100,
+      "lesson_difficulty": "easy",
+      "description": "A conceptual orientation to the world of finance. Students will learn what finance is, why markets exist, how capital flows between participants, and the fundamental trade-off between risk and return that underlies every financial decision.",
+      "prerequisites": [],
+      "unlocks": ["L001"],
+      "next_lesson_id": "L001",
+      "progression_note": "This chapter establishes the vocabulary and mental models students will rely on throughout the course. Understanding markets, assets, and the risk-return trade-off is essential before introducing any quantitative tools.",
+      "learning_objectives": [
+        "Define finance and explain its role in allocating capital across the economy",
+        "Distinguish between financial markets, institutions, and instruments",
+        "Articulate the fundamental risk-return trade-off",
+        "Identify the three core financial decisions: investment, financing, and dividends"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P101", "P102", "P103"],
+        "moderate": ["P104", "P105", "P106", "P107"],
+        "hard":     ["P108", "P109", "P110"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L001 — TIME VALUE OF MONEY
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L001",
+      "topic": "Time Value of Money",
+      "lesson_path_id": 101,
+      "lesson_difficulty": "moderate",
+      "description": "The time value of money (TVM) is the bedrock of all of quantitative finance. A dollar today is worth more than a dollar tomorrow because today's dollar can be invested to earn a return. Students will master present value, future value, discounting, compounding, annuities, and perpetuities.",
+      "prerequisites": ["L000"],
+      "unlocks": ["L002"],
+      "next_lesson_id": "L002",
+      "progression_note": "TVM mechanics are the computational engine behind every valuation model in this course. Students who understand discounting and compounding will be able to price bonds, run DCF models, and evaluate capital projects in later chapters.",
+      "learning_objectives": [
+        "Calculate future value and present value using a discount rate",
+        "Distinguish between simple and compound interest",
+        "Value annuities and perpetuities",
+        "Interpret the net present value (NPV) of a cash flow stream"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P111", "P112", "P113"],
+        "moderate": ["P114", "P115", "P116", "P117"],
+        "hard":     ["P118", "P119", "P120"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L002 — READING FINANCIAL STATEMENTS
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L002",
+      "topic": "Reading Financial Statements",
+      "lesson_path_id": 102,
+      "lesson_difficulty": "moderate",
+      "description": "Financial statements are the primary language companies use to communicate their economic performance to investors. This chapter covers the income statement, balance sheet, and cash flow statement — including how the three link together — and introduces key ratios analysts use to interpret them.",
+      "prerequisites": ["L001"],
+      "unlocks": ["L003"],
+      "next_lesson_id": "L003",
+      "progression_note": "Fluency with financial statements is required before students can build valuation models. Free cash flow (Chapter 8) and WACC (Chapter 4) both require pulling specific line items from these statements accurately.",
+      "learning_objectives": [
+        "Read and interpret each of the three core financial statements",
+        "Understand how the income statement, balance sheet, and cash flow statement link together",
+        "Calculate EBITDA, working capital, and retained earnings",
+        "Apply financial ratios to assess profitability, liquidity, and leverage"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P121", "P122", "P123"],
+        "moderate": ["P124", "P125", "P126", "P127"],
+        "hard":     ["P128", "P129", "P130"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L003 — STOCKS VS. BONDS
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L003",
+      "topic": "Stocks vs. Bonds",
+      "lesson_path_id": 103,
+      "lesson_difficulty": "moderate",
+      "description": "Companies raise capital by issuing two fundamentally different types of securities: equity (stocks) and debt (bonds). Each carries different rights, risks, and return profiles. This chapter explores how both instruments are structured, priced, and traded, and why the distinction matters for investors and corporate managers alike.",
+      "prerequisites": ["L002"],
+      "unlocks": ["L004"],
+      "next_lesson_id": "L004",
+      "progression_note": "Understanding equity and debt as distinct instruments with distinct cost structures is the direct prerequisite for WACC, which blends their costs into a single discount rate for the firm.",
+      "learning_objectives": [
+        "Describe the rights and risk profile of equity holders vs. debt holders",
+        "Explain how bond prices move inversely with interest rates",
+        "Calculate and interpret yield to maturity (YTM)",
+        "Distinguish seniority and recovery rates in a capital structure"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P131", "P132", "P133"],
+        "moderate": ["P134", "P135", "P136", "P137"],
+        "hard":     ["P138", "P139", "P140"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L004 — WEIGHTED AVERAGE COST OF CAPITAL (WACC)
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L004",
+      "topic": "Weighted Average Cost of Capital (WACC)",
+      "lesson_path_id": 104,
+      "lesson_difficulty": "hard",
+      "description": "WACC is the rate a firm must earn on its investments to satisfy all capital providers — both equity holders and debt holders. It blends the cost of equity (often estimated via the Capital Asset Pricing Model) and the after-tax cost of debt, weighted by their proportions in the capital structure. WACC serves as the firm's discount rate in DCF valuation.",
+      "prerequisites": ["L003"],
+      "unlocks": ["L005"],
+      "next_lesson_id": "L005",
+      "progression_note": "WACC is the primary discount rate used in free cash flow models (Chapter 8). Mastering its components — CAPM for equity, after-tax cost of debt, and capital structure weights — is essential for any DCF-based valuation.",
+      "learning_objectives": [
+        "Derive WACC from its equity and debt components",
+        "Estimate the cost of equity using the Capital Asset Pricing Model (CAPM)",
+        "Calculate the after-tax cost of debt and explain the interest tax shield",
+        "Interpret beta as a measure of systematic risk"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P141", "P142", "P143"],
+        "moderate": ["P144", "P145", "P146", "P147"],
+        "hard":     ["P148", "P149", "P150"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L005 — ANALYZING RETURNS
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L005",
+      "topic": "Analyzing Returns",
+      "lesson_path_id": 105,
+      "lesson_difficulty": "hard",
+      "description": "Measuring investment returns accurately — and adjusting for risk — is fundamental to evaluating whether a portfolio or strategy is generating true value. This chapter covers holding period returns, risk-adjusted performance metrics (Sharpe ratio, Jensen's alpha, Treynor ratio), and benchmarking against a market index.",
+      "prerequisites": ["L004"],
+      "unlocks": ["L006"],
+      "next_lesson_id": "L006",
+      "progression_note": "Return analysis bridges the gap between valuation theory and practical portfolio management. The performance metrics introduced here are referenced in both the crisis chapter (where they illustrate how risk was mispriced) and the final project.",
+      "learning_objectives": [
+        "Calculate simple, log, and multi-period holding period returns",
+        "Compute and interpret the Sharpe ratio",
+        "Distinguish between alpha and beta in a portfolio context",
+        "Use the CAPM to derive the expected return on an asset"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P151", "P152", "P153"],
+        "moderate": ["P154", "P155", "P156", "P157"],
+        "hard":     ["P158", "P159", "P160"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L006 — ANALYZING FINANCIAL CRISES
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L006",
+      "topic": "Analyzing Financial Crises",
+      "lesson_path_id": 106,
+      "lesson_difficulty": "hard",
+      "description": "Financial crises are not random accidents — they tend to follow recognizable patterns of credit expansion, asset price inflation, leverage buildup, and sudden reversal. This chapter examines the 2008 Global Financial Crisis, earlier historical episodes, and the mechanisms (moral hazard, contagion, the Minsky cycle) that transform individual failures into systemic collapses.",
+      "prerequisites": ["L005"],
+      "unlocks": ["L007"],
+      "next_lesson_id": "L007",
+      "progression_note": "Crises reveal what breaks when financial models fail. Understanding systemic risk and leverage amplification deepens intuition about why stress-testing valuation assumptions — as students will do in the capstone — is essential.",
+      "learning_objectives": [
+        "Identify the common preconditions and anatomy of a financial crisis",
+        "Explain the role of leverage, moral hazard, and contagion",
+        "Describe the Minsky cycle of stability breeding instability",
+        "Evaluate policy responses including central bank interventions and bailouts"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P161", "P162", "P163"],
+        "moderate": ["P164", "P165", "P166", "P167"],
+        "hard":     ["P168", "P169", "P170"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L007 — DIVIDEND GROWTH MODELING
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L007",
+      "topic": "Dividend Growth Modeling",
+      "lesson_path_id": 107,
+      "lesson_difficulty": "hard",
+      "description": "The Dividend Discount Model (DDM) values a stock as the present value of all future dividends. The Gordon Growth Model is its most widely used form, assuming dividends grow at a constant perpetual rate. This chapter also covers multi-stage DDM for companies with varying growth phases and the model's limitations.",
+      "prerequisites": ["L006"],
+      "unlocks": ["L008"],
+      "next_lesson_id": "L008",
+      "progression_note": "DDM introduces equity valuation through cash flows paid to shareholders. Comparing it to the free cash flow approach in the next chapter highlights the conceptual relationship between dividends, retained earnings, and investment — a central theme in the capstone.",
+      "learning_objectives": [
+        "Apply the Gordon Growth Model to value a dividend-paying stock",
+        "Estimate a sustainable dividend growth rate using the retention ratio",
+        "Extend the DDM to a two-stage growth scenario",
+        "Recognize the conditions under which the DDM produces unreliable estimates"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P171", "P172", "P173"],
+        "moderate": ["P174", "P175", "P176", "P177"],
+        "hard":     ["P178", "P179", "P180"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L008 — FREE CASH FLOW MODELING
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L008",
+      "topic": "Free Cash Flow Modeling",
+      "lesson_path_id": 108,
+      "lesson_difficulty": "hard",
+      "description": "The Discounted Cash Flow (DCF) model values a business as the present value of its expected free cash flows, discounted at WACC. This chapter covers how to compute free cash flow to the firm (FCFF), build a projection period, estimate terminal value, and arrive at enterprise and equity value.",
+      "prerequisites": ["L007"],
+      "unlocks": ["L009"],
+      "next_lesson_id": "L009",
+      "progression_note": "The DCF is the most comprehensive intrinsic valuation framework and draws on nearly every prior chapter: TVM for discounting, financial statements for FCF inputs, WACC as the discount rate, and DDM as a conceptual parallel. It is the central model in the capstone project.",
+      "learning_objectives": [
+        "Compute free cash flow to the firm (FCFF) from an income statement and balance sheet",
+        "Project a multi-year free cash flow forecast",
+        "Estimate terminal value using the Gordon Growth and exit multiple approaches",
+        "Bridge from enterprise value to equity value per share"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P181", "P182", "P183"],
+        "moderate": ["P184", "P185", "P186", "P187"],
+        "hard":     ["P188", "P189", "P190"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L009 — INTRODUCTION TO STOCHASTIC MODELING
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L009",
+      "topic": "Introduction to Stochastic Modeling",
+      "lesson_path_id": 109,
+      "lesson_difficulty": "hard",
+      "description": "Real financial outcomes are uncertain. Stochastic models capture this uncertainty by treating asset prices and returns as random processes. This chapter introduces Geometric Brownian Motion (the foundation of the Black-Scholes model), Monte Carlo simulation, Value at Risk (VaR), and the critical limitations of assuming normally distributed returns.",
+      "prerequisites": ["L008"],
+      "unlocks": ["L010"],
+      "next_lesson_id": "L010",
+      "progression_note": "Stochastic modeling adds a probabilistic dimension to the deterministic DCF framework. In the capstone, students use Monte Carlo thinking to stress-test their valuations rather than relying on a single point estimate — making this chapter a bridge to rigorous, professional-grade analysis.",
+      "learning_objectives": [
+        "Describe Geometric Brownian Motion and its two parameters (drift and volatility)",
+        "Explain the logic and mechanics of a Monte Carlo simulation",
+        "Calculate and interpret Value at Risk (VaR) at a given confidence level",
+        "Articulate why fat tails and skewness challenge standard financial models"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P191", "P192", "P193"],
+        "moderate": ["P194", "P195", "P196", "P197"],
+        "hard":     ["P198", "P199", "P200"]
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // L010 — CAPSTONE: INTEGRATED FINANCIAL ANALYSIS
+    // ─────────────────────────────────────────────
+
+    {
+      "lesson_id": "L010",
+      "topic": "Capstone: Integrated Financial Analysis",
+      "lesson_path_id": 110,
+      "lesson_difficulty": "hard",
+      "description": "The capstone synthesizes every prior chapter into a single, cohesive analytical exercise. Students will select an appropriate valuation framework, read financial statements to extract inputs, compute WACC, build a DCF model, cross-check with DDM, interpret results in the context of risk and market conditions, and stress-test assumptions using probabilistic thinking.",
+      "prerequisites": ["L009"],
+      "unlocks": [],
+      "next_lesson_id": null,
+      "progression_note": "This is the terminal lesson of the curriculum. Mastery here demonstrates that a student can move fluidly between conceptual frameworks and quantitative tools — the hallmark of real financial analysis.",
+      "learning_objectives": [
+        "Select and justify a valuation methodology for a given company and context",
+        "Integrate financial statement data into a full DCF model",
+        "Reconcile DCF and DDM estimates and explain divergence",
+        "Interpret and communicate valuation output under uncertainty using scenario analysis"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy":     ["P201", "P202", "P203"],
+        "moderate": ["P204", "P205", "P206", "P207"],
+        "hard":     ["P208", "P209", "P210"]
+      }
+    }
+
+  ]
+}
