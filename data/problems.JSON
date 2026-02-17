@@ -1,0 +1,519 @@
+{
+  "problems": [
+
+    // ─────────────────────────────────────────────
+    // L101 — FACTORING
+    // ─────────────────────────────────────────────
+
+    // EASY (P001–P003): Pattern recognition only — GCF, perfect squares, difference of squares
+    // No sign juggling, coefficients are small and familiar
+
+    {
+      "problem_id": "P001",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Greatest Common Factor",
+      "factoring_type": "GCF",
+      "polynomial_degree": 1,
+      "structure": "binomial",
+      "method": "factor_out_gcf",
+      "difficulty": "easy",
+      "difficulty_rank": 1,
+      "learning_objective": "Identify and factor out the greatest common factor from a binomial",
+      "problem_expression": "4x^2 + 8x",
+      "correct_answer": "4x(x + 2)",
+      "solution_steps": [
+        "Identify the GCF of 4x^2 and 8x",
+        "GCF = 4x",
+        "Divide each term by 4x",
+        "Write as 4x(x + 2)"
+      ],
+      "correct_block_ids": ["B001", "B002", "B003", "B004"],
+      "distractor_pool_ids": ["B101", "B102", "B103"]
+    },
+
+    {
+      "problem_id": "P002",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Special Products",
+      "factoring_type": "Perfect Square Trinomial",
+      "polynomial_degree": 2,
+      "structure": "monic_trinomial",
+      "method": "pattern_recognition",
+      "difficulty": "easy",
+      "difficulty_rank": 2,
+      "learning_objective": "Recognize and factor a perfect square trinomial",
+      "problem_expression": "x^2 + 6x + 9",
+      "correct_answer": "(x + 3)^2",
+      "solution_steps": [
+        "Recognize that 9 = 3^2 and 6 = 2 * 3",
+        "This fits the pattern a^2 + 2ab + b^2 = (a + b)^2",
+        "Write as (x + 3)^2"
+      ],
+      "correct_block_ids": ["B005", "B006", "B007"],
+      "distractor_pool_ids": ["B104", "B105", "B106"]
+    },
+
+    {
+      "problem_id": "P003",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Special Products",
+      "factoring_type": "Difference of Squares",
+      "polynomial_degree": 2,
+      "structure": "binomial",
+      "method": "pattern_recognition",
+      "difficulty": "easy",
+      "difficulty_rank": 3,
+      "learning_objective": "Recognize and factor a difference of squares",
+      "problem_expression": "x^2 - 25",
+      "correct_answer": "(x + 5)(x - 5)",
+      "solution_steps": [
+        "Recognize that x^2 and 25 are both perfect squares",
+        "Apply the difference of squares pattern: a^2 - b^2 = (a + b)(a - b)",
+        "Write as (x + 5)(x - 5)"
+      ],
+      "correct_block_ids": ["B008", "B009", "B010"],
+      "distractor_pool_ids": ["B107", "B108", "B109"]
+    },
+
+    // MODERATE (P004–P007): Monic trinomials requiring sign reasoning and factor pair searching
+    // Introduces negative signs and cases where the pattern is not immediately obvious
+
+    {
+      "problem_id": "P004",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Trinomial Factoring",
+      "factoring_type": "Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "monic_trinomial",
+      "method": "factor_pairs",
+      "difficulty": "moderate",
+      "difficulty_rank": 4,
+      "learning_objective": "Factor a monic trinomial with all positive terms using factor pairs",
+      "problem_expression": "x^2 + 7x + 12",
+      "correct_answer": "(x + 3)(x + 4)",
+      "solution_steps": [
+        "Find two numbers that multiply to 12 and add to 7",
+        "Factor pairs of 12: (1,12), (2,6), (3,4)",
+        "3 + 4 = 7 — this is the pair",
+        "Write as (x + 3)(x + 4)"
+      ],
+      "correct_block_ids": ["B011", "B012", "B013"],
+      "distractor_pool_ids": ["B110", "B111", "B112"]
+    },
+
+    {
+      "problem_id": "P005",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Trinomial Factoring",
+      "factoring_type": "Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "monic_trinomial",
+      "method": "factor_pairs",
+      "difficulty": "moderate",
+      "difficulty_rank": 5,
+      "learning_objective": "Factor a monic trinomial with a negative constant term, introducing mixed signs",
+      "problem_expression": "x^2 + 2x - 15",
+      "correct_answer": "(x + 5)(x - 3)",
+      "solution_steps": [
+        "Find two numbers that multiply to -15 and add to 2",
+        "Consider sign combinations: one positive, one negative",
+        "5 * -3 = -15 and 5 + (-3) = 2",
+        "Write as (x + 5)(x - 3)"
+      ],
+      "correct_block_ids": ["B014", "B015", "B016"],
+      "distractor_pool_ids": ["B113", "B114", "B115"]
+    },
+
+    {
+      "problem_id": "P006",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Trinomial Factoring",
+      "factoring_type": "Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "monic_trinomial",
+      "method": "factor_pairs",
+      "difficulty": "moderate",
+      "difficulty_rank": 6,
+      "learning_objective": "Factor a monic trinomial with a negative middle term, reinforcing sign discipline",
+      "problem_expression": "x^2 - 5x + 6",
+      "correct_answer": "(x - 2)(x - 3)",
+      "solution_steps": [
+        "Find two numbers that multiply to 6 and add to -5",
+        "Both numbers must be negative",
+        "-2 * -3 = 6 and -2 + (-3) = -5",
+        "Write as (x - 2)(x - 3)"
+      ],
+      "correct_block_ids": ["B017", "B018", "B019"],
+      "distractor_pool_ids": ["B116", "B117", "B118"]
+    },
+
+    {
+      "problem_id": "P007",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Trinomial Factoring",
+      "factoring_type": "GCF then Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "monic_trinomial_with_gcf",
+      "method": "gcf_then_factor_pairs",
+      "difficulty": "moderate",
+      "difficulty_rank": 7,
+      "learning_objective": "Apply GCF extraction before factoring a trinomial — combining two prior skills",
+      "problem_expression": "2x^2 + 10x + 12",
+      "correct_answer": "2(x + 2)(x + 3)",
+      "solution_steps": [
+        "Identify the GCF of all terms: 2",
+        "Factor out 2 to get 2(x^2 + 5x + 6)",
+        "Factor x^2 + 5x + 6: find two numbers that multiply to 6 and add to 5",
+        "2 and 3 work: 2 * 3 = 6, 2 + 3 = 5",
+        "Write as 2(x + 2)(x + 3)"
+      ],
+      "correct_block_ids": ["B020", "B021", "B022", "B023"],
+      "distractor_pool_ids": ["B119", "B120", "B121"]
+    },
+
+    // HARD (P008–P010): Non-monic trinomials requiring the AC method or trial and error
+    // Introduces leading coefficients > 1 and larger products to reason through
+
+    {
+      "problem_id": "P008",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Non-Monic Trinomial Factoring",
+      "factoring_type": "Non-Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "non_monic_trinomial",
+      "method": "ac_method",
+      "difficulty": "hard",
+      "difficulty_rank": 8,
+      "learning_objective": "Factor a non-monic trinomial using the AC method",
+      "problem_expression": "2x^2 + 7x + 3",
+      "correct_answer": "(2x + 1)(x + 3)",
+      "solution_steps": [
+        "Identify a=2, b=7, c=3",
+        "Calculate AC = 2 * 3 = 6",
+        "Find two numbers that multiply to 6 and add to 7: 1 and 6",
+        "Rewrite 7x as 1x + 6x: 2x^2 + x + 6x + 3",
+        "Group: x(2x + 1) + 3(2x + 1)",
+        "Factor out (2x + 1): (2x + 1)(x + 3)"
+      ],
+      "correct_block_ids": ["B024", "B025", "B026", "B027"],
+      "distractor_pool_ids": ["B122", "B123", "B124"]
+    },
+
+    {
+      "problem_id": "P009",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Non-Monic Trinomial Factoring",
+      "factoring_type": "Non-Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "non_monic_trinomial",
+      "method": "ac_method",
+      "difficulty": "hard",
+      "difficulty_rank": 9,
+      "learning_objective": "Factor a non-monic trinomial with a negative constant, requiring careful sign handling",
+      "problem_expression": "3x^2 - 10x + 8",
+      "correct_answer": "(3x - 4)(x - 2)",
+      "solution_steps": [
+        "Identify a=3, b=-10, c=8",
+        "Calculate AC = 3 * 8 = 24",
+        "Find two numbers that multiply to 24 and add to -10: -4 and -6",
+        "Rewrite -10x as -4x + -6x: 3x^2 - 4x - 6x + 8",
+        "Group: x(3x - 4) - 2(3x - 4)",
+        "Factor out (3x - 4): (3x - 4)(x - 2)"
+      ],
+      "correct_block_ids": ["B028", "B029", "B030", "B031"],
+      "distractor_pool_ids": ["B125", "B126", "B127"]
+    },
+
+    {
+      "problem_id": "P010",
+      "lesson_id": "L101",
+      "subject": "Algebra",
+      "subtopic": "Non-Monic Trinomial Factoring",
+      "factoring_type": "Non-Monic Trinomial",
+      "polynomial_degree": 2,
+      "structure": "non_monic_trinomial",
+      "method": "ac_method",
+      "difficulty": "hard",
+      "difficulty_rank": 10,
+      "learning_objective": "Factor a non-monic trinomial with a negative middle term and larger leading coefficient",
+      "problem_expression": "6x^2 + x - 12",
+      "correct_answer": "(3x - 4)(2x + 3)",
+      "solution_steps": [
+        "Identify a=6, b=1, c=-12",
+        "Calculate AC = 6 * -12 = -72",
+        "Find two numbers that multiply to -72 and add to 1: 9 and -8",
+        "Rewrite x as 9x - 8x: 6x^2 + 9x - 8x - 12",
+        "Group: 3x(2x + 3) - 4(2x + 3)",
+        "Factor out (2x + 3): (3x - 4)(2x + 3)"
+      ],
+      "correct_block_ids": ["B032", "B033", "B034", "B035"],
+      "distractor_pool_ids": ["B128", "B129", "B130"]
+    },
+
+    // ─────────────────────────────────────────────
+    // L102 — QUADRATIC EQUATIONS
+    // ─────────────────────────────────────────────
+
+    // EASY (P011–P013): Solve by factoring — direct application of L101 skills
+    // Equations are already in standard form and factor cleanly
+
+    {
+      "problem_id": "P011",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Solving by Factoring",
+      "equation_type": "Quadratic",
+      "solution_method": "factoring",
+      "polynomial_degree": 2,
+      "difficulty": "easy",
+      "difficulty_rank": 1,
+      "learning_objective": "Solve a quadratic equation by recognizing and factoring a perfect square trinomial",
+      "problem_expression": "x^2 + 6x + 9 = 0",
+      "correct_answer": "x = -3 (double root)",
+      "solution_steps": [
+        "Factor the left side: (x + 3)^2 = 0",
+        "Apply the Zero Product Property",
+        "x + 3 = 0",
+        "x = -3"
+      ],
+      "correct_block_ids": ["B036", "B037", "B038"],
+      "distractor_pool_ids": ["B131", "B132", "B133"]
+    },
+
+    {
+      "problem_id": "P012",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Solving by Factoring",
+      "equation_type": "Quadratic",
+      "solution_method": "factoring",
+      "polynomial_degree": 2,
+      "difficulty": "easy",
+      "difficulty_rank": 2,
+      "learning_objective": "Solve a quadratic equation by factoring a difference of squares",
+      "problem_expression": "x^2 - 16 = 0",
+      "correct_answer": "x = 4, x = -4",
+      "solution_steps": [
+        "Factor the left side using difference of squares: (x + 4)(x - 4) = 0",
+        "Apply the Zero Product Property",
+        "x + 4 = 0 → x = -4",
+        "x - 4 = 0 → x = 4"
+      ],
+      "correct_block_ids": ["B039", "B040", "B041", "B042"],
+      "distractor_pool_ids": ["B134", "B135", "B136"]
+    },
+
+    {
+      "problem_id": "P013",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Solving by Factoring",
+      "equation_type": "Quadratic",
+      "solution_method": "factoring",
+      "polynomial_degree": 2,
+      "difficulty": "easy",
+      "difficulty_rank": 3,
+      "learning_objective": "Solve a simple monic trinomial equation using the Zero Product Property",
+      "problem_expression": "x^2 + 5x + 6 = 0",
+      "correct_answer": "x = -2, x = -3",
+      "solution_steps": [
+        "Find two numbers that multiply to 6 and add to 5: 2 and 3",
+        "Factor: (x + 2)(x + 3) = 0",
+        "Apply the Zero Product Property",
+        "x + 2 = 0 → x = -2",
+        "x + 3 = 0 → x = -3"
+      ],
+      "correct_block_ids": ["B043", "B044", "B045", "B046"],
+      "distractor_pool_ids": ["B137", "B138", "B139"]
+    },
+
+    // MODERATE (P014–P017): Rearranging before solving, completing the square, non-monic factoring
+    // Requires multi-step reasoning before applying the Zero Product Property
+
+    {
+      "problem_id": "P014",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Solving by Factoring",
+      "equation_type": "Quadratic",
+      "solution_method": "rearrange_then_factor",
+      "polynomial_degree": 2,
+      "difficulty": "moderate",
+      "difficulty_rank": 4,
+      "learning_objective": "Rearrange a quadratic equation into standard form before solving by factoring",
+      "problem_expression": "x^2 + 3x = 10",
+      "correct_answer": "x = 2, x = -5",
+      "solution_steps": [
+        "Move all terms to one side: x^2 + 3x - 10 = 0",
+        "Find two numbers that multiply to -10 and add to 3: 5 and -2",
+        "Factor: (x + 5)(x - 2) = 0",
+        "Apply the Zero Product Property",
+        "x + 5 = 0 → x = -5",
+        "x - 2 = 0 → x = 2"
+      ],
+      "correct_block_ids": ["B047", "B048", "B049", "B050"],
+      "distractor_pool_ids": ["B140", "B141", "B142"]
+    },
+
+    {
+      "problem_id": "P015",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Completing the Square",
+      "equation_type": "Quadratic",
+      "solution_method": "completing_the_square",
+      "polynomial_degree": 2,
+      "difficulty": "moderate",
+      "difficulty_rank": 5,
+      "learning_objective": "Solve a quadratic that does not factor cleanly by completing the square",
+      "problem_expression": "x^2 + 4x - 1 = 0",
+      "correct_answer": "x = -2 + √5, x = -2 - √5",
+      "solution_steps": [
+        "Move constant to right side: x^2 + 4x = 1",
+        "Complete the square: add (4/2)^2 = 4 to both sides",
+        "x^2 + 4x + 4 = 5",
+        "Factor left side: (x + 2)^2 = 5",
+        "Take square root of both sides: x + 2 = ±√5",
+        "Solve: x = -2 ± √5"
+      ],
+      "correct_block_ids": ["B051", "B052", "B053", "B054", "B055"],
+      "distractor_pool_ids": ["B143", "B144", "B145"]
+    },
+
+    {
+      "problem_id": "P016",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Solving by Factoring",
+      "equation_type": "Quadratic",
+      "solution_method": "non_monic_factoring",
+      "polynomial_degree": 2,
+      "difficulty": "moderate",
+      "difficulty_rank": 6,
+      "learning_objective": "Solve a non-monic quadratic equation by factoring using the AC method",
+      "problem_expression": "2x^2 + 7x + 3 = 0",
+      "correct_answer": "x = -1/2, x = -3",
+      "solution_steps": [
+        "Use the AC method: AC = 2 * 3 = 6",
+        "Find two numbers that multiply to 6 and add to 7: 1 and 6",
+        "Rewrite: 2x^2 + x + 6x + 3 = 0",
+        "Group: x(2x + 1) + 3(2x + 1) = 0",
+        "Factor: (2x + 1)(x + 3) = 0",
+        "2x + 1 = 0 → x = -1/2",
+        "x + 3 = 0 → x = -3"
+      ],
+      "correct_block_ids": ["B056", "B057", "B058", "B059"],
+      "distractor_pool_ids": ["B146", "B147", "B148"]
+    },
+
+    {
+      "problem_id": "P017",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Completing the Square",
+      "equation_type": "Quadratic",
+      "solution_method": "completing_the_square",
+      "polynomial_degree": 2,
+      "difficulty": "moderate",
+      "difficulty_rank": 7,
+      "learning_objective": "Complete the square for a trinomial with a negative constant, reinforcing sign discipline",
+      "problem_expression": "x^2 - 6x + 4 = 0",
+      "correct_answer": "x = 3 + √5, x = 3 - √5",
+      "solution_steps": [
+        "Move constant to right side: x^2 - 6x = -4",
+        "Complete the square: add (-6/2)^2 = 9 to both sides",
+        "x^2 - 6x + 9 = 5",
+        "Factor left side: (x - 3)^2 = 5",
+        "Take square root of both sides: x - 3 = ±√5",
+        "Solve: x = 3 ± √5"
+      ],
+      "correct_block_ids": ["B060", "B061", "B062", "B063", "B064"],
+      "distractor_pool_ids": ["B149", "B150", "B151"]
+    },
+
+    // HARD (P018–P020): Quadratic formula, analyzing the discriminant, and complex roots
+    // Requires full procedural fluency and conceptual understanding of what solutions mean
+
+    {
+      "problem_id": "P018",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Quadratic Formula",
+      "equation_type": "Quadratic",
+      "solution_method": "quadratic_formula",
+      "polynomial_degree": 2,
+      "difficulty": "hard",
+      "difficulty_rank": 8,
+      "learning_objective": "Apply the quadratic formula to solve a non-monic equation with irrational roots",
+      "problem_expression": "3x^2 - 10x + 8 = 0",
+      "correct_answer": "x = 2, x = 4/3",
+      "solution_steps": [
+        "Identify a=3, b=-10, c=8",
+        "Calculate the discriminant: b^2 - 4ac = 100 - 96 = 4",
+        "Apply the quadratic formula: x = (10 ± √4) / 6",
+        "Simplify: x = (10 ± 2) / 6",
+        "x = 12/6 = 2",
+        "x = 8/6 = 4/3"
+      ],
+      "correct_block_ids": ["B065", "B066", "B067", "B068", "B069"],
+      "distractor_pool_ids": ["B152", "B153", "B154"]
+    },
+
+    {
+      "problem_id": "P019",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Quadratic Formula",
+      "equation_type": "Quadratic",
+      "solution_method": "quadratic_formula",
+      "polynomial_degree": 2,
+      "difficulty": "hard",
+      "difficulty_rank": 9,
+      "learning_objective": "Use the quadratic formula when factoring is not obvious, and simplify an irrational result",
+      "problem_expression": "2x^2 - 4x - 3 = 0",
+      "correct_answer": "x = (2 + √10) / 2, x = (2 - √10) / 2",
+      "solution_steps": [
+        "Identify a=2, b=-4, c=-3",
+        "Calculate the discriminant: b^2 - 4ac = 16 + 24 = 40",
+        "Simplify √40 = 2√10",
+        "Apply the quadratic formula: x = (4 ± 2√10) / 4",
+        "Simplify: x = (2 ± √10) / 2"
+      ],
+      "correct_block_ids": ["B070", "B071", "B072", "B073", "B074"],
+      "distractor_pool_ids": ["B155", "B156", "B157"]
+    },
+
+    {
+      "problem_id": "P020",
+      "lesson_id": "L102",
+      "subject": "Algebra",
+      "subtopic": "Discriminant Analysis",
+      "equation_type": "Quadratic",
+      "solution_method": "quadratic_formula_with_discriminant_analysis",
+      "polynomial_degree": 2,
+      "difficulty": "hard",
+      "difficulty_rank": 10,
+      "learning_objective": "Evaluate the discriminant to determine the nature of roots, and identify a quadratic with no real solutions",
+      "problem_expression": "x^2 + x + 1 = 0",
+      "correct_answer": "No real solutions (discriminant < 0)",
+      "solution_steps": [
+        "Identify a=1, b=1, c=1",
+        "Calculate the discriminant: b^2 - 4ac = 1 - 4 = -3",
+        "Since the discriminant is negative, there are no real roots",
+        "The solutions are complex: x = (-1 ± i√3) / 2"
+      ],
+      "correct_block_ids": ["B075", "B076", "B077", "B078"],
+      "distractor_pool_ids": ["B158", "B159", "B160"]
+    }
+
+  ]
+}

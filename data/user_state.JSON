@@ -1,0 +1,179 @@
+{
+  "users": [
+
+    // ─────────────────────────────────────────────
+    // USER 1: Early learner — just started L101, struggling with moderate difficulty
+    // HMM state: "learning" — low mastery confidence, mostly correct on easy problems
+    // ─────────────────────────────────────────────
+    {
+      "user_id": "U001",
+      "display_name": "Alex",
+      "created_at": "2026-02-01T09:00:00Z",
+      "current_lesson_id": "L101",
+      "lessons_completed": [],
+      "lessons_unlocked": ["L101"],
+      "hmm_profile": {
+        "L101": {
+          "hmm_state": "learning",
+          "mastery_estimate": 0.41,
+          "mastery_threshold": 0.85,
+          "lesson_unlocked": true,
+          "lesson_completed": false,
+          "current_difficulty_tier": "moderate",
+          "observations": [
+            { "problem_id": "P001", "difficulty": "easy", "attempt": 1, "correct": true,  "block_sequence": ["B001","B002","B003","B004"], "timestamp": "2026-02-01T09:05:00Z" },
+            { "problem_id": "P002", "difficulty": "easy", "attempt": 1, "correct": true,  "block_sequence": ["B005","B006","B007"], "timestamp": "2026-02-01T09:12:00Z" },
+            { "problem_id": "P003", "difficulty": "easy", "attempt": 1, "correct": true,  "block_sequence": ["B008","B009","B010"], "timestamp": "2026-02-01T09:19:00Z" },
+            { "problem_id": "P004", "difficulty": "moderate", "attempt": 1, "correct": false, "block_sequence": ["B011","B110","B013"], "timestamp": "2026-02-01T09:28:00Z" },
+            { "problem_id": "P004", "difficulty": "moderate", "attempt": 2, "correct": true,  "block_sequence": ["B011","B012","B013"], "timestamp": "2026-02-01T09:35:00Z" },
+            { "problem_id": "P005", "difficulty": "moderate", "attempt": 1, "correct": false, "block_sequence": ["B014","B114","B016"], "timestamp": "2026-02-01T09:44:00Z" },
+            { "problem_id": "P005", "difficulty": "moderate", "attempt": 2, "correct": false, "block_sequence": ["B014","B113","B016"], "timestamp": "2026-02-01T09:51:00Z" }
+          ],
+          "error_pattern_summary": {
+            "most_common_errors": ["sign_errors_on_negative_constant", "wrong_factor_pair_selection"],
+            "strongest_topics": ["gcf", "perfect_square", "difference_of_squares"],
+            "weakest_topics": ["monic_trinomial_negative_constant"]
+          }
+        },
+        "L102": {
+          "hmm_state": "locked",
+          "mastery_estimate": 0.0,
+          "lesson_unlocked": false,
+          "lesson_completed": false,
+          "observations": []
+        }
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // USER 2: Progressing learner — completed L101, now working through L102 moderate
+    // HMM state: "practicing" on L102 — solid foundation but not yet fluent with new methods
+    // ─────────────────────────────────────────────
+    {
+      "user_id": "U002",
+      "display_name": "Jordan",
+      "created_at": "2026-01-20T14:00:00Z",
+      "current_lesson_id": "L102",
+      "lessons_completed": ["L101"],
+      "lessons_unlocked": ["L101", "L102"],
+      "hmm_profile": {
+        "L101": {
+          "hmm_state": "mastered",
+          "mastery_estimate": 0.92,
+          "mastery_threshold": 0.85,
+          "lesson_unlocked": true,
+          "lesson_completed": true,
+          "completed_at": "2026-01-28T16:30:00Z",
+          "current_difficulty_tier": "hard",
+          "observations": [
+            { "problem_id": "P001", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B001","B002","B003","B004"], "timestamp": "2026-01-20T14:10:00Z" },
+            { "problem_id": "P002", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B005","B006","B007"], "timestamp": "2026-01-20T14:17:00Z" },
+            { "problem_id": "P003", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B008","B009","B010"], "timestamp": "2026-01-20T14:22:00Z" },
+            { "problem_id": "P004", "difficulty": "moderate", "attempt": 1, "correct": true,  "block_sequence": ["B011","B012","B013"], "timestamp": "2026-01-21T10:05:00Z" },
+            { "problem_id": "P005", "difficulty": "moderate", "attempt": 1, "correct": true,  "block_sequence": ["B014","B015","B016"], "timestamp": "2026-01-21T10:14:00Z" },
+            { "problem_id": "P006", "difficulty": "moderate", "attempt": 1, "correct": false, "block_sequence": ["B017","B118","B019"], "timestamp": "2026-01-22T09:30:00Z" },
+            { "problem_id": "P006", "difficulty": "moderate", "attempt": 2, "correct": true,  "block_sequence": ["B017","B018","B019"], "timestamp": "2026-01-22T09:38:00Z" },
+            { "problem_id": "P007", "difficulty": "moderate", "attempt": 1, "correct": true,  "block_sequence": ["B020","B021","B022","B023"], "timestamp": "2026-01-23T11:00:00Z" },
+            { "problem_id": "P008", "difficulty": "hard",     "attempt": 1, "correct": false, "block_sequence": ["B024","B122","B026","B027"], "timestamp": "2026-01-25T13:10:00Z" },
+            { "problem_id": "P008", "difficulty": "hard",     "attempt": 2, "correct": true,  "block_sequence": ["B024","B025","B026","B027"], "timestamp": "2026-01-25T13:20:00Z" },
+            { "problem_id": "P009", "difficulty": "hard",     "attempt": 1, "correct": true,  "block_sequence": ["B028","B029","B030","B031"], "timestamp": "2026-01-27T10:45:00Z" },
+            { "problem_id": "P010", "difficulty": "hard",     "attempt": 1, "correct": true,  "block_sequence": ["B032","B033","B034","B035"], "timestamp": "2026-01-28T16:00:00Z" }
+          ],
+          "error_pattern_summary": {
+            "most_common_errors": ["ac_method_setup_confusion"],
+            "strongest_topics": ["gcf", "monic_trinomial", "difference_of_squares"],
+            "weakest_topics": ["non_monic_trinomial_ac_method"]
+          }
+        },
+        "L102": {
+          "hmm_state": "practicing",
+          "mastery_estimate": 0.61,
+          "mastery_threshold": 0.85,
+          "lesson_unlocked": true,
+          "lesson_completed": false,
+          "current_difficulty_tier": "moderate",
+          "observations": [
+            { "problem_id": "P011", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B036","B037","B038"], "timestamp": "2026-01-29T09:00:00Z" },
+            { "problem_id": "P012", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B039","B040","B041","B042"], "timestamp": "2026-01-29T09:10:00Z" },
+            { "problem_id": "P013", "difficulty": "easy",     "attempt": 1, "correct": true,  "block_sequence": ["B043","B044","B045","B046"], "timestamp": "2026-01-29T09:18:00Z" },
+            { "problem_id": "P014", "difficulty": "moderate", "attempt": 1, "correct": true,  "block_sequence": ["B047","B048","B049","B050"], "timestamp": "2026-01-30T10:05:00Z" },
+            { "problem_id": "P015", "difficulty": "moderate", "attempt": 1, "correct": false, "block_sequence": ["B051","B143","B053","B054","B055"], "timestamp": "2026-02-01T11:00:00Z" },
+            { "problem_id": "P015", "difficulty": "moderate", "attempt": 2, "correct": false, "block_sequence": ["B051","B144","B053","B054","B055"], "timestamp": "2026-02-01T11:12:00Z" }
+          ],
+          "error_pattern_summary": {
+            "most_common_errors": ["completing_the_square_balance_error", "wrong_completing_the_square_term"],
+            "strongest_topics": ["factoring_to_solve", "zero_product_property"],
+            "weakest_topics": ["completing_the_square"]
+          }
+        }
+      }
+    },
+
+    // ─────────────────────────────────────────────
+    // USER 3: Advanced learner — near mastery on both lessons
+    // HMM state: "mastered" on L101, "near_mastery" on L102 — polishing hard problems
+    // ─────────────────────────────────────────────
+    {
+      "user_id": "U003",
+      "display_name": "Morgan",
+      "created_at": "2026-01-10T08:00:00Z",
+      "current_lesson_id": "L102",
+      "lessons_completed": ["L101"],
+      "lessons_unlocked": ["L101", "L102"],
+      "hmm_profile": {
+        "L101": {
+          "hmm_state": "mastered",
+          "mastery_estimate": 0.97,
+          "mastery_threshold": 0.85,
+          "lesson_unlocked": true,
+          "lesson_completed": true,
+          "completed_at": "2026-01-18T15:00:00Z",
+          "current_difficulty_tier": "hard",
+          "observations": [
+            { "problem_id": "P001", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B001","B002","B003","B004"], "timestamp": "2026-01-10T08:10:00Z" },
+            { "problem_id": "P002", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B005","B006","B007"], "timestamp": "2026-01-10T08:15:00Z" },
+            { "problem_id": "P003", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B008","B009","B010"], "timestamp": "2026-01-10T08:20:00Z" },
+            { "problem_id": "P004", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B011","B012","B013"], "timestamp": "2026-01-11T09:00:00Z" },
+            { "problem_id": "P005", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B014","B015","B016"], "timestamp": "2026-01-11T09:08:00Z" },
+            { "problem_id": "P006", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B017","B018","B019"], "timestamp": "2026-01-11T09:15:00Z" },
+            { "problem_id": "P007", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B020","B021","B022","B023"], "timestamp": "2026-01-12T10:00:00Z" },
+            { "problem_id": "P008", "difficulty": "hard",     "attempt": 1, "correct": true, "block_sequence": ["B024","B025","B026","B027"], "timestamp": "2026-01-15T13:00:00Z" },
+            { "problem_id": "P009", "difficulty": "hard",     "attempt": 1, "correct": true, "block_sequence": ["B028","B029","B030","B031"], "timestamp": "2026-01-16T11:00:00Z" },
+            { "problem_id": "P010", "difficulty": "hard",     "attempt": 1, "correct": true, "block_sequence": ["B032","B033","B034","B035"], "timestamp": "2026-01-18T15:00:00Z" }
+          ],
+          "error_pattern_summary": {
+            "most_common_errors": [],
+            "strongest_topics": ["gcf", "perfect_square", "difference_of_squares", "monic_trinomial", "non_monic_trinomial", "ac_method"],
+            "weakest_topics": []
+          }
+        },
+        "L102": {
+          "hmm_state": "near_mastery",
+          "mastery_estimate": 0.79,
+          "mastery_threshold": 0.85,
+          "lesson_unlocked": true,
+          "lesson_completed": false,
+          "current_difficulty_tier": "hard",
+          "observations": [
+            { "problem_id": "P011", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B036","B037","B038"], "timestamp": "2026-01-19T09:00:00Z" },
+            { "problem_id": "P012", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B039","B040","B041","B042"], "timestamp": "2026-01-19T09:08:00Z" },
+            { "problem_id": "P013", "difficulty": "easy",     "attempt": 1, "correct": true, "block_sequence": ["B043","B044","B045","B046"], "timestamp": "2026-01-19T09:15:00Z" },
+            { "problem_id": "P014", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B047","B048","B049","B050"], "timestamp": "2026-01-20T10:00:00Z" },
+            { "problem_id": "P015", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B051","B052","B053","B054","B055"], "timestamp": "2026-01-21T09:05:00Z" },
+            { "problem_id": "P016", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B056","B057","B058","B059"], "timestamp": "2026-01-22T11:00:00Z" },
+            { "problem_id": "P017", "difficulty": "moderate", "attempt": 1, "correct": true, "block_sequence": ["B060","B061","B062","B063","B064"], "timestamp": "2026-01-23T10:30:00Z" },
+            { "problem_id": "P018", "difficulty": "hard",     "attempt": 1, "correct": true, "block_sequence": ["B065","B066","B067","B068","B069"], "timestamp": "2026-01-28T14:00:00Z" },
+            { "problem_id": "P019", "difficulty": "hard",     "attempt": 1, "correct": false, "block_sequence": ["B070","B071","B156","B073","B074"], "timestamp": "2026-02-03T10:00:00Z" },
+            { "problem_id": "P019", "difficulty": "hard",     "attempt": 2, "correct": true,  "block_sequence": ["B070","B071","B072","B073","B074"], "timestamp": "2026-02-03T10:10:00Z" }
+          ],
+          "error_pattern_summary": {
+            "most_common_errors": ["incorrect_radical_simplification"],
+            "strongest_topics": ["factoring_to_solve", "completing_the_square", "quadratic_formula"],
+            "weakest_topics": ["radical_simplification"]
+          }
+        }
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "states": [
+    "learning",
+    "practicing",
+    "mastered"
+  ],
+  "initial_distribution": [
+    0.2,
+    0.6,
+    0.2
+  ],
+  "transition_matrix": [
+    [
+      0.75,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.8,
+      0.2
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "base_mastery": {
+    "learning": 0.35,
+    "practicing": 0.6,
+    "mastered": 0.9
+  },
+  "difficulty_multiplier": {
+    "easy": 1.0,
+    "moderate": 0.9,
+    "hard": 0.75
+  }
+}

@@ -1,0 +1,6015 @@
+{
+  "generation_metadata": {
+    "population_size": 500,
+    "distribution": "truncated_normal_mixture",
+    "groups": {
+      "learning": 0.2,
+      "practicing": 0.6,
+      "mastered": 0.2
+    },
+    "seed": 42,
+    "generated_at": "2026-02-10T16:59:27.315565"
+  },
+  "users": [
+    {
+      "user_id": "ea941be9-f41b-4cd1-933e-1c5d2c08947d",
+      "latent_mastery": 0.4,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.045856229676397825,
+        "guess_rate": 0.09020279058015279,
+        "persistence": 0.6184673336295372
+      },
+      "created_at": "2026-02-10T16:58:46.562055"
+    },
+    {
+      "user_id": "46907c67-2298-4521-b920-4aa0a238adbd",
+      "latent_mastery": 0.399,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05484283494736367,
+        "guess_rate": 0.11252893908733622,
+        "persistence": 0.60930950877967
+      },
+      "created_at": "2026-02-10T16:58:46.562055"
+    },
+    {
+      "user_id": "00dbc0b1-41bd-4f14-b100-8bcca5753201",
+      "latent_mastery": 0.371,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07206938034095382,
+        "guess_rate": 0.15622397519733203,
+        "persistence": 0.6442417064268752
+      },
+      "created_at": "2026-02-10T16:58:46.562055"
+    },
+    {
+      "user_id": "2d07ba2f-4606-40da-b683-2948cb0ae39a",
+      "latent_mastery": 0.505,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06334025004414817,
+        "guess_rate": 0.17450305942644423,
+        "persistence": 0.7688910613428824
+      },
+      "created_at": "2026-02-10T16:58:46.562055"
+    },
+    {
+      "user_id": "dae56593-930d-4f39-9e53-1899a0b83386",
+      "latent_mastery": 0.468,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08635433532484386,
+        "guess_rate": 0.16020297355385435,
+        "persistence": 0.6084704896282462
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "d2a4152d-e45b-4388-b18e-992a0227aeb6",
+      "latent_mastery": 0.437,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0835942843192335,
+        "guess_rate": 0.16504178793591917,
+        "persistence": 0.6882095817263115
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "233af304-18d3-46cc-8605-4dc10ef1b07d",
+      "latent_mastery": 0.44,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06047622269237156,
+        "guess_rate": 0.14225585934608323,
+        "persistence": 0.7593437059293662
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "2763a492-5283-47d0-be74-0846cabcd43c",
+      "latent_mastery": 0.39,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08332846736259136,
+        "guess_rate": 0.13468200931178326,
+        "persistence": 0.653656201485776
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "675b8299-695f-4714-9270-f4777c69212c",
+      "latent_mastery": 0.499,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.053502304313130494,
+        "guess_rate": 0.07637709581850613,
+        "persistence": 0.6942881835846593
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "201a0a68-5d0e-4fce-87de-b51f2bcf8296",
+      "latent_mastery": 0.436,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07506777031676198,
+        "guess_rate": 0.15153454997177457,
+        "persistence": 0.62342645721215
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "6f652e61-80ea-49b9-b8c2-2dd2e14c26c4",
+      "latent_mastery": 0.444,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04722528790666125,
+        "guess_rate": 0.129234242555943,
+        "persistence": 0.6932614697057072
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "e2277a15-0325-4cf0-85c4-946d2a1cd3a1",
+      "latent_mastery": 0.478,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06554284301272217,
+        "guess_rate": 0.11517762064182926,
+        "persistence": 0.6109230176057973
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "10cba724-b30f-403f-9df7-1e8e79857a20",
+      "latent_mastery": 0.35,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07230834013680452,
+        "guess_rate": 0.14488268233584617,
+        "persistence": 0.718451041673144
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "577e3be8-3d53-47c9-b40d-21d8cd4480c1",
+      "latent_mastery": 0.463,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08880653221092992,
+        "guess_rate": 0.11553420019665318,
+        "persistence": 0.6981785119313705
+      },
+      "created_at": "2026-02-10T16:58:46.564943"
+    },
+    {
+      "user_id": "0c17383b-0cef-4bdf-9122-ddf4c5df030f",
+      "latent_mastery": 0.33,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08080169139339072,
+        "guess_rate": 0.16757205931015856,
+        "persistence": 0.5969796061724517
+      },
+      "created_at": "2026-02-10T16:58:46.566698"
+    },
+    {
+      "user_id": "b4f1a84e-bf6a-4b70-bd43-5c4d33bf23a0",
+      "latent_mastery": 0.366,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.053309508924133886,
+        "guess_rate": 0.1430843720005587,
+        "persistence": 0.6106127453390242
+      },
+      "created_at": "2026-02-10T16:58:46.566698"
+    },
+    {
+      "user_id": "e48c412e-d2d5-4505-ae6f-3401e05f992c",
+      "latent_mastery": 0.364,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.10318584754202645,
+        "guess_rate": 0.17532464609696752,
+        "persistence": 0.6659622832997487
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "ffa87441-a23e-4d20-a95d-4d9c75aa6bc1",
+      "latent_mastery": 0.531,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06659727100142462,
+        "guess_rate": 0.12267861230167311,
+        "persistence": 0.7494009095468115
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "ca3790fd-c684-4b35-8192-d42f2e7568cf",
+      "latent_mastery": 0.477,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.09021781981785507,
+        "guess_rate": 0.14896033176723555,
+        "persistence": 0.6983297765621079
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "3b557da8-2366-4d13-b53a-948aee344329",
+      "latent_mastery": 0.437,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0992432788066783,
+        "guess_rate": 0.15488337270371527,
+        "persistence": 0.6645116345693435
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "70ab8a5e-119d-422e-852e-77208d700661",
+      "latent_mastery": 0.443,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.03019186577046966,
+        "guess_rate": 0.14207308621715292,
+        "persistence": 0.7177785123436411
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "cf483156-8871-4a1a-89c9-cc00be09c44b",
+      "latent_mastery": 0.409,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06187763125058938,
+        "guess_rate": 0.1317061283281443,
+        "persistence": 0.7363107143834188
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "6bef151c-385b-4845-9dd3-2ea3145ba2dc",
+      "latent_mastery": 0.512,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0756922410838399,
+        "guess_rate": 0.09275161540467433,
+        "persistence": 0.6238414570665731
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "3bd4b77c-c425-4926-b1e4-67fa7cf91b85",
+      "latent_mastery": 0.396,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.027584313007657964,
+        "guess_rate": 0.12406627941777151,
+        "persistence": 0.701504745028913
+      },
+      "created_at": "2026-02-10T16:58:46.567283"
+    },
+    {
+      "user_id": "c9697360-22ed-4b2f-8562-8dd267e0d219",
+      "latent_mastery": 0.373,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.056324570566245444,
+        "guess_rate": 0.14412085852217424,
+        "persistence": 0.6889969528945601
+      },
+      "created_at": "2026-02-10T16:58:46.569295"
+    },
+    {
+      "user_id": "e9044035-3767-4558-b1cc-0673beadd5f5",
+      "latent_mastery": 0.32,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07406483021320656,
+        "guess_rate": 0.1371979626120551,
+        "persistence": 0.7002038740826453
+      },
+      "created_at": "2026-02-10T16:58:46.569807"
+    },
+    {
+      "user_id": "c196cc63-818e-4920-a96e-8b4bb623f40d",
+      "latent_mastery": 0.457,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04944332690875448,
+        "guess_rate": 0.11665692888230152,
+        "persistence": 0.7099947636265511
+      },
+      "created_at": "2026-02-10T16:58:46.569807"
+    },
+    {
+      "user_id": "9e02f50e-4957-422a-b43d-cd940e9edbe4",
+      "latent_mastery": 0.445,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.043637015428764664,
+        "guess_rate": 0.15039503596252773,
+        "persistence": 0.7263381769041316
+      },
+      "created_at": "2026-02-10T16:58:46.569807"
+    },
+    {
+      "user_id": "af33c1a1-f983-400c-96cb-d1f6962a5c9a",
+      "latent_mastery": 0.374,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0499130898150912,
+        "guess_rate": 0.1103678403320973,
+        "persistence": 0.654633448876873
+      },
+      "created_at": "2026-02-10T16:58:46.569807"
+    },
+    {
+      "user_id": "ebe7bafa-7f5a-4f17-9b79-f959bb466994",
+      "latent_mastery": 0.244,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.047316593503360274,
+        "guess_rate": 0.1229272162879872,
+        "persistence": 0.5313185760982139
+      },
+      "created_at": "2026-02-10T16:58:46.571215"
+    },
+    {
+      "user_id": "a1a62431-7fb8-4918-9ac9-729a26d7d611",
+      "latent_mastery": 0.471,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.048933738999201545,
+        "guess_rate": 0.15946946685640606,
+        "persistence": 0.6312473288942693
+      },
+      "created_at": "2026-02-10T16:58:46.571215"
+    },
+    {
+      "user_id": "953212bc-77c0-451f-8185-75de5e99c29d",
+      "latent_mastery": 0.219,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.055188481170438175,
+        "guess_rate": 0.16021088670435918,
+        "persistence": 0.5451500099626777
+      },
+      "created_at": "2026-02-10T16:58:46.571215"
+    },
+    {
+      "user_id": "0d024724-2104-4182-aef2-924d24bed97c",
+      "latent_mastery": 0.438,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.03694711688821531,
+        "guess_rate": 0.13473108062767453,
+        "persistence": 0.6960807013712565
+      },
+      "created_at": "2026-02-10T16:58:46.571215"
+    },
+    {
+      "user_id": "b18fdad9-e3c1-45fe-8ccc-e909096f062e",
+      "latent_mastery": 0.525,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07494665784515483,
+        "guess_rate": 0.13386542738486587,
+        "persistence": 0.7403089492039552
+      },
+      "created_at": "2026-02-10T16:58:46.571215"
+    },
+    {
+      "user_id": "3fe65e96-5645-4036-a356-15e364689808",
+      "latent_mastery": 0.385,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04715220885267596,
+        "guess_rate": 0.15304437575558924,
+        "persistence": 0.6045461684601695
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "6352f224-24eb-4887-9ddd-7834f48e027b",
+      "latent_mastery": 0.34,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08345562741284467,
+        "guess_rate": 0.13640410152324334,
+        "persistence": 0.6214452218043823
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "27d6366e-db15-4123-a78f-d6167daf7070",
+      "latent_mastery": 0.438,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06718230589462745,
+        "guess_rate": 0.18660206324426754,
+        "persistence": 0.6612479828457352
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "189ca547-6c83-49a8-b12d-9c8496f62653",
+      "latent_mastery": 0.465,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0712835648973707,
+        "guess_rate": 0.12370994331055597,
+        "persistence": 0.6706546477151101
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "1703f74a-ad97-4df8-9ef7-d30b449aa832",
+      "latent_mastery": 0.406,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.03916218950194642,
+        "guess_rate": 0.15708578184314784,
+        "persistence": 0.6551223179952067
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "fcdb7eba-ca1c-4f59-bca7-f4a265ae83d3",
+      "latent_mastery": 0.523,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0463142299030725,
+        "guess_rate": 0.1522154249204437,
+        "persistence": 0.8135583358233316
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "ac1341af-0ff2-4cba-9ea8-80994d27aa9b",
+      "latent_mastery": 0.269,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.10530310193910102,
+        "guess_rate": 0.08970989461908269,
+        "persistence": 0.661950901414834
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "7e4baa4d-1c71-41f0-b78a-f1a2973527b5",
+      "latent_mastery": 0.398,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08926655280944959,
+        "guess_rate": 0.06123164742229756,
+        "persistence": 0.6593578964157143
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "f3aa8eee-d6dd-4e9b-a2a4-c498cfe9a74e",
+      "latent_mastery": 0.441,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07567896870948553,
+        "guess_rate": 0.20039114784592785,
+        "persistence": 0.689084878365649
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "26ec9782-c243-4494-b154-a9b1aead4b58",
+      "latent_mastery": 0.478,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04338811425188174,
+        "guess_rate": 0.1013755004908336,
+        "persistence": 0.6709659176107241
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "d2f7f290-7ba7-494e-8c22-a36fd800e6db",
+      "latent_mastery": 0.325,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06453585900723864,
+        "guess_rate": 0.1127037527444561,
+        "persistence": 0.6234312124528854
+      },
+      "created_at": "2026-02-10T16:58:46.572197"
+    },
+    {
+      "user_id": "6733e8ce-a7c8-441c-900b-ad78b4e1b644",
+      "latent_mastery": 0.461,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0666819803116218,
+        "guess_rate": 0.1219101088952604,
+        "persistence": 0.6817553469200087
+      },
+      "created_at": "2026-02-10T16:58:46.574213"
+    },
+    {
+      "user_id": "988f7bcd-11bd-446e-b78a-ae3eaef1edf8",
+      "latent_mastery": 0.407,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0665027779753696,
+        "guess_rate": 0.11595670890726342,
+        "persistence": 0.7643475332269677
+      },
+      "created_at": "2026-02-10T16:58:46.574213"
+    },
+    {
+      "user_id": "59b6cef9-2b3e-4823-a9c0-b76a1a6f9b39",
+      "latent_mastery": 0.377,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08904012092376566,
+        "guess_rate": 0.15192644908158642,
+        "persistence": 0.7385780723514039
+      },
+      "created_at": "2026-02-10T16:58:46.574213"
+    },
+    {
+      "user_id": "3305b462-8556-4dc0-bb61-f91e38f15aab",
+      "latent_mastery": 0.309,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08248381633007748,
+        "guess_rate": 0.1637534792410183,
+        "persistence": 0.5194343290981807
+      },
+      "created_at": "2026-02-10T16:58:46.574213"
+    },
+    {
+      "user_id": "fcebe525-f6a0-46db-8d94-f5aec9a0987d",
+      "latent_mastery": 0.479,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05792134925885778,
+        "guess_rate": 0.08853272390428531,
+        "persistence": 0.6815572621508883
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "0b7e0999-c2f3-4d39-a520-e99eb2bcdb3f",
+      "latent_mastery": 0.318,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07274232444854428,
+        "guess_rate": 0.18297310357700552,
+        "persistence": 0.6180466704959117
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "667d5319-2773-4e91-8ee1-7c562add96b6",
+      "latent_mastery": 0.358,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05737413414707197,
+        "guess_rate": 0.14497413257734806,
+        "persistence": 0.646210912695899
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "b75a8286-015a-46db-affa-24ef15f8cfdd",
+      "latent_mastery": 0.354,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06618082844151407,
+        "guess_rate": 0.17514876987705186,
+        "persistence": 0.6663338837802398
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "7b0b0459-bcf5-47de-891f-d20ec46288b5",
+      "latent_mastery": 0.481,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.062386849682890454,
+        "guess_rate": 0.10961428531186894,
+        "persistence": 0.7030567335344329
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "321543ae-ed62-44f9-88be-27e21e10132f",
+      "latent_mastery": 0.431,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.059594308880652515,
+        "guess_rate": 0.17567890022126262,
+        "persistence": 0.6186569365979037
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "e4ef01d4-af57-4694-b210-0d4bb3e98e77",
+      "latent_mastery": 0.46,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04944107733751361,
+        "guess_rate": 0.11229857080730063,
+        "persistence": 0.674696578787348
+      },
+      "created_at": "2026-02-10T16:58:46.574876"
+    },
+    {
+      "user_id": "e6c79417-b6f7-40f5-943e-723089f353e8",
+      "latent_mastery": 0.344,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.1076819157049278,
+        "guess_rate": 0.1398548606566986,
+        "persistence": 0.7022291577260814
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "b4040351-b951-4e15-b07a-952ca5396ecb",
+      "latent_mastery": 0.422,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08563555960383458,
+        "guess_rate": 0.15631209118710127,
+        "persistence": 0.6117385659536496
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "5fe89658-e78f-4854-bf4d-a9cc9d359426",
+      "latent_mastery": 0.411,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07248961878947432,
+        "guess_rate": 0.1837382887179537,
+        "persistence": 0.7342351492781725
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "11d09103-845e-4c83-a64d-daa67fd80975",
+      "latent_mastery": 0.47,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07072931065655273,
+        "guess_rate": 0.13208295687748786,
+        "persistence": 0.7583412024878898
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "2f82f477-a6a9-4cf9-bc6b-ea6b48aec458",
+      "latent_mastery": 0.493,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08200872330322112,
+        "guess_rate": 0.1717676744414647,
+        "persistence": 0.6613491232867629
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "303bd85b-cd10-46cc-b20d-81a53ee0a1cf",
+      "latent_mastery": 0.221,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.09288906253092351,
+        "guess_rate": 0.1757330847817162,
+        "persistence": 0.6115970572900636
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "50c8067e-a339-4b58-af7f-8b059ff6a72c",
+      "latent_mastery": 0.432,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0762959290395033,
+        "guess_rate": 0.1785035859448482,
+        "persistence": 0.7118674912329774
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "7c7a0df1-a6a8-444e-a61f-d6d6af06093e",
+      "latent_mastery": 0.269,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08467102898723114,
+        "guess_rate": 0.12863529003750582,
+        "persistence": 0.6276003334484551
+      },
+      "created_at": "2026-02-10T16:58:46.576900"
+    },
+    {
+      "user_id": "43f18362-3e44-4ef0-8208-d672f6e7dee2",
+      "latent_mastery": 0.407,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.047720199368509006,
+        "guess_rate": 0.1670159977999409,
+        "persistence": 0.6311003111027593
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "dfb42352-975c-424c-8a89-23bea5377fd5",
+      "latent_mastery": 0.353,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05157814773406166,
+        "guess_rate": 0.13589586443536283,
+        "persistence": 0.5710253626595648
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "97ad19dd-f65d-4e93-94ad-fb4dc6dca6b8",
+      "latent_mastery": 0.358,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04394428581639884,
+        "guess_rate": 0.14729093034984622,
+        "persistence": 0.6541544175104773
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "3004b213-2905-4105-8f43-12e1887b64a0",
+      "latent_mastery": 0.368,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06100410777424972,
+        "guess_rate": 0.16018159703657803,
+        "persistence": 0.698574804265869
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "d776ba23-826f-4caf-8f1e-471d501a8362",
+      "latent_mastery": 0.421,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08486518968286215,
+        "guess_rate": 0.10391799887950942,
+        "persistence": 0.6732501120020351
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "ebe8aa50-3bc4-42b7-922e-baa45549da4f",
+      "latent_mastery": 0.364,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06985662332079196,
+        "guess_rate": 0.11019438072929322,
+        "persistence": 0.600680590824733
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "ac2db498-57d4-4f2b-b537-096df17a8b7f",
+      "latent_mastery": 0.444,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04417957533500695,
+        "guess_rate": 0.15437163737016393,
+        "persistence": 0.6014740538265629
+      },
+      "created_at": "2026-02-10T16:58:46.578917"
+    },
+    {
+      "user_id": "2973ddde-eae1-45f8-884c-6b18ef8bb42d",
+      "latent_mastery": 0.378,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08209913494248847,
+        "guess_rate": 0.15983457113013028,
+        "persistence": 0.6825733520163146
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "e6d23138-7830-4ef2-a1ef-5dc08b142cf9",
+      "latent_mastery": 0.28,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.058596883910474025,
+        "guess_rate": 0.2010146189742853,
+        "persistence": 0.5890693350683786
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "f2dc6453-afd0-4800-8486-c9e2bef3c8cf",
+      "latent_mastery": 0.457,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06214926257143813,
+        "guess_rate": 0.14200890440006125,
+        "persistence": 0.6043747868157094
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "860f422c-6384-4b36-8ee6-b96deffe68d4",
+      "latent_mastery": 0.353,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.04706698618864229,
+        "guess_rate": 0.18201594850172662,
+        "persistence": 0.6746677346396983
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "33fe630d-05dc-411d-9abd-6ea4ebc6a503",
+      "latent_mastery": 0.384,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06344501360737834,
+        "guess_rate": 0.15247088245767426,
+        "persistence": 0.6693567536320703
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "6df8d0fb-50f0-43d7-8c5d-41d89acc69bd",
+      "latent_mastery": 0.434,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05112874320995712,
+        "guess_rate": 0.13865085476547323,
+        "persistence": 0.7316968852581885
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "36ce9d2c-fec0-4338-8140-755843f68d54",
+      "latent_mastery": 0.363,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.054715540182877984,
+        "guess_rate": 0.11501328595324603,
+        "persistence": 0.6330925634881808
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "332ac81c-e4d1-4974-9c36-84837c45ea08",
+      "latent_mastery": 0.273,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.1024840561697022,
+        "guess_rate": 0.1411756566116432,
+        "persistence": 0.5184574797844466
+      },
+      "created_at": "2026-02-10T16:58:46.580935"
+    },
+    {
+      "user_id": "3150774d-7eb4-464d-bb69-641678ae0614",
+      "latent_mastery": 0.372,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08305165326642926,
+        "guess_rate": 0.16286393989757256,
+        "persistence": 0.7152417588077277
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "4920d736-c486-47e0-864f-e831ced2fa4d",
+      "latent_mastery": 0.51,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08061350909678663,
+        "guess_rate": 0.18407387894358346,
+        "persistence": 0.7524116078352633
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "95a165a4-6800-4f18-b062-d438d1da6e2b",
+      "latent_mastery": 0.425,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0726135431560279,
+        "guess_rate": 0.14060052618700522,
+        "persistence": 0.6711847756466519
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "134d82be-1c9c-4ad5-8dbe-fc4e40a2b501",
+      "latent_mastery": 0.431,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.10088585708514355,
+        "guess_rate": 0.12056773470653583,
+        "persistence": 0.6047469749753042
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "5efeae42-e921-48f4-8def-03eaab238dec",
+      "latent_mastery": 0.423,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05509189687867976,
+        "guess_rate": 0.14757149231607547,
+        "persistence": 0.5642199718805313
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "d92d7ff7-b558-4c83-a888-3f599c792ef8",
+      "latent_mastery": 0.331,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0959019767205826,
+        "guess_rate": 0.1668535140060438,
+        "persistence": 0.6669263719735612
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "a773ed32-5be5-443a-a867-4b53ff5d9447",
+      "latent_mastery": 0.381,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.10146744436463544,
+        "guess_rate": 0.20147470157298072,
+        "persistence": 0.6271127219589776
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "14a71b50-3eca-44a6-a9c4-263f9ca5e0a5",
+      "latent_mastery": 0.449,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.0752760013719398,
+        "guess_rate": 0.1278954347515713,
+        "persistence": 0.67951814316628
+      },
+      "created_at": "2026-02-10T16:58:46.582954"
+    },
+    {
+      "user_id": "da6bf9f7-e2ba-4054-bc04-e48aa1bb02b8",
+      "latent_mastery": 0.297,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.050699751501611365,
+        "guess_rate": 0.18578491083268775,
+        "persistence": 0.6858977430553787
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "af2c3905-9cb1-433b-8aa8-e3f2f1861f9d",
+      "latent_mastery": 0.351,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08000308648818809,
+        "guess_rate": 0.11669275179079097,
+        "persistence": 0.5800947230063369
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "7989380b-a9bd-4d03-b8e3-f5d5219f486f",
+      "latent_mastery": 0.351,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07941971296301446,
+        "guess_rate": 0.2070177975540708,
+        "persistence": 0.6137022172345017
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "85f96f2c-99e1-4958-887f-f1cc9b25bf80",
+      "latent_mastery": 0.384,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07976365332823596,
+        "guess_rate": 0.1823674027513677,
+        "persistence": 0.6958155383454265
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "5d8ad5ab-ad54-45be-ad0c-438bbf03cbdd",
+      "latent_mastery": 0.532,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06743169610779529,
+        "guess_rate": 0.1214986288178193,
+        "persistence": 0.7407251390365511
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "39a3f2b7-ba7d-4332-9829-c0833fbfad90",
+      "latent_mastery": 0.28,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05556248946707938,
+        "guess_rate": 0.14867273903682768,
+        "persistence": 0.5291328631132799
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "173cf53f-539c-48e9-94a0-18c523eaf037",
+      "latent_mastery": 0.401,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07872202377380978,
+        "guess_rate": 0.1925631345715107,
+        "persistence": 0.7389206832686201
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "eba641ad-9096-42c8-9b57-a530a1423dd4",
+      "latent_mastery": 0.325,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05784155225660646,
+        "guess_rate": 0.1467615820553317,
+        "persistence": 0.6766272620040594
+      },
+      "created_at": "2026-02-10T16:58:46.584976"
+    },
+    {
+      "user_id": "11412abc-a864-4919-9333-0e3951cd983f",
+      "latent_mastery": 0.525,
+      "initial_state": "mastered",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.06320993227576736,
+        "guess_rate": 0.08730266231399178,
+        "persistence": 0.7412125682293667
+      },
+      "created_at": "2026-02-10T16:58:46.586997"
+    },
+    {
+      "user_id": "76af1ece-e910-456c-9e11-bf5454124ed1",
+      "latent_mastery": 0.302,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.07249839569160493,
+        "guess_rate": 0.16103344459013502,
+        "persistence": 0.5760833040411357
+      },
+      "created_at": "2026-02-10T16:58:46.586997"
+    },
+    {
+      "user_id": "3fcb42f2-00d7-4a98-a370-bf94e33c1d22",
+      "latent_mastery": 0.378,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08967675642576059,
+        "guess_rate": 0.15088855071236545,
+        "persistence": 0.6922342844406868
+      },
+      "created_at": "2026-02-10T16:58:46.586997"
+    },
+    {
+      "user_id": "558442a6-e85c-40a2-8b41-8fd440a55ff9",
+      "latent_mastery": 0.446,
+      "initial_state": "practicing",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.08820140573372431,
+        "guess_rate": 0.12955560549071185,
+        "persistence": 0.6691215773769047
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "1fade27f-efc8-4a2e-92cd-d6d6ceab2332",
+      "latent_mastery": 0.438,
+      "initial_state": "learning",
+      "entry_group": "learning",
+      "behavior_profile": {
+        "slip_rate": 0.05525314605574026,
+        "guess_rate": 0.12809744457825145,
+        "persistence": 0.6379424759938903
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "102a5a52-995f-498b-ba26-a402e34f2818",
+      "latent_mastery": 0.548,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.012900641326021083,
+        "guess_rate": 0.10799233938783684,
+        "persistence": 0.7767439780181037
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "851ce97f-53c8-4fae-a08b-c0110570a97e",
+      "latent_mastery": 0.593,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04216142405649218,
+        "guess_rate": 0.06542008705525365,
+        "persistence": 0.5957243019089812
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "2e050a12-d2a1-4fb2-8d52-46b6bdbf2625",
+      "latent_mastery": 0.598,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04107558079835618,
+        "guess_rate": 0.07131025873989777,
+        "persistence": 0.7632874914773732
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "ae06b23d-b9e8-4eda-8e79-adb539f61895",
+      "latent_mastery": 0.643,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.057757577043312414,
+        "guess_rate": 0.047390719913672046,
+        "persistence": 0.7379527054954238
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "cf1e8642-12cb-4780-bc7b-77ab4a58d8ce",
+      "latent_mastery": 0.606,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05822438856336078,
+        "guess_rate": 0.16778329576827802,
+        "persistence": 0.7411435817903101
+      },
+      "created_at": "2026-02-10T16:58:46.588588"
+    },
+    {
+      "user_id": "0b79cdc7-cebb-4166-a405-98ca8c687493",
+      "latent_mastery": 0.561,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.044859334565036914,
+        "guess_rate": 0.12948546181768217,
+        "persistence": 0.6752047637778043
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "f3a56289-de20-4839-b955-4c776d51a87a",
+      "latent_mastery": 0.582,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08788880643308677,
+        "guess_rate": 0.1276341287734996,
+        "persistence": 0.726162458265916
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "b925b150-a1c7-4d01-956f-f221423f2036",
+      "latent_mastery": 0.576,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.039751870647849324,
+        "guess_rate": 0.1318372642586494,
+        "persistence": 0.7384332369258277
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "3fb8a7de-af04-439b-a362-0c923fed600b",
+      "latent_mastery": 0.771,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.034025327016013726,
+        "guess_rate": 0.06550585318700078,
+        "persistence": 0.6989633002760414
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "69ff6fbd-d5c5-478b-b609-2aa2fc97302f",
+      "latent_mastery": 0.697,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06714158571435871,
+        "guess_rate": 0.10826129397086486,
+        "persistence": 0.8385380902525069
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "8201da93-cfbb-4396-975c-fd6aac8c3833",
+      "latent_mastery": 0.767,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02935803346583043,
+        "guess_rate": 0.07632808616562547,
+        "persistence": 0.7532238032380986
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "692318cd-f938-4e9a-b216-092a55081273",
+      "latent_mastery": 0.638,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.013193585177999886,
+        "guess_rate": 0.08758203374938811,
+        "persistence": 0.7655569525561645
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "662bff99-82c9-455b-8f95-5c4d67581175",
+      "latent_mastery": 0.608,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04379919778432846,
+        "guess_rate": 0.09827420248708406,
+        "persistence": 0.6833066080559519
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "2b7b57bc-acaa-4c28-8092-20d6eb7ed515",
+      "latent_mastery": 0.705,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.037718115766061384,
+        "guess_rate": 0.04874692836508611,
+        "persistence": 0.7982635601922711
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "590a036a-9722-469d-b57d-3d8e8f8a39f2",
+      "latent_mastery": 0.618,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.057651710022790806,
+        "guess_rate": 0.09966099457268981,
+        "persistence": 0.815616720905107
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "c788f95a-7b56-4814-b032-a0a89ba69936",
+      "latent_mastery": 0.612,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0795892524035043,
+        "guess_rate": 0.11419504457260432,
+        "persistence": 0.8265923631413348
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "e0a51b2f-0004-4335-9755-f7935a227c12",
+      "latent_mastery": 0.598,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08465755911834122,
+        "guess_rate": 0.09516506971936328,
+        "persistence": 0.7244204080946759
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "45069b7e-7d0f-4da9-a7cf-c8eba0e038fa",
+      "latent_mastery": 0.571,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05980275281786192,
+        "guess_rate": 0.15037008556250406,
+        "persistence": 0.7354069646703014
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "610cc671-68a9-4f61-a3ca-e84ed93c8807",
+      "latent_mastery": 0.604,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06635281155178947,
+        "guess_rate": 0.1030509610839163,
+        "persistence": 0.7741932238284337
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "de2cbd52-6cbd-47ce-95dc-b40373cdcd6d",
+      "latent_mastery": 0.623,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04067752738129767,
+        "guess_rate": 0.04798474717501373,
+        "persistence": 0.7564652552354648
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "dc40f524-d69f-44c5-9e53-bb5ffda481b9",
+      "latent_mastery": 0.68,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04111787028442276,
+        "guess_rate": 0.09548989046983287,
+        "persistence": 0.8472266562017636
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "9eb199fa-3992-4064-9d26-b1151b9eb20e",
+      "latent_mastery": 0.543,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04269992050286198,
+        "guess_rate": 0.14976979881751512,
+        "persistence": 0.7464623914285955
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "1e0d0523-8464-4398-8859-7571c6b44fe4",
+      "latent_mastery": 0.593,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07947245335549304,
+        "guess_rate": 0.0967803721436378,
+        "persistence": 0.7409764315600773
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "29030d31-b8ee-447d-b5ca-557988fb7379",
+      "latent_mastery": 0.708,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.036630239277045805,
+        "guess_rate": 0.07190782441687876,
+        "persistence": 0.8012818031673857
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "84f5ab0b-239d-406d-acbd-5d23233a1537",
+      "latent_mastery": 0.576,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06276158624815291,
+        "guess_rate": 0.07899060815576378,
+        "persistence": 0.6947911474161759
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "dcd5dd5c-e3bc-43fb-bc6c-a46d9e8a8c0d",
+      "latent_mastery": 0.621,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02976049584529041,
+        "guess_rate": 0.07201903409902831,
+        "persistence": 0.7341829233857471
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "cfe6ddf8-1ec9-4c51-b532-d487ec37db48",
+      "latent_mastery": 0.723,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07209250328584207,
+        "guess_rate": 0.07728995183590437,
+        "persistence": 0.7471241601290491
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "557b3baf-78f7-434d-bb35-fccf9be09deb",
+      "latent_mastery": 0.579,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.049208147861712744,
+        "guess_rate": 0.14465445180252023,
+        "persistence": 0.8142550542943525
+      },
+      "created_at": "2026-02-10T16:58:46.590597"
+    },
+    {
+      "user_id": "e6741d02-3dba-463e-9100-c04fc58002fb",
+      "latent_mastery": 0.553,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04827024411753858,
+        "guess_rate": 0.10180089333747687,
+        "persistence": 0.6915874129848749
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "600d4867-a209-4df0-90f7-94c2c023d93b",
+      "latent_mastery": 0.646,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.046186554659797,
+        "guess_rate": 0.04580241338097603,
+        "persistence": 0.8243601935594473
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "f33f17db-93c5-4bb0-96fb-6a81aea9b525",
+      "latent_mastery": 0.613,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04730354447034777,
+        "guess_rate": 0.10896710497088519,
+        "persistence": 0.7114069239319066
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "79a444c4-3689-43e1-b686-5029042e4c35",
+      "latent_mastery": 0.66,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06731321766674332,
+        "guess_rate": 0.049104009929552585,
+        "persistence": 0.8386401139515942
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "fd6bedfe-cd4b-444e-892b-3da403636b9e",
+      "latent_mastery": 0.707,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.10421322247693454,
+        "persistence": 0.7317323118266954
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "e0bd4d8d-7324-446e-8a34-2c879033fc8a",
+      "latent_mastery": 0.573,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07281975089451675,
+        "guess_rate": 0.1393991143125397,
+        "persistence": 0.6229826528329722
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "8aa80e64-cd8b-46b4-84e7-d2caa88c6620",
+      "latent_mastery": 0.663,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0711848237978252,
+        "guess_rate": 0.09251691695946973,
+        "persistence": 0.7355593761247713
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "09588fd3-30db-4d70-9a8b-a9fd4bb8a3fe",
+      "latent_mastery": 0.65,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.061122625401338275,
+        "guess_rate": 0.09922093855397228,
+        "persistence": 0.7150588230057273
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "b33f123a-8791-40d4-a69b-1810a0b4c965",
+      "latent_mastery": 0.575,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06750733077505887,
+        "guess_rate": 0.09042423745728284,
+        "persistence": 0.729652406442538
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "3e5961ab-1165-4c05-9692-83ed1ab843f8",
+      "latent_mastery": 0.67,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.033216234870595135,
+        "guess_rate": 0.06827981093078461,
+        "persistence": 0.6866065410773426
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "7fa53369-9aed-4d45-82ca-dce0aa0a5085",
+      "latent_mastery": 0.607,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05646160070408033,
+        "guess_rate": 0.07332714873533414,
+        "persistence": 0.7733308350008656
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "bc3e90d8-e541-451f-be78-b4ca7fe6c99e",
+      "latent_mastery": 0.647,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06255187414355393,
+        "guess_rate": 0.08922509461733188,
+        "persistence": 0.7239425044114384
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "ba9f1912-abc0-4d86-a414-ac379d6c9e97",
+      "latent_mastery": 0.553,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08972203113481558,
+        "guess_rate": 0.09109818157513039,
+        "persistence": 0.7995889415191191
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "269893dc-65d9-4e36-9842-e462b8140411",
+      "latent_mastery": 0.642,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03146622916351287,
+        "guess_rate": 0.06421647357569571,
+        "persistence": 0.7955202458945918
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "4d49e54b-dfbc-4e41-9f9e-238e4e911441",
+      "latent_mastery": 0.614,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.044637735812685375,
+        "guess_rate": 0.12621580576765623,
+        "persistence": 0.7221026366150513
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "f17234d9-debd-4676-8336-eaee192d2066",
+      "latent_mastery": 0.711,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.014530059024149406,
+        "guess_rate": 0.12255880300381067,
+        "persistence": 0.8103162597569411
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "bb72af1f-fef7-4a21-91ac-f748f2b2f44d",
+      "latent_mastery": 0.54,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04928831170820656,
+        "guess_rate": 0.15446719051384897,
+        "persistence": 0.7400982382168096
+      },
+      "created_at": "2026-02-10T16:58:46.596050"
+    },
+    {
+      "user_id": "0fe15e4f-afb0-44da-b953-6b42d3a3e527",
+      "latent_mastery": 0.635,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03531203134358987,
+        "guess_rate": 0.06890120263187076,
+        "persistence": 0.7985385857370286
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "0fb3d950-cfeb-42a9-abf9-5abd8689ce9d",
+      "latent_mastery": 0.642,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06077670130547584,
+        "guess_rate": 0.13722342508101665,
+        "persistence": 0.8092784414195819
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "2df0f8ec-69d9-4aba-8bd6-8deeae5d32bb",
+      "latent_mastery": 0.69,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04931120569936683,
+        "guess_rate": 0.1650175037984416,
+        "persistence": 0.7449367196139117
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "0b011eee-2723-4668-9f7a-a39e6ad12f37",
+      "latent_mastery": 0.662,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.010348226122665657,
+        "guess_rate": 0.07722090421408007,
+        "persistence": 0.8218819847389223
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "dca600b4-e5e7-4412-a659-3ae25a62fbc1",
+      "latent_mastery": 0.678,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04992709748159154,
+        "guess_rate": 0.10380432516298033,
+        "persistence": 0.7926080857209876
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "805766ea-1788-4597-bae9-65ee71ad51d0",
+      "latent_mastery": 0.701,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0733449547945998,
+        "guess_rate": 0.10377526368578793,
+        "persistence": 0.8134058662206652
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "6d2b6160-a73d-4fe4-98d5-1b56d25d5a3c",
+      "latent_mastery": 0.722,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02774340462510024,
+        "guess_rate": 0.11869008627610263,
+        "persistence": 0.8114195896345903
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "3b751b7e-0887-4470-8b0e-94fca8d1d41e",
+      "latent_mastery": 0.615,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06880446151641649,
+        "guess_rate": 0.1583507534134387,
+        "persistence": 0.827303189298164
+      },
+      "created_at": "2026-02-10T16:58:46.600023"
+    },
+    {
+      "user_id": "dcce034b-e6f5-464e-9425-c39f6a1646a8",
+      "latent_mastery": 0.655,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06591960804135963,
+        "guess_rate": 0.052001250296262014,
+        "persistence": 0.7359110691159468
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "a31163d8-0e7d-4718-a99a-7314aa67bdea",
+      "latent_mastery": 0.716,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05730184347993296,
+        "guess_rate": 0.06148889096238812,
+        "persistence": 0.8173132041621005
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "db6293b2-11dc-4ed8-ae33-2d7e0cb87ab2",
+      "latent_mastery": 0.786,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.010831656287498694,
+        "guess_rate": 0.09068201278918381,
+        "persistence": 0.7648210474100592
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "15d31167-3e3f-423a-b878-3254c854165e",
+      "latent_mastery": 0.731,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03582192987732203,
+        "guess_rate": 0.026951453545267984,
+        "persistence": 0.7818224319620248
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "321768c7-6fd0-4b04-8802-e2ed4bc9e6d7",
+      "latent_mastery": 0.626,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06057495397874761,
+        "guess_rate": 0.07394677576869882,
+        "persistence": 0.8460446921457009
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "913c89a2-f8a1-45da-ad3d-a80aae29f973",
+      "latent_mastery": 0.59,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04192240512591702,
+        "guess_rate": 0.08546591987949308,
+        "persistence": 0.7467592457750276
+      },
+      "created_at": "2026-02-10T16:58:46.602050"
+    },
+    {
+      "user_id": "b2c9f285-9a53-4780-a107-8d87998669c3",
+      "latent_mastery": 0.647,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04978689407586843,
+        "guess_rate": 0.10849881116506857,
+        "persistence": 0.8056757850845033
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "4a564db6-24bd-42cb-a517-6d883e168df7",
+      "latent_mastery": 0.693,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.029101814299443494,
+        "guess_rate": 0.09607153334635848,
+        "persistence": 0.7869978037919522
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "22d9ad0c-b7e1-4434-a6f0-597d105fe8c1",
+      "latent_mastery": 0.647,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.032243910974739165,
+        "guess_rate": 0.0976912965183921,
+        "persistence": 0.7975950780344044
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "fafea6bb-ebf7-4e83-bd4f-5f703c19b13b",
+      "latent_mastery": 0.646,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.028376227230904355,
+        "guess_rate": 0.13421762741829765,
+        "persistence": 0.8534293693270969
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "40d8e1eb-d497-4c21-99cb-ebc2c988fd0f",
+      "latent_mastery": 0.715,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04766024761930222,
+        "guess_rate": 0.11184204282443952,
+        "persistence": 0.8390866155473004
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "52d94b48-ad05-4ec0-b9c2-7cad59140c57",
+      "latent_mastery": 0.624,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04773981328424314,
+        "guess_rate": 0.11392685654988731,
+        "persistence": 0.7823678970828151
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "a53182e0-5f5a-4798-86f1-5270474e0309",
+      "latent_mastery": 0.721,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01953074738204881,
+        "guess_rate": 0.08464011787263243,
+        "persistence": 0.7908776547973462
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "d470ff53-b939-4dd0-9bb8-6721b658147f",
+      "latent_mastery": 0.633,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07269709719110201,
+        "guess_rate": 0.0677505359534,
+        "persistence": 0.654517701757492
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "5dff68c8-5bcc-401d-a336-31149aee44e7",
+      "latent_mastery": 0.618,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06472483151801942,
+        "guess_rate": 0.11422548651513115,
+        "persistence": 0.7795721866479846
+      },
+      "created_at": "2026-02-10T16:58:46.604122"
+    },
+    {
+      "user_id": "9ae0e9af-83c5-4176-9cfa-b2509dc32c7e",
+      "latent_mastery": 0.641,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0794368976896118,
+        "guess_rate": 0.08416745087578677,
+        "persistence": 0.7374526507322479
+      },
+      "created_at": "2026-02-10T16:58:46.606146"
+    },
+    {
+      "user_id": "9ad25d72-6cdc-4462-9186-594c496f121f",
+      "latent_mastery": 0.697,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.049744829779108164,
+        "guess_rate": 0.06790622134685421,
+        "persistence": 0.8467202884185656
+      },
+      "created_at": "2026-02-10T16:58:46.606146"
+    },
+    {
+      "user_id": "81a041e4-22e9-4b3e-b1ee-087dd57829ff",
+      "latent_mastery": 0.57,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.054916140888156634,
+        "guess_rate": 0.10552196171008855,
+        "persistence": 0.7583254336243052
+      },
+      "created_at": "2026-02-10T16:58:46.606146"
+    },
+    {
+      "user_id": "be0719c5-5e7c-41ac-a3c8-c0447ae6681e",
+      "latent_mastery": 0.59,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.10813381877030637,
+        "guess_rate": 0.04695516831457651,
+        "persistence": 0.7797516498675418
+      },
+      "created_at": "2026-02-10T16:58:46.607247"
+    },
+    {
+      "user_id": "c2963175-d90b-4839-8dc8-3ba165ae858d",
+      "latent_mastery": 0.757,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.011686513622800127,
+        "guess_rate": 0.06864316629691006,
+        "persistence": 0.7885322787571073
+      },
+      "created_at": "2026-02-10T16:58:46.607247"
+    },
+    {
+      "user_id": "9efb7a11-7167-4ca5-bdb7-4d3b2d460ea0",
+      "latent_mastery": 0.584,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04086452981077783,
+        "guess_rate": 0.15489216136904485,
+        "persistence": 0.609379644467636
+      },
+      "created_at": "2026-02-10T16:58:46.607247"
+    },
+    {
+      "user_id": "bb01e41f-88fc-4ea3-9657-e47228aba3da",
+      "latent_mastery": 0.66,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03592228803161264,
+        "guess_rate": 0.13136663594102235,
+        "persistence": 0.7233081612859202
+      },
+      "created_at": "2026-02-10T16:58:46.607247"
+    },
+    {
+      "user_id": "809a211f-f694-44d0-abce-6da3bdfe65a5",
+      "latent_mastery": 0.663,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.014347294316090754,
+        "guess_rate": 0.06602326448806602,
+        "persistence": 0.8218689809690505
+      },
+      "created_at": "2026-02-10T16:58:46.608142"
+    },
+    {
+      "user_id": "fc474713-b782-4bae-a78b-9c43586961e1",
+      "latent_mastery": 0.647,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.029902248152087904,
+        "guess_rate": 0.11275022476199119,
+        "persistence": 0.8453984692749716
+      },
+      "created_at": "2026-02-10T16:58:46.608142"
+    },
+    {
+      "user_id": "e829bf59-9b8b-46ce-a6aa-e346da5569ea",
+      "latent_mastery": 0.674,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06012272077380561,
+        "guess_rate": 0.11483221996822673,
+        "persistence": 0.787757629052835
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "749e7b29-2d50-4f8e-8edd-7d60ad5dca05",
+      "latent_mastery": 0.598,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06707918250211989,
+        "guess_rate": 0.1535181925368389,
+        "persistence": 0.7161296967225927
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "beaa2330-4c5c-408d-be1d-c16a450cc027",
+      "latent_mastery": 0.658,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.012608404886153446,
+        "guess_rate": 0.09047606264367014,
+        "persistence": 0.7839691135197668
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "078c1e33-55be-4663-bb3d-3f2b85eac728",
+      "latent_mastery": 0.626,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.10098867270649557,
+        "guess_rate": 0.08678718452732172,
+        "persistence": 0.707860103716417
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "82bcda0c-b41d-4ac4-911b-50dbd559d7ae",
+      "latent_mastery": 0.677,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04752121837153583,
+        "guess_rate": 0.10428806946134621,
+        "persistence": 0.725718917004856
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "be03506d-54e7-41e9-a58a-f669f42e570b",
+      "latent_mastery": 0.575,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06717723193404317,
+        "guess_rate": 0.07569386142983912,
+        "persistence": 0.8283935502046313
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "e6a50dd4-2e7e-42ce-8d2c-800abcf0d5d7",
+      "latent_mastery": 0.661,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04672790946777876,
+        "guess_rate": 0.1282580551090439,
+        "persistence": 0.6871270934188599
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "99bc6f24-a4df-42df-8bf6-e5a7a21e4c91",
+      "latent_mastery": 0.587,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.059942018113826476,
+        "guess_rate": 0.1505460509001132,
+        "persistence": 0.6946897175499704
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "8e88441a-ffa5-4cec-9b0f-ee47d17b3563",
+      "latent_mastery": 0.608,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07865865395816315,
+        "guess_rate": 0.06777945294883095,
+        "persistence": 0.7358737275481843
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "6c637130-55fe-49a2-966a-7ffd155a4e1f",
+      "latent_mastery": 0.595,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.011875424339521969,
+        "guess_rate": 0.134987340429492,
+        "persistence": 0.719372056170833
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "2750ffe9-abb8-4de4-83c5-302034b6440d",
+      "latent_mastery": 0.586,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04997966963244309,
+        "guess_rate": 0.08125451787542286,
+        "persistence": 0.7960451110215585
+      },
+      "created_at": "2026-02-10T16:58:46.608657"
+    },
+    {
+      "user_id": "7cfb9fa5-d2f2-4a66-a875-1a05d416f786",
+      "latent_mastery": 0.712,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07154319909885329,
+        "guess_rate": 0.07580108511438334,
+        "persistence": 0.6720609827307812
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "c0a4090b-b7fa-43ea-9931-a1ecf5f3cdbc",
+      "latent_mastery": 0.61,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.027651201215982347,
+        "guess_rate": 0.09295562413243483,
+        "persistence": 0.7268545653667797
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "4b4f9f29-62a9-4725-a41d-f5f9b28fe8cd",
+      "latent_mastery": 0.745,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03864771353323884,
+        "guess_rate": 0.09841370509479982,
+        "persistence": 0.7888877152607371
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "e9cf7311-8311-4bac-8568-7599c610f6c8",
+      "latent_mastery": 0.768,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.028653269237203717,
+        "guess_rate": 0.09850821093304482,
+        "persistence": 0.7583121587924694
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "465c1e77-4e71-489f-9a73-126131588fd1",
+      "latent_mastery": 0.661,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.08025494240592063,
+        "persistence": 0.71805110479362
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "ab498d58-bfef-443f-9e2c-ad7ee39211d0",
+      "latent_mastery": 0.575,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.049198836021617356,
+        "guess_rate": 0.05990767453608016,
+        "persistence": 0.6622957595854073
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "444e1ca6-17c1-46d0-ae41-f2cfbd26be21",
+      "latent_mastery": 0.627,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08971697487022746,
+        "guess_rate": 0.08260923644840744,
+        "persistence": 0.7593247273220203
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "793a6c54-5c40-4227-970a-385613792aa1",
+      "latent_mastery": 0.705,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05379105275256431,
+        "guess_rate": 0.09187755799621634,
+        "persistence": 0.722366346972048
+      },
+      "created_at": "2026-02-10T16:58:46.611548"
+    },
+    {
+      "user_id": "61f26fe5-11f7-4704-bb5c-c207420fd861",
+      "latent_mastery": 0.625,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.014030130063614005,
+        "guess_rate": 0.15089555346174272,
+        "persistence": 0.7085068704443529
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "79adfcad-e182-4674-8ca3-04e7d3e33ec7",
+      "latent_mastery": 0.555,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04836107803869652,
+        "guess_rate": 0.13191555969781665,
+        "persistence": 0.6856221416286276
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "fc88047e-2d67-41fb-88e4-159e9af623f4",
+      "latent_mastery": 0.659,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.048929259679216755,
+        "guess_rate": 0.08078102096551683,
+        "persistence": 0.8132264634090606
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "fea43836-c273-4167-934b-856d54e25d88",
+      "latent_mastery": 0.717,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04771491710169534,
+        "guess_rate": 0.12558010414610057,
+        "persistence": 0.7587277151560711
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "7dc59f12-8048-49da-83bc-d4c2cf9d2d47",
+      "latent_mastery": 0.705,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04608607340156461,
+        "guess_rate": 0.07051320362305663,
+        "persistence": 0.7717466089613496
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "239c96aa-45c9-4ab7-be49-70616e56e3ab",
+      "latent_mastery": 0.584,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06933225195724085,
+        "guess_rate": 0.11013181160396826,
+        "persistence": 0.7299473930855763
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "c8ddf60e-098f-4caf-99a7-edd477a33e6b",
+      "latent_mastery": 0.679,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.030523054966367633,
+        "guess_rate": 0.10326936223963656,
+        "persistence": 0.8318762700879548
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "c833d597-bbb7-4379-9062-5802db52b2d5",
+      "latent_mastery": 0.596,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05869320682498388,
+        "guess_rate": 0.17880024323288585,
+        "persistence": 0.71802879318693
+      },
+      "created_at": "2026-02-10T16:58:46.613572"
+    },
+    {
+      "user_id": "b180dd17-f160-4557-9d47-33495705ca16",
+      "latent_mastery": 0.595,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03825860073407703,
+        "guess_rate": 0.13769669626891293,
+        "persistence": 0.7660128730532143
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "c1cecef2-0b93-491b-956a-1054c41bbaad",
+      "latent_mastery": 0.726,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.025672017536618363,
+        "guess_rate": 0.10422168266739468,
+        "persistence": 0.6636745731193004
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "24a60192-d653-4c0e-bc2a-3cf93954ba21",
+      "latent_mastery": 0.602,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0555607676532538,
+        "guess_rate": 0.12385275397534326,
+        "persistence": 0.80983049662843
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "3bd2d351-fcfa-4a4c-b37d-04275d130670",
+      "latent_mastery": 0.605,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.049924887422182304,
+        "guess_rate": 0.08898789876931772,
+        "persistence": 0.7218837489919904
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "933cea67-c2d5-4942-8873-b65e31f43477",
+      "latent_mastery": 0.456,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03823391663415768,
+        "guess_rate": 0.17749323140508383,
+        "persistence": 0.6889440019995701
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "052ccf05-3ec0-4a86-b700-9152ccac2252",
+      "latent_mastery": 0.725,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03023478045340524,
+        "guess_rate": 0.05252022983528201,
+        "persistence": 0.7632609311773743
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "259a6985-20e5-4e52-b66a-97d4b3ccf949",
+      "latent_mastery": 0.704,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05018672209197319,
+        "guess_rate": 0.13063150649410946,
+        "persistence": 0.8387236906535391
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "3960888c-8bcf-4fdc-a568-d0befe890e7b",
+      "latent_mastery": 0.671,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03513137908416515,
+        "guess_rate": 0.11267215828167651,
+        "persistence": 0.8234762586522378
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "c65676b4-9ee1-4aa9-ad98-e4cb3ed11381",
+      "latent_mastery": 0.695,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01398690772635116,
+        "guess_rate": 0.1481875017108839,
+        "persistence": 0.780494969664925
+      },
+      "created_at": "2026-02-10T16:58:46.615592"
+    },
+    {
+      "user_id": "7116c18f-e443-4ddc-9a35-9678f5fbd4ab",
+      "latent_mastery": 0.578,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06530593587463587,
+        "guess_rate": 0.1305311939983065,
+        "persistence": 0.6673344821912855
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "d2db6e22-b079-49ee-9fd5-9be73d442c6c",
+      "latent_mastery": 0.642,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07668172001942668,
+        "guess_rate": 0.12038997384998311,
+        "persistence": 0.6794125117149756
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "611f8000-1df4-4a94-aa55-9dad465e3153",
+      "latent_mastery": 0.622,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.052849213980494615,
+        "guess_rate": 0.10328678175548581,
+        "persistence": 0.708732885104641
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "fa6a4e3e-7fa2-4c56-9eb0-e6b586c0a6f9",
+      "latent_mastery": 0.558,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04502193017891814,
+        "guess_rate": 0.0998654940491217,
+        "persistence": 0.6962602314252447
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "6fb2cf03-776c-45a3-82a4-e626cb90277e",
+      "latent_mastery": 0.646,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.045571911542242646,
+        "guess_rate": 0.015158425306196086,
+        "persistence": 0.8612035718750455
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "5f925006-0ab3-41fd-9e25-5d58c7ca2f09",
+      "latent_mastery": 0.742,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03666810951466711,
+        "guess_rate": 0.09434238101457959,
+        "persistence": 0.7604989302132918
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "937ba511-1333-4508-a6fe-22186b18fd83",
+      "latent_mastery": 0.529,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05789917480283858,
+        "guess_rate": 0.1715776943137977,
+        "persistence": 0.8063150801267309
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "0537a791-cd34-4305-a6ea-6b6fd9ebf4fb",
+      "latent_mastery": 0.611,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06206612809634936,
+        "guess_rate": 0.11042832103929724,
+        "persistence": 0.8495491242176683
+      },
+      "created_at": "2026-02-10T16:58:46.617604"
+    },
+    {
+      "user_id": "1445746d-f461-41f8-8cde-7c9cf4b2b606",
+      "latent_mastery": 0.593,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06452400793661289,
+        "guess_rate": 0.09748119322693385,
+        "persistence": 0.7260870033569491
+      },
+      "created_at": "2026-02-10T16:58:46.619633"
+    },
+    {
+      "user_id": "21435f29-bfc6-4b55-b66e-fdc98d1125a4",
+      "latent_mastery": 0.6,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01927649463301269,
+        "guess_rate": 0.11364161972153713,
+        "persistence": 0.7558150495938689
+      },
+      "created_at": "2026-02-10T16:58:46.619633"
+    },
+    {
+      "user_id": "e49652e2-0230-4a77-9840-cfcb31ef36b3",
+      "latent_mastery": 0.737,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04362995565667387,
+        "guess_rate": 0.11872735476889834,
+        "persistence": 0.6896699508324843
+      },
+      "created_at": "2026-02-10T16:58:46.619633"
+    },
+    {
+      "user_id": "0b315c05-336f-4f21-b602-c3f558d23451",
+      "latent_mastery": 0.643,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.026268238587238337,
+        "guess_rate": 0.15661494703653978,
+        "persistence": 0.6252619998538238
+      },
+      "created_at": "2026-02-10T16:58:46.619633"
+    },
+    {
+      "user_id": "a391b6f3-785b-4a03-8718-4907e5b068a2",
+      "latent_mastery": 0.643,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04209437276494,
+        "guess_rate": 0.07323792236931775,
+        "persistence": 0.7314234297304275
+      },
+      "created_at": "2026-02-10T16:58:46.619633"
+    },
+    {
+      "user_id": "c7ca12b5-9923-4544-8c52-ac244d31771c",
+      "latent_mastery": 0.697,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.046450525731311094,
+        "guess_rate": 0.11067775211466833,
+        "persistence": 0.7329900988910929
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "bdfa74ba-650b-4930-966a-989eb83bae27",
+      "latent_mastery": 0.579,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07639899089396415,
+        "guess_rate": 0.10340153362708171,
+        "persistence": 0.7207616859514785
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "32744262-4a76-4185-b43b-849e5b63a1d3",
+      "latent_mastery": 0.647,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06068829687996165,
+        "guess_rate": 0.13421818027073226,
+        "persistence": 0.6884332063090794
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "3f6cd227-025c-407d-8918-cbd33c57ebde",
+      "latent_mastery": 0.637,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.10196984686285357,
+        "guess_rate": 0.09901006909568316,
+        "persistence": 0.7368207880182545
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "fa6281a4-b0f5-4733-af4a-8c9c17ff4806",
+      "latent_mastery": 0.666,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05680618506566466,
+        "guess_rate": 0.0897109849491804,
+        "persistence": 0.7414379482220151
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "504039d9-fd24-4661-9f31-f1200a8a4cee",
+      "latent_mastery": 0.799,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.047972742212806584,
+        "guess_rate": 0.08980147459867792,
+        "persistence": 0.8166504961001698
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "695c52ab-1aa0-4b92-ba61-d7c2fcc7807b",
+      "latent_mastery": 0.699,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.032139666875192666,
+        "guess_rate": 0.12750230376745708,
+        "persistence": 0.7518565644390747
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "f42870c3-9b85-40a0-8501-3ec5202c79c5",
+      "latent_mastery": 0.631,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08150704681920709,
+        "guess_rate": 0.11840043905289702,
+        "persistence": 0.7761519684831572
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "085e44b7-89b7-46b3-adf8-dcae97afa4c4",
+      "latent_mastery": 0.713,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.046181877167859965,
+        "guess_rate": 0.08211435393981331,
+        "persistence": 0.772552995368552
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "71727e59-6aa8-4568-9a05-1e6b4e3fdffd",
+      "latent_mastery": 0.583,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.031949903256626194,
+        "guess_rate": 0.12761191870312039,
+        "persistence": 0.608590927041107
+      },
+      "created_at": "2026-02-10T16:58:46.621205"
+    },
+    {
+      "user_id": "d9445ffa-472c-423c-9dc7-afc8b3df4184",
+      "latent_mastery": 0.52,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0663375540961143,
+        "guess_rate": 0.09708914817923439,
+        "persistence": 0.6581040311359947
+      },
+      "created_at": "2026-02-10T16:58:46.622997"
+    },
+    {
+      "user_id": "72273a15-0e68-445e-bdc5-eff87fb83b0c",
+      "latent_mastery": 0.592,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0469823246095569,
+        "guess_rate": 0.0937765736540883,
+        "persistence": 0.6780259093639516
+      },
+      "created_at": "2026-02-10T16:58:46.622997"
+    },
+    {
+      "user_id": "90d2198f-289d-4e40-b74a-929df26b3866",
+      "latent_mastery": 0.62,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.09129354098199784,
+        "persistence": 0.8053067991809314
+      },
+      "created_at": "2026-02-10T16:58:46.622997"
+    },
+    {
+      "user_id": "99f830b5-7f0d-47ce-a384-f6eb0d98f725",
+      "latent_mastery": 0.651,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.013301031515916537,
+        "guess_rate": 0.09930689827692324,
+        "persistence": 0.6982878048586499
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "1f209203-6fd0-4662-9910-bac9ee061fee",
+      "latent_mastery": 0.669,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.018554391121158937,
+        "guess_rate": 0.10983546284739705,
+        "persistence": 0.8277683572470947
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "dbff3e13-4409-41c7-8731-353086f92b60",
+      "latent_mastery": 0.738,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.028461868726272127,
+        "guess_rate": 0.11565221680809647,
+        "persistence": 0.7414119812868305
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "bdc2c28d-61dd-40d0-9af8-d1adb57bae08",
+      "latent_mastery": 0.65,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.061100870330816806,
+        "guess_rate": 0.12727059744929245,
+        "persistence": 0.7470831023849486
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "7f896c15-4612-4245-bd0e-d56883701661",
+      "latent_mastery": 0.649,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.09691024196076416,
+        "guess_rate": 0.0867066543043013,
+        "persistence": 0.6812062531448532
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "2c77df38-c035-4764-bd99-ab35544d93f1",
+      "latent_mastery": 0.536,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.020184327816871434,
+        "guess_rate": 0.12321013681438531,
+        "persistence": 0.7142506962990666
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "1ccacf1d-9678-43aa-958a-27c37e445931",
+      "latent_mastery": 0.524,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05348815222700512,
+        "guess_rate": 0.14055237278602764,
+        "persistence": 0.7159243507927173
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "c1f3b908-fa17-450b-81b7-bae88425c658",
+      "latent_mastery": 0.658,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02956709878584204,
+        "guess_rate": 0.09950380145863649,
+        "persistence": 0.8056724462248698
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "22bce841-3d1e-40c8-ac76-30e60704cfc1",
+      "latent_mastery": 0.638,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.09136569504660724,
+        "guess_rate": 0.13304094829150603,
+        "persistence": 0.7578113856525681
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "f8115de7-9fb4-4d98-9779-740f27fe07de",
+      "latent_mastery": 0.716,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06146773568674123,
+        "guess_rate": 0.09818847562808385,
+        "persistence": 0.8489366683893927
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "248655bb-108f-4432-9c7a-e8430b5a23b3",
+      "latent_mastery": 0.58,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06140484799194737,
+        "guess_rate": 0.12257001367730916,
+        "persistence": 0.741845418782084
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "2a15a52a-09ae-4dee-9d82-50812ca81d50",
+      "latent_mastery": 0.515,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.047377606134836325,
+        "guess_rate": 0.09908990507638996,
+        "persistence": 0.6744249573121398
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "90fdf462-9ba6-4f94-b906-0698cab9c9d4",
+      "latent_mastery": 0.64,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03381849161270378,
+        "guess_rate": 0.16774839950516302,
+        "persistence": 0.8225529333270091
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "ee59122d-b9a0-4abf-86a6-03a40495920d",
+      "latent_mastery": 0.599,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.037538594397972656,
+        "guess_rate": 0.11607643706788284,
+        "persistence": 0.6653400350177626
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "feddbb02-5014-4bf1-8ea4-2672ae820148",
+      "latent_mastery": 0.535,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0590478879479816,
+        "guess_rate": 0.1568726500536145,
+        "persistence": 0.6943615031339316
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "06b8982b-ca36-40cd-99f3-d05126131e7f",
+      "latent_mastery": 0.689,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07158123829859984,
+        "guess_rate": 0.1320572772130241,
+        "persistence": 0.7704181127277714
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "0cb87411-d1d6-4c07-a72c-5dc2219d6abf",
+      "latent_mastery": 0.565,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07480660466630096,
+        "guess_rate": 0.1530611672174966,
+        "persistence": 0.7832309234563227
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "48755594-2888-43cd-9340-b1f897a9f806",
+      "latent_mastery": 0.668,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05958010648311374,
+        "guess_rate": 0.0889389666689277,
+        "persistence": 0.7532174106122831
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "84d2a5c4-1101-448c-8df8-57a404dc3b56",
+      "latent_mastery": 0.609,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.060313865780519456,
+        "guess_rate": 0.17017443464158244,
+        "persistence": 0.7435539495665284
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "7926f2fa-20bf-4f63-b35f-5d6df9bcf7dc",
+      "latent_mastery": 0.584,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06912471715953122,
+        "guess_rate": 0.1359908394728952,
+        "persistence": 0.6932187364722164
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "d4e8ce5b-ccad-4932-8381-b7c6893e2bae",
+      "latent_mastery": 0.628,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.015931079762279317,
+        "guess_rate": 0.10686715746810084,
+        "persistence": 0.7566450697295124
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "c1f0a407-5c86-4625-902d-475ac10f4a20",
+      "latent_mastery": 0.706,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06359103350820144,
+        "guess_rate": 0.07305295918397409,
+        "persistence": 0.8204884147481242
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "90b4aa09-0baf-444d-8eaf-474c81531bfa",
+      "latent_mastery": 0.63,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07069487446639611,
+        "guess_rate": 0.07593832115622998,
+        "persistence": 0.7377590839935209
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "81fee513-5f66-4562-8482-80468e056542",
+      "latent_mastery": 0.695,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.055032252560548896,
+        "guess_rate": 0.14444430119238683,
+        "persistence": 0.7790585941528482
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "df088282-fe87-467b-94e2-b6a040baa271",
+      "latent_mastery": 0.57,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02521422112259014,
+        "guess_rate": 0.17149436030667298,
+        "persistence": 0.6804417646584343
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "5cfd1d66-090c-451e-9abf-fdff54233590",
+      "latent_mastery": 0.7,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03400209086874795,
+        "guess_rate": 0.05251347040737752,
+        "persistence": 0.738187870577354
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "bff48bd5-389c-4622-b130-6d372d24c30a",
+      "latent_mastery": 0.599,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03928474392058355,
+        "guess_rate": 0.10301518144840804,
+        "persistence": 0.7769578693431193
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "17d65772-a118-4f33-b7e8-a5618ec6fb74",
+      "latent_mastery": 0.68,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.015415919723961231,
+        "guess_rate": 0.06325253976643089,
+        "persistence": 0.7709503732224761
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "50bc6066-a769-462c-899c-b55d1fad0cf9",
+      "latent_mastery": 0.66,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.032614760244455435,
+        "guess_rate": 0.07664807705995574,
+        "persistence": 0.7083560695750442
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "4f747850-1bea-4021-bcb5-5c58b6c16d2f",
+      "latent_mastery": 0.746,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03279135606975047,
+        "guess_rate": 0.1096526279510883,
+        "persistence": 0.7700599164048628
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "e0895b91-e574-4c11-a752-4df157092159",
+      "latent_mastery": 0.629,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.058139517568314765,
+        "guess_rate": 0.11012203586658768,
+        "persistence": 0.7698306644068611
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "642008c0-4337-4866-9552-9d32a3517ca2",
+      "latent_mastery": 0.545,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.10080110762856423,
+        "guess_rate": 0.11849127857971298,
+        "persistence": 0.6657450978469717
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "39f514e4-d3e7-484e-97e1-48b3c6c47b85",
+      "latent_mastery": 0.508,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05997596313104712,
+        "guess_rate": 0.13506403609986695,
+        "persistence": 0.7186493657005952
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "927250eb-387c-475f-8ff2-f120a5e18247",
+      "latent_mastery": 0.712,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.040423809652910245,
+        "guess_rate": 0.10334798659600306,
+        "persistence": 0.8451434259339261
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "1cb3c35b-48f1-40d0-8c81-97874fe70d90",
+      "latent_mastery": 0.653,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0632652332191857,
+        "guess_rate": 0.09777952618690527,
+        "persistence": 0.7781505731090935
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "1cfcbf1b-5851-4cc8-b865-2771ba4303b3",
+      "latent_mastery": 0.7,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.052023917927539146,
+        "guess_rate": 0.07331398548135991,
+        "persistence": 0.8223486108739572
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "bfa64a01-8754-4bed-b5a6-a059c7efb3a5",
+      "latent_mastery": 0.599,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07511969964280918,
+        "guess_rate": 0.10823804214983114,
+        "persistence": 0.7431671707652914
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "9b54d87e-4813-470c-a88a-6dde07cc2ffb",
+      "latent_mastery": 0.621,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04622088132418969,
+        "guess_rate": 0.16099940610427588,
+        "persistence": 0.730987358343717
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "194518e7-c2ca-41da-9f7b-df7f8f36ab2d",
+      "latent_mastery": 0.52,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07939611050877227,
+        "guess_rate": 0.12735376742886595,
+        "persistence": 0.769479603416048
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "0176c6e1-715a-4d4e-9612-e5da6548c8ed",
+      "latent_mastery": 0.763,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04081473855196851,
+        "guess_rate": 0.13980739243099138,
+        "persistence": 0.7620267591296448
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "6cedd7dd-c987-40dd-b6ff-8ce561b347b6",
+      "latent_mastery": 0.678,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0916183934063086,
+        "guess_rate": 0.1142314427949502,
+        "persistence": 0.8133583173491556
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "b0477504-449c-446a-a2ed-e58caaf13c6d",
+      "latent_mastery": 0.748,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0496539787758793,
+        "guess_rate": 0.11598161915065452,
+        "persistence": 0.7501190885643276
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "d15abee7-aad6-4d46-9e16-80f73cf7d6ce",
+      "latent_mastery": 0.606,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07969011249923239,
+        "guess_rate": 0.09201229758532745,
+        "persistence": 0.7588578985988518
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "c4bf1e5f-8a45-4056-9879-8669e2f469bd",
+      "latent_mastery": 0.668,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04799988000841576,
+        "guess_rate": 0.10539146798285284,
+        "persistence": 0.6980016492925255
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "5c783b07-b558-4b32-b74f-69b917d43f0c",
+      "latent_mastery": 0.68,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.061428626637550235,
+        "guess_rate": 0.0937192204845544,
+        "persistence": 0.7875660407382212
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "2f9b3070-819a-4518-ba03-f4c395b793d2",
+      "latent_mastery": 0.616,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.030263194123824784,
+        "guess_rate": 0.09850159831114587,
+        "persistence": 0.747620249202982
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "02280b27-1654-46af-9ca4-609fcdcc95b3",
+      "latent_mastery": 0.718,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0372657972903766,
+        "guess_rate": 0.04920249707522533,
+        "persistence": 0.7214631217352082
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "b223ac6f-2b1a-4e6b-a2fc-ec6dbba74407",
+      "latent_mastery": 0.754,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.11511753121999006,
+        "persistence": 0.8025182193871768
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "84b91766-2eb3-4906-9562-392873f64501",
+      "latent_mastery": 0.729,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06262565803564632,
+        "guess_rate": 0.08518521930946797,
+        "persistence": 0.7863399728417183
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "a845a618-a423-4f86-a0df-9df527d18a2e",
+      "latent_mastery": 0.692,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.013537659218194251,
+        "guess_rate": 0.14851279356067365,
+        "persistence": 0.846933091125852
+      },
+      "created_at": "2026-02-10T16:58:46.623481"
+    },
+    {
+      "user_id": "48e77f1c-c1ea-41de-80a1-8ea36e9e76ae",
+      "latent_mastery": 0.608,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04371632825308007,
+        "guess_rate": 0.12369678337945424,
+        "persistence": 0.7967137043112557
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "d50de962-144f-4f33-ba06-10b06a9f37c9",
+      "latent_mastery": 0.609,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.018179384768661253,
+        "guess_rate": 0.10009756858482396,
+        "persistence": 0.7477823793782253
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "e91a3c59-6158-418c-b63b-cbc0ecdb7771",
+      "latent_mastery": 0.764,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07192230525606341,
+        "guess_rate": 0.10922822130090598,
+        "persistence": 0.7994092749823477
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "40187fe1-1595-4d16-b405-730bf31615ad",
+      "latent_mastery": 0.493,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03241605963121659,
+        "guess_rate": 0.11386254422328013,
+        "persistence": 0.7209499464789731
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "6f54d559-3af9-4c39-9a96-147ffbf6d660",
+      "latent_mastery": 0.688,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0585715081551719,
+        "guess_rate": 0.10648784583871826,
+        "persistence": 0.7835030180385457
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "f38359aa-c3ee-4b9b-86c2-d4d4a58d12f1",
+      "latent_mastery": 0.686,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0458131262814942,
+        "guess_rate": 0.06587290600988102,
+        "persistence": 0.7126495678078298
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "06f56672-3cb1-4776-84bc-484b3173bccc",
+      "latent_mastery": 0.67,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01659199999638427,
+        "guess_rate": 0.08189357309754194,
+        "persistence": 0.7845315968099742
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "9c81746f-27a9-4ead-a037-be582706bd0a",
+      "latent_mastery": 0.786,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.034967608092250094,
+        "guess_rate": 0.06844378623731695,
+        "persistence": 0.7858166708223269
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "dc10a443-79c2-4b7e-a4b2-33781de31f36",
+      "latent_mastery": 0.615,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07266787344827902,
+        "guess_rate": 0.11085901506043348,
+        "persistence": 0.8480881455240132
+      },
+      "created_at": "2026-02-10T16:58:46.635564"
+    },
+    {
+      "user_id": "24cb9145-1ee0-4827-94d3-d1e03a3e55b9",
+      "latent_mastery": 0.62,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04612368760625084,
+        "guess_rate": 0.1520744276182605,
+        "persistence": 0.7476303829405604
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "667d8f1c-9c15-4f43-b6b4-1caf47296d86",
+      "latent_mastery": 0.551,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06180926944840726,
+        "guess_rate": 0.09288828257591089,
+        "persistence": 0.7617540924673126
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "0284930b-3165-4926-b504-471ac5c261fa",
+      "latent_mastery": 0.639,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05465802173635849,
+        "guess_rate": 0.08728761194561288,
+        "persistence": 0.6844933491825327
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "bb46c22e-ef08-44d1-a9c5-dcadf9c5a667",
+      "latent_mastery": 0.605,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.041287055433153995,
+        "guess_rate": 0.13936061506445044,
+        "persistence": 0.7169724728700935
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "173b2648-8fca-4ea3-9462-becf0aca56d1",
+      "latent_mastery": 0.621,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02904509308352306,
+        "guess_rate": 0.0831562369639543,
+        "persistence": 0.7601649859995822
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "2e85531c-676f-40cd-9d8e-ab9675b14348",
+      "latent_mastery": 0.714,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0163255494056294,
+        "guess_rate": 0.037893325211188905,
+        "persistence": 0.7243706842731402
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "5c0da2bf-cbf0-4900-a3e7-21237d82e23f",
+      "latent_mastery": 0.749,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03979071386801392,
+        "guess_rate": 0.11518481728384289,
+        "persistence": 0.7633412019770119
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "2f7315be-1345-419d-845b-913599196e2f",
+      "latent_mastery": 0.587,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04679121590464667,
+        "guess_rate": 0.1074234288373565,
+        "persistence": 0.7185104089526481
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "77cb35c9-caa7-4ce8-aa94-5d0de99421b6",
+      "latent_mastery": 0.626,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.031478390275694726,
+        "guess_rate": 0.0912691285671381,
+        "persistence": 0.7313099825122852
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "c073bdb0-01fc-448d-8fc4-16ea11921dc9",
+      "latent_mastery": 0.746,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.046128867492262006,
+        "guess_rate": 0.0935998031724345,
+        "persistence": 0.8633827794943312
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "3a7e999a-e6a7-4a78-a993-a13dccd89757",
+      "latent_mastery": 0.543,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.052518141356430716,
+        "guess_rate": 0.12519147478440565,
+        "persistence": 0.7956108687298004
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "42c41456-2158-4b4f-a69f-425290e34eef",
+      "latent_mastery": 0.557,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0567849345739287,
+        "guess_rate": 0.11146780683351523,
+        "persistence": 0.7335436996268369
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "ced9bb54-3786-432c-b963-d17d4c524fca",
+      "latent_mastery": 0.581,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.036479871666656005,
+        "guess_rate": 0.06897433133620579,
+        "persistence": 0.7790176589518405
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "b1f3f46a-3c0d-44fb-b1ce-5f6be62fd358",
+      "latent_mastery": 0.665,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07342111872389626,
+        "persistence": 0.7918014053751474
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "91e2331b-6fec-4df8-8ce4-05ab6384244c",
+      "latent_mastery": 0.577,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08272441709936615,
+        "guess_rate": 0.11387782537530869,
+        "persistence": 0.7704833067195149
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "5e7333c6-ebdf-46c0-a7de-642b2b925b34",
+      "latent_mastery": 0.767,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06465543493890036,
+        "guess_rate": 0.059264236190811975,
+        "persistence": 0.8116590300025157
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "12db059c-ce23-4ea3-95f5-38bd20db1c36",
+      "latent_mastery": 0.64,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03876509702433564,
+        "guess_rate": 0.10122724921192437,
+        "persistence": 0.7491163165849787
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "0df30863-9c5a-4e31-931b-17896f9679e4",
+      "latent_mastery": 0.649,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05631899849979438,
+        "guess_rate": 0.09071363784041561,
+        "persistence": 0.7004143956919289
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "7b99041e-6c33-4ae1-b790-c7ee113f7b4d",
+      "latent_mastery": 0.602,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05994746419933088,
+        "guess_rate": 0.09329061529663525,
+        "persistence": 0.8063485620939626
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "15ab57be-f170-4bb6-8a65-c71e2f56f2cd",
+      "latent_mastery": 0.644,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.037188380676400956,
+        "guess_rate": 0.06814968697977013,
+        "persistence": 0.7818849826505665
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "be8c1737-795b-4c44-9897-050f2f7269dc",
+      "latent_mastery": 0.677,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05139170528902796,
+        "guess_rate": 0.12425175921042436,
+        "persistence": 0.7084708928767312
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "d39e341e-02e4-4801-8ed2-6526e8bd3da2",
+      "latent_mastery": 0.695,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.022243760248790052,
+        "guess_rate": 0.06665268673170108,
+        "persistence": 0.758105006277173
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "a209072b-a568-49e9-bead-cf7abf32fa45",
+      "latent_mastery": 0.696,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.035495823478086136,
+        "guess_rate": 0.131123568664609,
+        "persistence": 0.7643054336984003
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "23350f83-f470-4945-8647-425a585c0a7b",
+      "latent_mastery": 0.662,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.040275512021376324,
+        "guess_rate": 0.13002782696395299,
+        "persistence": 0.6963164696508259
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "a8bd38d0-edfa-495c-850a-6fd4c923c4da",
+      "latent_mastery": 0.736,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.021426419406066727,
+        "guess_rate": 0.13176759636744423,
+        "persistence": 0.7699789918764264
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "cb60caec-1e2f-4c0f-983f-520d5d1cde76",
+      "latent_mastery": 0.71,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05386582881976458,
+        "guess_rate": 0.07774675699872124,
+        "persistence": 0.8087183978202234
+      },
+      "created_at": "2026-02-10T16:58:46.637908"
+    },
+    {
+      "user_id": "a5388060-f935-4887-b4b1-f1c43d96c1f1",
+      "latent_mastery": 0.696,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03774456147903515,
+        "guess_rate": 0.11960130369686245,
+        "persistence": 0.7229853587262759
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "17eb0f21-4b0e-4d65-878e-3f38a43d6770",
+      "latent_mastery": 0.539,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07980503728800255,
+        "guess_rate": 0.07724596718021409,
+        "persistence": 0.7452484134319504
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "0130b986-790a-4b00-862e-060b8290add4",
+      "latent_mastery": 0.484,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05054946240000192,
+        "guess_rate": 0.11946556538857117,
+        "persistence": 0.6405707947520174
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "42818906-913c-49dc-bd04-c025d206104a",
+      "latent_mastery": 0.594,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05159271863870526,
+        "guess_rate": 0.1205270241758987,
+        "persistence": 0.8201707726181875
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "2c4dd9ff-5a31-41c3-aed3-97d895fcb26f",
+      "latent_mastery": 0.678,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0766930446596195,
+        "guess_rate": 0.17077883423814566,
+        "persistence": 0.7475483140622128
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "218575b9-59de-47f3-bb02-ab0236cb8456",
+      "latent_mastery": 0.633,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04075281263789669,
+        "guess_rate": 0.07208036951072899,
+        "persistence": 0.6794833027437757
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "47c1a292-9e60-4bed-b22d-4efe7be5e483",
+      "latent_mastery": 0.632,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05708396248270974,
+        "guess_rate": 0.10115795096648003,
+        "persistence": 0.7836100693612881
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "33ad134a-ec12-45a8-b480-b03f83d81ffd",
+      "latent_mastery": 0.729,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07186478884005186,
+        "guess_rate": 0.04466079877561092,
+        "persistence": 0.781807792571113
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "9acb66f6-94b1-40d6-92d0-125fbcd0eb19",
+      "latent_mastery": 0.733,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03851836860305195,
+        "guess_rate": 0.1136997063730125,
+        "persistence": 0.8079663259649179
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "60e9ea23-0bc6-4acd-97e6-6cf01e8766e2",
+      "latent_mastery": 0.738,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03895283505362311,
+        "guess_rate": 0.02346723205078413,
+        "persistence": 0.7869576234025871
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "3d3cbaf3-e265-4866-8532-87fe2dca4439",
+      "latent_mastery": 0.615,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08103867937480314,
+        "guess_rate": 0.11963825428827228,
+        "persistence": 0.7190839623348148
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "4a72cb8a-ca11-47d2-906f-0d5df58efbaa",
+      "latent_mastery": 0.683,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06670863516559349,
+        "guess_rate": 0.08577947990954425,
+        "persistence": 0.8232254242700647
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "2534b700-8f09-4999-8d8f-246b8ef16fa8",
+      "latent_mastery": 0.607,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.054644597778819436,
+        "guess_rate": 0.1261140811140535,
+        "persistence": 0.7819808672474026
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "a3908ce8-b6d6-420b-9daa-f732ee5543f5",
+      "latent_mastery": 0.588,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06536156968376328,
+        "guess_rate": 0.09506231143113686,
+        "persistence": 0.7288413217650916
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "b4927c0a-77c9-4008-ab48-4b722d26388d",
+      "latent_mastery": 0.587,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.041966947103756584,
+        "guess_rate": 0.17017535133808356,
+        "persistence": 0.6976322963452867
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "de41d770-6719-4431-900f-81025c4a379c",
+      "latent_mastery": 0.621,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07617281231542579,
+        "guess_rate": 0.1244648281228461,
+        "persistence": 0.7114609543015347
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "64b9bfaa-3c95-49e9-ad17-c4eb6cfcd3ed",
+      "latent_mastery": 0.637,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03598146044319978,
+        "guess_rate": 0.0765853828610073,
+        "persistence": 0.7488269893498005
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "117f4400-3b10-4d98-aa1f-99d86fb786f0",
+      "latent_mastery": 0.714,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07621329965973472,
+        "guess_rate": 0.09034680840217021,
+        "persistence": 0.8128296660030966
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "5b4a6388-d908-4cda-8ee7-fd0773fa24ae",
+      "latent_mastery": 0.568,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.055779582294598104,
+        "guess_rate": 0.14333111043970362,
+        "persistence": 0.6763885756323447
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "551bb8eb-89f3-45cb-988f-d57b8bd8960d",
+      "latent_mastery": 0.692,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.061633183242564504,
+        "guess_rate": 0.08838497646957602,
+        "persistence": 0.7598079538519472
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "002e16e5-51ac-4841-90c8-b76ce58ac76c",
+      "latent_mastery": 0.654,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06271767719079935,
+        "guess_rate": 0.06624609585736849,
+        "persistence": 0.7707555121499867
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "1cd630c6-1b88-4d26-9391-5bb51054a902",
+      "latent_mastery": 0.61,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07548316176936652,
+        "guess_rate": 0.12861535679597497,
+        "persistence": 0.8204831102517828
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "6ec5cbd9-3278-4f1f-9d62-44622279b83a",
+      "latent_mastery": 0.648,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.010987771281583951,
+        "guess_rate": 0.12879617959215822,
+        "persistence": 0.7304476309787857
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "638b1039-9cb3-4789-a0bf-d77c71723c66",
+      "latent_mastery": 0.613,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05492248317495392,
+        "guess_rate": 0.09762534309993752,
+        "persistence": 0.7064155014516648
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "1b15d716-ef20-4296-9df9-812773ad4d45",
+      "latent_mastery": 0.665,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.013851740794240015,
+        "guess_rate": 0.14534809277294292,
+        "persistence": 0.8244112081847159
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "dd1297ee-6508-44b4-b3e3-38818117cc97",
+      "latent_mastery": 0.637,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04726988250328425,
+        "guess_rate": 0.12053202727651482,
+        "persistence": 0.776334298555813
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "96bc4b6b-9c68-4a7b-b7f5-d087ca29ea50",
+      "latent_mastery": 0.581,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.02932424852017993,
+        "guess_rate": 0.10524224693907956,
+        "persistence": 0.7482848486587118
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "64485457-4634-4f9c-be05-c4c454786d17",
+      "latent_mastery": 0.567,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.09143812693145664,
+        "guess_rate": 0.09759826237130134,
+        "persistence": 0.696050173769449
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "4a40d844-58b3-43f5-816e-ed23bcff1909",
+      "latent_mastery": 0.657,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06005629790244744,
+        "guess_rate": 0.04517341753056205,
+        "persistence": 0.7832599888510116
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "9f9c03b7-a6c9-4d52-b618-d6fb99c61c71",
+      "latent_mastery": 0.735,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.058792593936329504,
+        "guess_rate": 0.09120467311433272,
+        "persistence": 0.8325075220151754
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "62ce20e4-b769-461b-887c-a400a5aea176",
+      "latent_mastery": 0.621,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.042970905214445576,
+        "guess_rate": 0.0856909223714587,
+        "persistence": 0.8726869310089376
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "3d6ff15c-380b-4588-9765-89ba5f397885",
+      "latent_mastery": 0.691,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06975845854776731,
+        "guess_rate": 0.08440816080695068,
+        "persistence": 0.7213557922003264
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "59dfb215-bfef-4668-a4cc-5e2b14cebeb5",
+      "latent_mastery": 0.677,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04739982868619525,
+        "guess_rate": 0.10220999275543263,
+        "persistence": 0.7069745265847881
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "da6fc349-41b3-4f12-a738-2f8e94a303b7",
+      "latent_mastery": 0.747,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04784362141004977,
+        "guess_rate": 0.12885053930225826,
+        "persistence": 0.8807676515853886
+      },
+      "created_at": "2026-02-10T16:58:46.644093"
+    },
+    {
+      "user_id": "70eccd3e-6fb2-4217-8684-0857c5e8ea3e",
+      "latent_mastery": 0.711,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.10403892841567886,
+        "persistence": 0.7137788116801873
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "a4243d45-f264-4ea6-8fe1-81d88a86111e",
+      "latent_mastery": 0.66,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04898050075076533,
+        "guess_rate": 0.15865996384629988,
+        "persistence": 0.7253850114949343
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "c7f2284b-5dcd-4dcc-8674-d5034d6d067c",
+      "latent_mastery": 0.676,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05475479891095942,
+        "guess_rate": 0.047469246569556714,
+        "persistence": 0.7981177660472827
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "01fddec5-8233-4af9-9851-a67e0364aa01",
+      "latent_mastery": 0.734,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.037408241284386946,
+        "guess_rate": 0.02798833585896081,
+        "persistence": 0.7949140064014235
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "11a9a7e5-067f-4552-99f2-5454f5bcef1a",
+      "latent_mastery": 0.631,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04890545199808017,
+        "guess_rate": 0.08892970444507013,
+        "persistence": 0.782341683647774
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "94fdfc65-fb28-4955-adcb-1102873cd8fb",
+      "latent_mastery": 0.618,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04592637777559765,
+        "guess_rate": 0.15662472151848797,
+        "persistence": 0.7651700563201845
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "ad287ed2-3c25-42a0-bb34-3dd126e5b4fd",
+      "latent_mastery": 0.494,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.1083239951315138,
+        "guess_rate": 0.137266522505073,
+        "persistence": 0.6924581518283582
+      },
+      "created_at": "2026-02-10T16:58:46.652176"
+    },
+    {
+      "user_id": "7addaa16-047c-40ab-a9a2-2813115580dc",
+      "latent_mastery": 0.712,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01109536614598302,
+        "guess_rate": 0.07849197478353494,
+        "persistence": 0.8166258344846785
+      },
+      "created_at": "2026-02-10T16:58:46.653621"
+    },
+    {
+      "user_id": "52acf9c4-dcc0-4772-b204-9d32bfdb77da",
+      "latent_mastery": 0.706,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.07502013227388417,
+        "guess_rate": 0.09494936714858107,
+        "persistence": 0.7883488856062927
+      },
+      "created_at": "2026-02-10T16:58:46.653621"
+    },
+    {
+      "user_id": "1c1ccbc5-b610-4336-9e8c-c6301c53beda",
+      "latent_mastery": 0.562,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.04154568634212419,
+        "guess_rate": 0.11330828764822966,
+        "persistence": 0.6958963067737691
+      },
+      "created_at": "2026-02-10T16:58:46.653621"
+    },
+    {
+      "user_id": "1d8828eb-6da0-42c8-86e3-6b69f17e1bcc",
+      "latent_mastery": 0.662,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03661646489955489,
+        "guess_rate": 0.05326573461053929,
+        "persistence": 0.7617762132995716
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "c9a0a8aa-ff6f-4318-8e2e-5a046224242c",
+      "latent_mastery": 0.643,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03755408335096472,
+        "guess_rate": 0.048060799402471654,
+        "persistence": 0.7962032663073666
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "843221f6-6ccf-444a-9cbf-90648253b097",
+      "latent_mastery": 0.567,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.049090460894400605,
+        "guess_rate": 0.09042546363241478,
+        "persistence": 0.7377865607996879
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "883bcd2d-217a-49eb-81e9-d7171db80956",
+      "latent_mastery": 0.777,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03133098947124304,
+        "guess_rate": 0.1314501294621797,
+        "persistence": 0.850789126666134
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "8e732126-6a9e-44d6-ade3-d5a3ad3cf955",
+      "latent_mastery": 0.594,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03788628912913729,
+        "guess_rate": 0.17531574312860232,
+        "persistence": 0.8187521112347653
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "86c1c200-dcc6-46fb-8141-4cb5db16e147",
+      "latent_mastery": 0.546,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05408086907211033,
+        "guess_rate": 0.13365053757839182,
+        "persistence": 0.7072119579032187
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "86684487-f33e-4c71-89f3-6aabd598c141",
+      "latent_mastery": 0.665,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06425359144010438,
+        "guess_rate": 0.09930233212648588,
+        "persistence": 0.812438237294529
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "ebd47a30-fc49-4a58-89a0-25d441cffc0b",
+      "latent_mastery": 0.692,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08869411087919839,
+        "guess_rate": 0.12411591767855049,
+        "persistence": 0.7561973280854036
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "054ed194-a0a5-499c-a774-7f5c605352df",
+      "latent_mastery": 0.522,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03941154844093321,
+        "guess_rate": 0.12270265635649305,
+        "persistence": 0.7773984118753078
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "ca3ee959-0e5d-432d-98de-8de81bdab5ac",
+      "latent_mastery": 0.677,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.013201774633853719,
+        "guess_rate": 0.11229439513133382,
+        "persistence": 0.7804454599952011
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "4e3e5f5a-2626-4751-a8e0-44b1e57addad",
+      "latent_mastery": 0.654,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05206864482984161,
+        "guess_rate": 0.07154171794679395,
+        "persistence": 0.7366753197279272
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "3fa3e42c-632a-4267-b667-036adc0fbb0d",
+      "latent_mastery": 0.562,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08359754730910883,
+        "guess_rate": 0.1382451716251229,
+        "persistence": 0.7386349533977288
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "84c5b3fe-4474-44e8-85e8-3591664af157",
+      "latent_mastery": 0.584,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.045386832163810134,
+        "guess_rate": 0.0894304392767705,
+        "persistence": 0.7716361159796195
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "4b3bf23b-c098-4cf7-9ae5-0308de633b91",
+      "latent_mastery": 0.661,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06970525085587483,
+        "guess_rate": 0.11808100831207113,
+        "persistence": 0.7289747249846373
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "94222f95-f292-4b90-b6c7-f805e54eb57b",
+      "latent_mastery": 0.612,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06231105197917648,
+        "guess_rate": 0.06849303799616957,
+        "persistence": 0.7401091460414685
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "7256f801-99d5-4e2e-9e22-83803f735be1",
+      "latent_mastery": 0.75,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.035084768552615594,
+        "guess_rate": 0.07585398622776077,
+        "persistence": 0.7847073261084629
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "cb4923b9-a36a-4430-8844-fdbf3088638a",
+      "latent_mastery": 0.71,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03501864486682445,
+        "guess_rate": 0.13757856685257785,
+        "persistence": 0.765983483122671
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "e8314313-954b-43d6-b0c0-b6f7e72092f4",
+      "latent_mastery": 0.779,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.038636468313068266,
+        "guess_rate": 0.12241573840982181,
+        "persistence": 0.8005688155207799
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "bdaa4fbc-3237-499b-a874-6f43e1e8d2dc",
+      "latent_mastery": 0.604,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.053248384641490204,
+        "guess_rate": 0.0835728571811809,
+        "persistence": 0.7314275041198386
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "0094ae83-b77c-4a3a-806e-5d09abf00af6",
+      "latent_mastery": 0.768,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.05375841947293965,
+        "guess_rate": 0.051826353430807826,
+        "persistence": 0.8782653045338408
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "a71493ee-87ed-4a98-b623-d897151d6487",
+      "latent_mastery": 0.637,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.030824885184443714,
+        "guess_rate": 0.06791027372653932,
+        "persistence": 0.8056263644053898
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "d86a6bcd-83eb-4300-81b4-936aec9e4dbd",
+      "latent_mastery": 0.622,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.0656639812363049,
+        "guess_rate": 0.12460029994833442,
+        "persistence": 0.7192104007924376
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "fe0d2742-350b-48fd-9831-685eeb529dc1",
+      "latent_mastery": 0.536,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.053895831148516454,
+        "guess_rate": 0.10086674025647267,
+        "persistence": 0.6653448754049269
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "859f59cd-a883-46e2-9762-cde3756d8d9f",
+      "latent_mastery": 0.537,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03521653584335121,
+        "guess_rate": 0.15991381635063392,
+        "persistence": 0.7592918805539338
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "f56d7a34-2dab-4d07-8822-27d7616a3e9f",
+      "latent_mastery": 0.683,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06959969677529398,
+        "guess_rate": 0.08274913496041433,
+        "persistence": 0.8259603384391077
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "d47ce9e6-2390-4a3d-a82d-e7dbea4c0e24",
+      "latent_mastery": 0.642,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.044941485578665716,
+        "guess_rate": 0.13815440842353457,
+        "persistence": 0.7177354148263111
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "c05f2a81-c1ef-443c-82d5-33f8c46e475e",
+      "latent_mastery": 0.597,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.030554784413537827,
+        "guess_rate": 0.1739505034115159,
+        "persistence": 0.6967746985808474
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "8f570e63-ef5c-41e7-84d7-0e897c2aa808",
+      "latent_mastery": 0.669,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.06150862527306381,
+        "guess_rate": 0.09242458605281449,
+        "persistence": 0.6729513621406583
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "7c771191-14bd-4eb5-b372-08b7fe22cf86",
+      "latent_mastery": 0.603,
+      "initial_state": "learning",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.028604490160226505,
+        "guess_rate": 0.05912183092112666,
+        "persistence": 0.7471288834731395
+      },
+      "created_at": "2026-02-10T16:58:46.654133"
+    },
+    {
+      "user_id": "d6e77bed-83f0-4548-906f-cc87d5414402",
+      "latent_mastery": 0.662,
+      "initial_state": "mastered",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.03431444205640852,
+        "guess_rate": 0.10989824496414023,
+        "persistence": 0.7101095095921038
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "4a1fb4b7-d8d0-484d-8680-a1804d85de2b",
+      "latent_mastery": 0.624,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.08403391643852064,
+        "guess_rate": 0.08598339938686037,
+        "persistence": 0.7563805229476382
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "ab7a124d-ad04-4de8-aa8e-f76120542672",
+      "latent_mastery": 0.712,
+      "initial_state": "practicing",
+      "entry_group": "practicing",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.125365880031203,
+        "persistence": 0.8482481538321193
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "1b884bea-43e1-4853-bd56-dbec546c2f51",
+      "latent_mastery": 0.832,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.027053437251966753,
+        "guess_rate": 0.0759854466062984,
+        "persistence": 0.8157247104012207
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "a6da73fe-c52d-473d-b562-857bc3f033d4",
+      "latent_mastery": 0.886,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07676192046667984,
+        "persistence": 0.7643984274756036
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "2cfe8222-9cc4-4692-a950-2c814374e187",
+      "latent_mastery": 0.974,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.04389161934622056,
+        "persistence": 0.95
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "d5aa92cf-5a1c-4291-93bc-ab11e3d6ab9b",
+      "latent_mastery": 0.892,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02784167661296448,
+        "guess_rate": 0.1222883269499578,
+        "persistence": 0.8777218357948174
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "5325dcb2-3ef7-4d2a-870f-dff3166238c6",
+      "latent_mastery": 0.9,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.05374132238252573,
+        "guess_rate": 0.04671697294279715,
+        "persistence": 0.8401401507693034
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "b716944b-f6c8-4391-8aca-8a86348c69b4",
+      "latent_mastery": 0.951,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.10038493648399086,
+        "persistence": 0.8630820468659112
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "fdb45734-e8c4-4846-8cfc-f7d2a26a71a0",
+      "latent_mastery": 0.922,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03333547507038488,
+        "guess_rate": 0.10266248830242804,
+        "persistence": 0.9225282871037505
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "dc24a062-ff53-4268-b463-1dd85f842656",
+      "latent_mastery": 0.908,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.016437824465031066,
+        "guess_rate": 0.06458255025710927,
+        "persistence": 0.7859741573204384
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "c593b76f-f33a-431a-b251-266db30a0777",
+      "latent_mastery": 0.932,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07791834076202889,
+        "persistence": 0.876458378830111
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "43b3d67e-ddc1-42ce-b526-4deeb494ffc7",
+      "latent_mastery": 0.942,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03404782906295723,
+        "guess_rate": 0.06494671140737215,
+        "persistence": 0.8223235827267427
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "3c50b5d0-48cf-4d2b-9c53-9f93443b57c3",
+      "latent_mastery": 0.895,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.060995778583069885,
+        "guess_rate": 0.08434151900976901,
+        "persistence": 0.8203219385093237
+      },
+      "created_at": "2026-02-10T16:58:46.660491"
+    },
+    {
+      "user_id": "cbb93c20-29ef-41a4-9797-12900e62b6d4",
+      "latent_mastery": 0.897,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.023466056479610108,
+        "guess_rate": 0.09534198228734675,
+        "persistence": 0.8445589016004481
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "f8054e27-9445-4f83-bb30-3a6cfa629ba6",
+      "latent_mastery": 0.888,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.013927172960585661,
+        "guess_rate": 0.029364067453383123,
+        "persistence": 0.7609514371924844
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "f0a707ef-6832-4754-a6ed-b9ec6eba92f9",
+      "latent_mastery": 0.968,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.010643153130708875,
+        "guess_rate": 0.02118425686449682,
+        "persistence": 0.9336129817266647
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "9c150ad7-3456-4a86-b125-de942085c7d0",
+      "latent_mastery": 0.92,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.025383654541622155,
+        "persistence": 0.8631008353040803
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "1f73afbc-1e5c-4466-b9a6-f9f7cab4367c",
+      "latent_mastery": 0.846,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.055169729393360484,
+        "persistence": 0.7900096539552892
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "fae1ec25-1124-42c0-be20-c261dd6f4a0b",
+      "latent_mastery": 0.942,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.01,
+        "persistence": 0.8912910691293248
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "76799e27-47a0-4cb1-8477-bd8779735c57",
+      "latent_mastery": 0.898,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02909470086428304,
+        "guess_rate": 0.10011381623637518,
+        "persistence": 0.907768718217795
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "f2be0835-1a2b-4149-807e-7186e01aae82",
+      "latent_mastery": 0.842,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03788046768431642,
+        "guess_rate": 0.0553947356158114,
+        "persistence": 0.8440731672775657
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "c603b397-0e57-46da-9bce-4ee95e7e89c3",
+      "latent_mastery": 0.905,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.014476123686853979,
+        "guess_rate": 0.07956801020843864,
+        "persistence": 0.8403251766384403
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "8201f4c2-a63a-478e-bf83-2eb6839f1687",
+      "latent_mastery": 0.891,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.025900426225688243,
+        "guess_rate": 0.10243055576868626,
+        "persistence": 0.8344716874306606
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "0a28f499-becc-4400-816b-5a1cfca53c7e",
+      "latent_mastery": 0.945,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.017605464120331635,
+        "guess_rate": 0.09450253664666469,
+        "persistence": 0.8014968285018583
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "51fb07b2-ee3f-40a6-a196-cc7a1609e68c",
+      "latent_mastery": 0.867,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02297568769572042,
+        "guess_rate": 0.049498057565456305,
+        "persistence": 0.8096326634794283
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "75d22c4b-d480-466f-b8d9-d75f9b1a7870",
+      "latent_mastery": 0.936,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.011507259319681811,
+        "guess_rate": 0.030342451872926612,
+        "persistence": 0.9096617764809184
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "144472f5-babe-4c22-b577-96e5bc17922e",
+      "latent_mastery": 0.905,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03344159241506343,
+        "guess_rate": 0.06217426989384917,
+        "persistence": 0.805297976520862
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "404e6a38-55ff-4cac-8eaa-cca428225ab8",
+      "latent_mastery": 0.838,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.015123705682711139,
+        "guess_rate": 0.08917922766776235,
+        "persistence": 0.8542702634248186
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "39a5dd89-0f66-4be0-a7c5-1d50476137b7",
+      "latent_mastery": 0.97,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.05028511222646363,
+        "guess_rate": 0.023129702497078908,
+        "persistence": 0.8682172016799768
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "78736f33-4cdc-4887-bbc2-bae8098f9a4e",
+      "latent_mastery": 0.901,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.024545487774875762,
+        "guess_rate": 0.06426277576668687,
+        "persistence": 0.855012802168823
+      },
+      "created_at": "2026-02-10T16:58:46.665158"
+    },
+    {
+      "user_id": "fbf38765-8834-48b0-860a-b0004d1a09dd",
+      "latent_mastery": 0.878,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.050688229086630475,
+        "guess_rate": 0.09109652840430053,
+        "persistence": 0.8980796810500429
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "ebde0fcf-514a-4ed7-a5a9-fb65cf89cc5f",
+      "latent_mastery": 0.897,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.016483492694977914,
+        "guess_rate": 0.11648051163827244,
+        "persistence": 0.8385837629248887
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "b8208c45-79cd-4b3b-af7d-92e01801c4a6",
+      "latent_mastery": 0.941,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04638570898007253,
+        "guess_rate": 0.1069489056968679,
+        "persistence": 0.8975689814276935
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "cbfa9fe8-2b18-4e09-acb1-4c6b6fc841c3",
+      "latent_mastery": 0.88,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.060765377203059856,
+        "guess_rate": 0.01,
+        "persistence": 0.8359937730272433
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "6f4b1f40-6649-48b4-a7cd-1f58b1a18f69",
+      "latent_mastery": 0.866,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03415093925402211,
+        "guess_rate": 0.09881014830901794,
+        "persistence": 0.8624784484809859
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "112a903f-8e13-4100-99f2-4907ffa716a9",
+      "latent_mastery": 0.855,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.077125755451781,
+        "guess_rate": 0.07025555524892099,
+        "persistence": 0.7630866916320161
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "caee21a0-e735-4782-8ee0-8296ef971cfe",
+      "latent_mastery": 0.879,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.030040289853545656,
+        "guess_rate": 0.02784787904295112,
+        "persistence": 0.7938574577213231
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "88e4f18f-681d-447c-b16e-85fa45d330a8",
+      "latent_mastery": 0.93,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07265610610158305,
+        "persistence": 0.9077143835191799
+      },
+      "created_at": "2026-02-10T16:58:46.668578"
+    },
+    {
+      "user_id": "ba0b3514-32f2-4510-a7f2-a1612ec988a4",
+      "latent_mastery": 0.897,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04123637512990346,
+        "guess_rate": 0.08291792967752082,
+        "persistence": 0.8382548587115511
+      },
+      "created_at": "2026-02-10T16:58:46.670598"
+    },
+    {
+      "user_id": "26d904ad-130e-4ada-92aa-392c85257856",
+      "latent_mastery": 0.87,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.0360591177472494,
+        "guess_rate": 0.07774103263651037,
+        "persistence": 0.9079260067514741
+      },
+      "created_at": "2026-02-10T16:58:46.670598"
+    },
+    {
+      "user_id": "552d3ed0-83db-40cf-9345-240d292bdf75",
+      "latent_mastery": 0.862,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.06542993845106179,
+        "guess_rate": 0.01,
+        "persistence": 0.8495248210665489
+      },
+      "created_at": "2026-02-10T16:58:46.670598"
+    },
+    {
+      "user_id": "5e575dfc-162d-4c1b-b595-1267f44f7d67",
+      "latent_mastery": 0.883,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.022904323658993156,
+        "guess_rate": 0.015326424867262108,
+        "persistence": 0.8257830416689764
+      },
+      "created_at": "2026-02-10T16:58:46.670598"
+    },
+    {
+      "user_id": "5718e28f-69a1-42d4-9818-f58cd12635c1",
+      "latent_mastery": 0.959,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03137444617594808,
+        "guess_rate": 0.03304686761681305,
+        "persistence": 0.858452150901367
+      },
+      "created_at": "2026-02-10T16:58:46.671301"
+    },
+    {
+      "user_id": "4b909b1e-20b7-40b1-84af-350bc8cba474",
+      "latent_mastery": 0.884,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03806451863589834,
+        "guess_rate": 0.01,
+        "persistence": 0.95
+      },
+      "created_at": "2026-02-10T16:58:46.671301"
+    },
+    {
+      "user_id": "26df9f0f-f246-4bf3-856a-2b94b835f485",
+      "latent_mastery": 0.979,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.039441153631608314,
+        "guess_rate": 0.06395916348388939,
+        "persistence": 0.9129512562162133
+      },
+      "created_at": "2026-02-10T16:58:46.671301"
+    },
+    {
+      "user_id": "37ac734c-acd6-42cf-9e64-34d7b5508972",
+      "latent_mastery": 0.898,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.05030131100723678,
+        "guess_rate": 0.0470391823205885,
+        "persistence": 0.8390796311676383
+      },
+      "created_at": "2026-02-10T16:58:46.671912"
+    },
+    {
+      "user_id": "c6f1c2e2-1615-4570-b94f-0935cf4b1f2e",
+      "latent_mastery": 0.864,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04242209326118718,
+        "guess_rate": 0.0659620638994307,
+        "persistence": 0.9015901557721835
+      },
+      "created_at": "2026-02-10T16:58:46.671912"
+    },
+    {
+      "user_id": "052bde37-5208-4806-834a-477e3a2bb62f",
+      "latent_mastery": 0.947,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03162071610496611,
+        "guess_rate": 0.06765254510544289,
+        "persistence": 0.85223748827583
+      },
+      "created_at": "2026-02-10T16:58:46.671912"
+    },
+    {
+      "user_id": "5fa59728-7f97-4097-bd80-94578539626c",
+      "latent_mastery": 0.896,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.10229360846673174,
+        "persistence": 0.8743594249169725
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "2c53a48f-56a9-45dc-a42f-5d85e887bcb8",
+      "latent_mastery": 0.921,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.023004885050130337,
+        "guess_rate": 0.09420687760402398,
+        "persistence": 0.9156589034940847
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "52e0d99a-5b74-407e-9830-b6046a7750fc",
+      "latent_mastery": 0.976,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04850287620535393,
+        "guess_rate": 0.09318543182346538,
+        "persistence": 0.9081383097473507
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "8df9827a-45aa-47bd-b6a5-8590f99caf1e",
+      "latent_mastery": 0.836,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.015665613164369752,
+        "guess_rate": 0.07080919263325752,
+        "persistence": 0.8768389705682392
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "8006a504-9bb3-4b81-80f5-09c30e7d6ffc",
+      "latent_mastery": 0.849,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.053715028426528366,
+        "guess_rate": 0.05895952091980043,
+        "persistence": 0.8209500012853608
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "eb514bb9-da4e-45a8-ba90-5e91113770e1",
+      "latent_mastery": 0.923,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.0631644458465423,
+        "guess_rate": 0.02986696835548871,
+        "persistence": 0.7441097828193843
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "8597065d-98e1-4bee-aa10-f8b677f9ecd9",
+      "latent_mastery": 0.877,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.09967398405101689,
+        "persistence": 0.8134572031202478
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "13bb78a4-12a7-45d1-ada5-7dd00dbd552c",
+      "latent_mastery": 0.864,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03171517745448787,
+        "guess_rate": 0.05980601488526142,
+        "persistence": 0.7348652845639643
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "e776156d-517b-45f6-adfc-f52d09be222a",
+      "latent_mastery": 0.832,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.055927222023465145,
+        "guess_rate": 0.11314551713640794,
+        "persistence": 0.7832830768122284
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "004d61ea-761f-4eea-b73d-a36ec7807c75",
+      "latent_mastery": 0.823,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.05254461838372042,
+        "guess_rate": 0.08700983185937287,
+        "persistence": 0.787120530493426
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "ca67d940-07b6-42e4-9e26-beaa6e8d6214",
+      "latent_mastery": 0.929,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.0457006024039761,
+        "guess_rate": 0.06857492347742117,
+        "persistence": 0.8653270455930137
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "65818bbe-57d2-4b15-987b-283a2e37f475",
+      "latent_mastery": 0.856,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.0508297479980475,
+        "guess_rate": 0.0783321337122439,
+        "persistence": 0.8145044959970529
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "aa2a7935-3a47-426f-800e-9107948ed1fb",
+      "latent_mastery": 0.897,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.018952541880523123,
+        "guess_rate": 0.020133712182157086,
+        "persistence": 0.8741498023926337
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "e08363b9-b7a5-4c86-b04f-7814744715ca",
+      "latent_mastery": 0.91,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.08002193561100014,
+        "persistence": 0.8981038932039868
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "b68ed5a0-ef5a-4993-b68b-fd58a4938cec",
+      "latent_mastery": 0.893,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.024341559409005245,
+        "guess_rate": 0.10147767704490357,
+        "persistence": 0.8868799988009498
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "9d383ab5-1c8b-45cf-a600-77e0801d4e96",
+      "latent_mastery": 0.826,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.09046785834583487,
+        "persistence": 0.9053807978315114
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "aa9a2766-01b8-41a9-860a-05a91ed2e021",
+      "latent_mastery": 0.93,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.015745054546937875,
+        "guess_rate": 0.04589612544597588,
+        "persistence": 0.878303198307574
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "cefe9d70-3926-4aa1-9406-7cf167634c62",
+      "latent_mastery": 0.815,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.022302712705486647,
+        "guess_rate": 0.11581780156723237,
+        "persistence": 0.8403343835329101
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "c0cdf70c-ea3e-46f0-81d8-88230d2f703c",
+      "latent_mastery": 0.927,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04769405621359313,
+        "guess_rate": 0.01,
+        "persistence": 0.9083505247623896
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "77c32d9e-dde6-4fd7-8307-110ca484e406",
+      "latent_mastery": 0.948,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.05216267909472608,
+        "guess_rate": 0.08315102059882966,
+        "persistence": 0.9371876338657295
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "78950410-061a-40d9-816c-124e50db67af",
+      "latent_mastery": 0.893,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.011170630548414273,
+        "guess_rate": 0.05575294061417404,
+        "persistence": 0.8763757195885779
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "9f1066d4-517c-42d5-9c4e-8321df285260",
+      "latent_mastery": 0.903,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.011648825117354909,
+        "guess_rate": 0.06774335382346997,
+        "persistence": 0.880648513783001
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "bdcbf648-b44b-4e2e-b774-51ddaeee1178",
+      "latent_mastery": 0.897,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.06554996595035413,
+        "guess_rate": 0.10268230840958611,
+        "persistence": 0.8943318999319656
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "89d3c3ec-26da-49ea-bda4-0182256aa47f",
+      "latent_mastery": 0.889,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04849218829155255,
+        "guess_rate": 0.052868307251007475,
+        "persistence": 0.8932858358468676
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "cb175cd2-6721-4740-88e1-a1b75bae6e90",
+      "latent_mastery": 0.946,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02827299092595168,
+        "guess_rate": 0.055602713069734855,
+        "persistence": 0.8825287168717612
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "3358ae6f-4f8f-4a53-ab35-2aa637e6fc7c",
+      "latent_mastery": 0.948,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.014953337908299856,
+        "guess_rate": 0.03248434787828209,
+        "persistence": 0.9067655381375431
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "b29ee978-ff54-4f82-af2c-61cdd6d1aa16",
+      "latent_mastery": 0.883,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.0466352708274233,
+        "guess_rate": 0.06719142880752282,
+        "persistence": 0.8301766926000322
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "089e6039-7c06-48a5-a36a-86db9a9009ce",
+      "latent_mastery": 0.911,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.019638076100297917,
+        "guess_rate": 0.08975940787556645,
+        "persistence": 0.8645329344336128
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "299bf275-5377-4295-8655-7dd507107494",
+      "latent_mastery": 0.955,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07699216144445832,
+        "persistence": 0.9056548195307111
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "43f6852e-d831-4e5f-b2cd-f7583c601a60",
+      "latent_mastery": 0.966,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.030944559174069075,
+        "persistence": 0.9402431759626031
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "33915916-f900-483e-9514-27dd53828b43",
+      "latent_mastery": 0.901,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03253652045172345,
+        "guess_rate": 0.06357060201058526,
+        "persistence": 0.808696434627988
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "eb5dc0e4-7298-474e-bd3e-5b1f79429ca1",
+      "latent_mastery": 0.895,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.01823590275493924,
+        "persistence": 0.8786671337440456
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "79534f1c-a940-4f7e-bc66-8b6de47d9d32",
+      "latent_mastery": 0.877,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03981040960907476,
+        "guess_rate": 0.059672061657955175,
+        "persistence": 0.865327183052986
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "8fd08c40-59e0-4b2f-9215-93e6b0911ab2",
+      "latent_mastery": 0.965,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.07501168283318181,
+        "persistence": 0.8824466188914317
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "9182b596-ee86-4aff-9057-fd7a145eb469",
+      "latent_mastery": 0.858,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01280809207612505,
+        "guess_rate": 0.05359198451562566,
+        "persistence": 0.8145004177134129
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "856b1c4b-af8b-42fc-968c-82f1ee232f94",
+      "latent_mastery": 0.908,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.021862162841045363,
+        "guess_rate": 0.05852238488733136,
+        "persistence": 0.8173996642712722
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "6a959f03-f01d-468a-8582-229d2e7879da",
+      "latent_mastery": 0.877,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.08468331258755037,
+        "persistence": 0.9181749930329706
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "56863670-1f09-4b48-82e2-05e5eaee0932",
+      "latent_mastery": 0.877,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.10389956326931479,
+        "persistence": 0.9078927386091464
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "69967375-fc23-462b-9d1c-04da507a9d4e",
+      "latent_mastery": 0.89,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.04823234638766211,
+        "guess_rate": 0.06314641996509567,
+        "persistence": 0.9169849395420344
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "47649a54-5a02-4785-ad11-45e883a8c817",
+      "latent_mastery": 0.989,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02600672048043678,
+        "guess_rate": 0.06674005726078584,
+        "persistence": 0.8515026845178051
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "7c4d2915-564c-4a0a-8bd4-1dab91e15955",
+      "latent_mastery": 0.838,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.011152977305756168,
+        "guess_rate": 0.09814948853158184,
+        "persistence": 0.8260508585482738
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "d7416344-0666-41b3-be73-12d15a5ca2be",
+      "latent_mastery": 0.907,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.03016609120264818,
+        "guess_rate": 0.05731328457349599,
+        "persistence": 0.9013007564171862
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "76b126db-66b6-4766-9cde-3bb8b5850742",
+      "latent_mastery": 0.846,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.01,
+        "guess_rate": 0.015148245327105458,
+        "persistence": 0.8917320199246019
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "c7020738-8ef4-4d73-8673-182080660f36",
+      "latent_mastery": 0.86,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.015741492145902765,
+        "guess_rate": 0.08212556041685719,
+        "persistence": 0.8731644984054856
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "d5763a29-28d8-49bb-8adb-32781ef081fa",
+      "latent_mastery": 0.894,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.025952757187850103,
+        "guess_rate": 0.05880922872421932,
+        "persistence": 0.8691334826260236
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "e0976ed5-9f7c-49c4-a934-7d5bd9258cb6",
+      "latent_mastery": 0.901,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.042357205262816416,
+        "guess_rate": 0.09107553721651668,
+        "persistence": 0.8119833460012188
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "d54f7fa5-ea0e-40cd-a57e-f6356de94b7a",
+      "latent_mastery": 0.874,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.059053492778308236,
+        "guess_rate": 0.026072120904992065,
+        "persistence": 0.8636328370421854
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "e0949aef-2741-4611-9230-4197aede73a7",
+      "latent_mastery": 0.881,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.023426588678793797,
+        "guess_rate": 0.035753689849308226,
+        "persistence": 0.9383268660123893
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "d6f6798a-9b9c-46ff-8060-0e4bf70e5265",
+      "latent_mastery": 0.847,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.027373989347044655,
+        "guess_rate": 0.08601564754718956,
+        "persistence": 0.8043851169403822
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "0d6dce6b-c3c3-462d-bb18-981aecd18a2e",
+      "latent_mastery": 0.879,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.012774811684775008,
+        "guess_rate": 0.11164386095156888,
+        "persistence": 0.8524932499787092
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "be152a8e-6ebc-4314-ab19-81eb2e474022",
+      "latent_mastery": 0.968,
+      "initial_state": "practicing",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.012444343798902495,
+        "guess_rate": 0.029350865358403026,
+        "persistence": 0.8728800687534051
+      },
+      "created_at": "2026-02-10T16:58:46.672365"
+    },
+    {
+      "user_id": "a9f8cefe-3b37-4e3b-845e-e10315414a11",
+      "latent_mastery": 0.96,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.013217038598540886,
+        "guess_rate": 0.033504911209342014,
+        "persistence": 0.8729614584087456
+      },
+      "created_at": "2026-02-10T16:58:46.684300"
+    },
+    {
+      "user_id": "067f51c3-9ea2-412b-915c-61cdad8d9fea",
+      "latent_mastery": 0.883,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.029925997835405577,
+        "guess_rate": 0.07068513008843805,
+        "persistence": 0.7938338267480676
+      },
+      "created_at": "2026-02-10T16:58:46.684300"
+    },
+    {
+      "user_id": "ad99f642-5f77-4f4d-b88e-2125f49df5ed",
+      "latent_mastery": 0.907,
+      "initial_state": "mastered",
+      "entry_group": "mastered",
+      "behavior_profile": {
+        "slip_rate": 0.02149564089469118,
+        "guess_rate": 0.04700272413824841,
+        "persistence": 0.90426200764318
+      },
+      "created_at": "2026-02-10T16:58:46.684300"
+    }
+  ]
+}
