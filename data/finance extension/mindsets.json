@@ -1,0 +1,180 @@
+{
+  "mindsets": [
+    {
+      "mindset_id": "M000_01",
+      "chapter_id": 0,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Think Like a Financier Before You Touch a Spreadsheet",
+      "mindset_text": "Finance is not primarily about numbers. It is about decisions made under uncertainty, with incomplete information, and real consequences for real people. The spreadsheet is a tool for communicating a decision — not for making one. Before you learn to discount cash flows or compute a cost of capital, the most important shift you can make is in how you think about value, time, and trade-offs. A financier looks at any situation — a hiring decision, a product launch, a geopolitical event — and instinctively asks: what does this mean for expected future cash flows, and how does it change the risk profile? That instinct cannot be built from formulas alone. It is built by paying attention to the world with finance as your lens. Everything you learn in this course is in service of that instinct."
+    },
+    {
+      "mindset_id": "M000_02",
+      "chapter_id": 0,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Every Number Tells a Story — Your Job Is to Read It",
+      "mindset_text": "You have now been introduced to the vocabulary of finance: assets, markets, risk, return, and the three decisions that every CFO makes. These are not abstract concepts — they are the categories through which every financial professional filters the world. When you see a company's stock drop 15% in a day, you now know to ask whether earnings disappointed, whether the discount rate changed, or whether the market repriced the risk profile entirely. When you hear that interest rates rose, you know that bond prices fell, that the cost of capital increased, and that some investment projects that were viable yesterday are not viable today. The connection between concepts is where real financial thinking lives. Pay attention to those connections — they are what separate analysis from arithmetic."
+    },
+    {
+      "mindset_id": "M001_01",
+      "chapter_id": 1,
+      "position": "opening",
+      "sequence": 1,
+      "title": "The Clock Is Always Running: Why Time Is Money",
+      "mindset_text": "Of all the ideas in finance, the time value of money is the one that most rewards deep intuition over mechanical application. The formula is simple enough. But the insight behind it — that every promise of future money carries an implicit cost because time has real economic value — is profound. Every financial decision you will ever encounter involves a trade-off between the present and the future. A capital investment, a loan, a pension contribution, a strategic delay — all of them are TVM problems at their core. Before you practice the mechanics, sit with the idea: a dollar delayed is a dollar diminished, not because of inflation alone, but because of the opportunity that waiting forecloses. That opportunity cost is the discount rate, and it runs through everything that follows in this course."
+    },
+    {
+      "mindset_id": "M001_02",
+      "chapter_id": 1,
+      "position": "closing",
+      "sequence": 10,
+      "title": "TVM Is the Grammar of Every Financial Conversation",
+      "mindset_text": "You can now translate between the present and the future in both directions. That sounds simple, but it is one of the most powerful tools in professional finance. When a colleague says a project will generate ten million dollars over five years, you no longer hear that as a straightforward number. You hear it as a series of cash flows that must be discounted back to today before they can be compared to the upfront cost. When a CFO debates whether to return cash to shareholders or reinvest it, you recognise that as a question about the relative present value of two different paths. TVM will appear in every valuation model, every capital budgeting decision, and every structured product you will ever encounter. You have not just learned a formula — you have learned the grammar that makes financial sentences parseable."
+    },
+    {
+      "mindset_id": "M002_01",
+      "chapter_id": 2,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Financial Statements Are a Company's Story Told in Numbers",
+      "mindset_text": "When a company files its financial statements, it is not simply reporting data — it is making a structured argument about its own performance, financial health, and future prospects. Your job as a finance analyst is to read that argument critically, not passively. The income statement says: here is how much we earned and what it cost us to earn it. The balance sheet says: here is what we own and what we owe at a single point in time. The cash flow statement says: here is where the money actually went, regardless of what accounting conventions say about it. Together, these three documents tell you whether a company is growing, whether it is generating real cash, whether it is taking on dangerous levels of debt, and whether management is being straight with investors. Learning to read them fluently is not an accounting skill — it is an analytical one."
+    },
+    {
+      "mindset_id": "M002_02",
+      "chapter_id": 2,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Read Statements Like a Banker, Not Like an Accountant",
+      "mindset_text": "An accountant reads financial statements to verify they are correct. A banker reads them to answer a question. The question might be: can this company service its debt? Can it fund its own growth without diluting shareholders? Is reported profit real, or is it being propped up by working capital deterioration? The financial ratios you have learned here are not ends in themselves — they are shortcuts to those questions. When you look at a leverage ratio, you are really asking how much room exists before a bad quarter becomes a crisis. When you compare free cash flow to net income, you are asking whether earnings are translating into real economic value. Carry this purpose-driven orientation into every set of financials you read, and you will consistently see things that others miss."
+    },
+    {
+      "mindset_id": "M003_01",
+      "chapter_id": 3,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Understanding the Capital Stack Is Understanding Power",
+      "mindset_text": "A company's capital structure is not just a financing decision — it is a statement about who has rights over the company's future cash flows, and in what order those rights are exercised. Debt holders get paid first. Equity holders get whatever is left. This seemingly simple seniority structure has enormous implications. It determines who benefits when a company succeeds, who absorbs losses when it struggles, and who has negotiating power when things go wrong. When you understand the capital stack, you understand why a bondholder and a shareholder can look at the exact same company and reach opposite conclusions about whether it is a good investment. You understand why leverage amplifies returns in good times and accelerates distress in bad ones. This chapter is, at its core, about how financial claims are structured — and structure is everything."
+    },
+    {
+      "mindset_id": "M003_02",
+      "chapter_id": 3,
+      "position": "closing",
+      "sequence": 10,
+      "title": "The Difference Between Debt and Equity Is Never Just Technical",
+      "mindset_text": "It is tempting to treat the distinction between debt and equity as a mechanical one — fixed payments versus residual claims, priority versus participation. But the deeper distinction is behavioural and incentive-driven. Equity holders want the company to take risks because they capture the upside. Debt holders want the company to be conservative because their return is capped and their downside is real. This tension — the agency problem between debt and equity — shapes corporate decisions at every level, from dividend policy to acquisition strategy to how aggressively management pursues growth. When you read about debt covenants, equity dilution, or leveraged buyouts, you are reading about attempts to manage or exploit this tension. Understanding it transforms how you will analyse capital structure decisions for the rest of your career."
+    },
+    {
+      "mindset_id": "M004_01",
+      "chapter_id": 4,
+      "position": "opening",
+      "sequence": 1,
+      "title": "WACC Is the Hurdle Every Investment Must Clear",
+      "mindset_text": "The weighted average cost of capital is the rate of return a company must earn on its invested capital in order to leave its investors no worse off. Think of it as the minimum acceptable performance threshold. If a company earns exactly its WACC, it has satisfied its capital providers but created no additional value. If it earns above WACC, it is creating wealth. If it earns below WACC, it is destroying value — even if it is reporting positive profits. This distinction between accounting profit and economic profit is one of the most important conceptual leaps in corporate finance. A company can be profitable in the accounting sense and value-destructive in the economic sense, simply because it is not clearing its own cost of capital. WACC is the benchmark that separates one from the other."
+    },
+    {
+      "mindset_id": "M004_02",
+      "chapter_id": 4,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Build Intuition About Hurdle Rates Before You Trust Any Number You Calculate",
+      "mindset_text": "WACC is the most assumption-sensitive number you will regularly compute in corporate finance. The cost of equity alone requires you to estimate a risk-free rate, a market risk premium, and a beta — each of which is uncertain and contested. Small changes in any of these inputs can move your WACC by hundreds of basis points, which in turn can transform a compelling valuation into a mediocre one. The professional discipline is this: never present a WACC without understanding the range it could reasonably occupy. Build the intuition to know whether a given WACC feels right for the risk profile of the business in front of you. A mature utility and a pre-revenue technology company should not have the same WACC, and if your calculations suggest they do, something has gone wrong before you ever opened the model."
+    },
+    {
+      "mindset_id": "M005_01",
+      "chapter_id": 5,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Returns Tell You What the Market Already Believes",
+      "mindset_text": "A return is not just a measure of how much money was made. It is a signal about what the market collectively expected to happen, and how reality compared to that expectation. When a stock delivers 20% in a year while the broader market delivered 18%, the outperformance is not necessarily evidence of good management or a great business — it may simply be evidence that the stock was underpriced, or that its risk was underestimated by the market. Understanding returns professionally means developing the habit of always asking: relative to what benchmark, adjusted for what level of risk, over what time horizon, and compared to what prior expectation? Without those anchors, a return is just a number. With them, it becomes a piece of information you can actually use to make a decision."
+    },
+    {
+      "mindset_id": "M005_02",
+      "chapter_id": 5,
+      "position": "closing",
+      "sequence": 10,
+      "title": "A Strong Return Means Nothing Without the Right Context",
+      "mindset_text": "Professionals who cite raw return numbers — without disclosing the risk taken, the benchmark used, or the time period selected — are either unsophisticated or are being deliberately misleading. You now have the vocabulary to see through that. The Sharpe ratio asks: how much return did you earn per unit of risk? Alpha asks: how much did you outperform after accounting for systematic exposure? Attribution asks: where specifically did the return come from? These are not just academic measures — they are the questions any serious allocator of capital will ask before trusting a track record. Carry this critical lens into every investment claim you encounter, and you will consistently ask better questions than the people around you."
+    },
+    {
+      "mindset_id": "M006_01",
+      "chapter_id": 6,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Crises Don't Come From Nowhere — They Come From Complacency",
+      "mindset_text": "Every major financial crisis in history was preceded by a period in which smart, experienced people convinced themselves that risk had been permanently reduced, that new instruments had made markets safer, that the old rules no longer applied. This is not a coincidence — it is a structural feature of how financial systems evolve. Stability encourages risk-taking. Risk-taking increases fragility. Fragility creates the conditions for collapse. Hyman Minsky described this cycle decades before the 2008 crisis, and yet it happened anyway, because understanding a mechanism intellectually is very different from having the professional discipline to act against the crowd when everyone around you is making money. This chapter will give you the intellectual framework. The discipline is something you will need to develop for yourself."
+    },
+    {
+      "mindset_id": "M006_02",
+      "chapter_id": 6,
+      "position": "closing",
+      "sequence": 10,
+      "title": "The Best Risk Managers Think About Failure Before It Arrives",
+      "mindset_text": "The lesson of financial crises is not that markets are irrational or that catastrophe is inevitable. It is that leverage, interconnectedness, and short-term funding structures can transform a manageable problem into a systemic one with frightening speed. The professionals who navigated 2008 most effectively were not those who predicted the exact timing of the collapse — almost no one did. They were the ones who had already asked: what happens to this portfolio if liquidity dries up overnight? What is my maximum loss in a correlated drawdown? How much of my funding can disappear in a week? That kind of pre-emptive stress-testing is a professional habit, not a one-time exercise. You will be better at every subsequent chapter in this course — and better at your job — for having taken this one seriously."
+    },
+    {
+      "mindset_id": "M007_01",
+      "chapter_id": 7,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Valuation Is a Claim About the Future, Not a Description of the Past",
+      "mindset_text": "When you build a valuation model, you are not describing what a company has done — you are making a claim about what it will do, and asserting that the market has not yet fully reflected that view in the current price. This requires intellectual humility as much as technical skill. The Dividend Discount Model is the most transparent expression of this idea: a share of stock is worth exactly the present value of all the cash it will ever pay you. There are no illusions of market sentiment or momentum in that definition — just future cash flows, a discount rate, and a very long time horizon. That simplicity is its power and its limitation. As you work through this chapter, keep asking: what assumptions am I making, and how sensitive is my output to each of them? The habit of asking that question will serve you in every valuation context you encounter."
+    },
+    {
+      "mindset_id": "M007_02",
+      "chapter_id": 7,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Every Model Is a Simplification — Know Exactly What Yours Ignores",
+      "mindset_text": "The Gordon Growth Model gives you a clean, elegant formula that produces a precise number. Do not mistake that precision for accuracy. The model assumes constant perpetual growth, a stable payout ratio, and a discount rate that never changes — none of which are true for any real company over any meaningful time horizon. A model that produces a wrong answer confidently is more dangerous than one that honestly expresses uncertainty. The professional discipline is this: use the model to structure your thinking and narrow the range of plausible values, then explicitly name the assumptions you know are wrong and explain why the distortion they introduce is acceptable given your purpose. An analyst who can articulate the limitations of their own model is one who can be trusted."
+    },
+    {
+      "mindset_id": "M008_01",
+      "chapter_id": 8,
+      "position": "opening",
+      "sequence": 1,
+      "title": "The DCF Is the Closest Thing Finance Has to Ground Truth",
+      "mindset_text": "Comparable company analysis tells you what the market is paying for similar businesses. Precedent transaction analysis tells you what acquirers have historically paid for control. But only the discounted cash flow model asks the most fundamental question: what is this specific business worth, based purely on the cash it will generate, discounted at a rate that reflects its risk? That makes the DCF the intellectual foundation of all intrinsic valuation. It forces you to have a view on revenue growth, margin structure, capital intensity, and the long-run trajectory of the business. Those views will sometimes be wrong — but they are the right questions to force yourself to answer. Every assumption in a DCF is a hypothesis about the future, and building one teaches you to think like an owner, not just an observer."
+    },
+    {
+      "mindset_id": "M008_02",
+      "chapter_id": 8,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Garbage In, Garbage Out — the DCF Rewards Honest Inputs",
+      "mindset_text": "The DCF model will always give you an answer. It has no mechanism for telling you when that answer is unreliable — that responsibility falls entirely on you. If your revenue growth assumptions are unrealistically optimistic, the model will still converge to a number, but it will be a meaningless one. If your terminal growth rate is only slightly below your discount rate, a tiny change in either will swing the valuation by tens of percent. The professionals who use DCF models well are not the ones who build the most elaborate models — they are the ones who understand which two or three assumptions drive 90% of the output, and who subject those assumptions to the most rigorous scrutiny. Build this habit now: after every model, run a sensitivity table, identify the variables that matter most, and ask yourself honestly whether your estimates for those variables are genuinely defensible."
+    },
+    {
+      "mindset_id": "M009_01",
+      "chapter_id": 9,
+      "position": "opening",
+      "sequence": 1,
+      "title": "Uncertainty Is Not the Enemy — Pretending It Doesn't Exist Is",
+      "mindset_text": "The deterministic models you have built so far — the DCF, the DDM, the WACC calculation — produce single-point estimates. They say: given these assumptions, the answer is exactly this number. But you already know that assumptions are uncertain, that markets are volatile, and that the future is genuinely unknowable. Stochastic modeling is the discipline of making that uncertainty explicit and quantifiable, rather than hiding it behind the false comfort of a precise output. When you run a Monte Carlo simulation and find that your valuation ranges from forty to ninety dollars at the 90th percentile interval, you have not failed to produce a good model — you have succeeded in producing an honest one. The mindset shift this chapter requires is to become comfortable presenting ranges and probabilities rather than single numbers, even when your audience would prefer the simplicity of one figure."
+    },
+    {
+      "mindset_id": "M009_02",
+      "chapter_id": 9,
+      "position": "closing",
+      "sequence": 10,
+      "title": "Probabilities Don't Tell You What Will Happen — They Tell You What to Prepare For",
+      "mindset_text": "A Value at Risk figure of five million dollars at the 99th confidence level does not mean the worst case is five million dollars. It means that in the worst one percent of scenarios — roughly two or three trading days per year — the loss will exceed five million. The tail beyond that boundary is still there, and in a sufficiently connected financial system, that tail can be catastrophic. This is the lesson of fat tails, and it is why stochastic tools require the same intellectual humility as every other model in this course. Use them to structure your thinking about risk. Use them to identify which scenarios would be most damaging. But never use them to conclude that risk has been fully contained — because the next financial crisis, like every one before it, will live in the part of the distribution the model said almost never happens."
+    },
+    {
+      "mindset_id": "M010_01",
+      "chapter_id": 10,
+      "position": "opening",
+      "sequence": 1,
+      "title": "This Is Where the Tools Stop Being Separate and Become One Skill",
+      "mindset_text": "Every chapter in this course has introduced a lens: time value, financial statement fluency, capital structure, cost of capital, returns analysis, crisis thinking, dividend valuation, free cash flow modeling, stochastic risk. Studied in isolation, each is a technique. Applied together, they become judgment. The capstone is not about deploying one model correctly — it is about knowing which combination of frameworks best fits the company and context in front of you, sequencing them in the right order, understanding how the output of each informs the inputs of the next, and communicating the whole picture with the clarity that earns trust in a professional setting. This is what finance analysts actually do — not one thing perfectly, but many things simultaneously, with the awareness to know when each framework is reliable and when it is not."
+    },
+    {
+      "mindset_id": "M010_02",
+      "chapter_id": 10,
+      "position": "closing",
+      "sequence": 10,
+      "title": "You Are Now Thinking Like a Finance Analyst",
+      "mindset_text": "A finance analyst is someone who can look at a company — its history, its competitive position, its financial statements, its capital structure — and form a reasoned view about what it is worth, how risky it is, and whether it represents a good use of capital. You now have every conceptual and quantitative tool required to do exactly that. The gap between where you are now and where a seasoned professional operates is not a gap in knowledge — it is a gap in pattern recognition and judgment that only comes from applying these tools to real companies, real data, and real decisions, many times, across many different contexts. You have built the foundation. The analysts who become exceptional are not the ones who memorise the most formulas — they are the ones who keep asking better questions. Go ask them."
+    }
+  ]
+}

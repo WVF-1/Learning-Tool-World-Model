@@ -10,7 +10,7 @@
 
     {
       "problem_id": "F001",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Goals of Corporate Finance",
       "concept_type": "definition",
@@ -36,7 +36,7 @@
 
     {
       "problem_id": "F002",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Asset Classification",
       "concept_type": "definition",
@@ -62,7 +62,7 @@
 
     {
       "problem_id": "F003",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Liquidity",
       "concept_type": "definition",
@@ -91,7 +91,7 @@
 
     {
       "problem_id": "F004",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Capital Markets",
       "concept_type": "market_structure",
@@ -117,7 +117,7 @@
 
     {
       "problem_id": "F005",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Financial Intermediaries",
       "concept_type": "institutional_roles",
@@ -143,7 +143,7 @@
 
     {
       "problem_id": "F006",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Market Efficiency",
       "concept_type": "market_theory",
@@ -169,7 +169,7 @@
 
     {
       "problem_id": "F007",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Money Markets vs Capital Markets",
       "concept_type": "market_structure",
@@ -198,7 +198,7 @@
 
     {
       "problem_id": "F008",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Agency Theory",
       "concept_type": "agency_problem",
@@ -224,7 +224,7 @@
 
     {
       "problem_id": "F009",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Market Efficiency Implications",
       "concept_type": "market_theory",
@@ -250,7 +250,7 @@
 
     {
       "problem_id": "F010",
-      "lesson_id": "L100",
+      "lesson_id": "L000",
       "subject": "Finance",
       "subtopic": "Capital Allocation Framework",
       "concept_type": "capital_allocation",
@@ -283,7 +283,7 @@
 
     {
       "problem_id": "F011",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Future Value",
       "concept_type": "calculation",
@@ -309,7 +309,7 @@
 
     {
       "problem_id": "F012",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Time Preference",
       "concept_type": "concept",
@@ -335,7 +335,7 @@
 
     {
       "problem_id": "F013",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Discount Rate",
       "concept_type": "definition",
@@ -364,7 +364,7 @@
 
     {
       "problem_id": "F014",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Present Value",
       "concept_type": "calculation",
@@ -390,7 +390,7 @@
 
     {
       "problem_id": "F015",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Annuities",
       "concept_type": "calculation",
@@ -417,7 +417,7 @@
 
     {
       "problem_id": "F016",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Rule of 72",
       "concept_type": "approximation",
@@ -443,7 +443,7 @@
 
     {
       "problem_id": "F017",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Perpetuities",
       "concept_type": "definition_and_calculation",
@@ -471,7 +471,7 @@
 
     {
       "problem_id": "F018",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Net Present Value",
       "concept_type": "calculation",
@@ -498,7 +498,7 @@
 
     {
       "problem_id": "F019",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Bond Pricing via TVM",
       "concept_type": "calculation",
@@ -525,7 +525,7 @@
 
     {
       "problem_id": "F020",
-      "lesson_id": "L101",
+      "lesson_id": "L001",
       "subject": "Finance",
       "subtopic": "Discount Rate and Value Relationship",
       "concept_type": "analysis",
@@ -557,7 +557,7 @@
 
     {
       "problem_id": "F021",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Income Statement",
       "concept_type": "definition",
@@ -583,7 +583,7 @@
 
     {
       "problem_id": "F022",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Balance Sheet",
       "concept_type": "definition",
@@ -609,7 +609,7 @@
 
     {
       "problem_id": "F023",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Cash Flow Statement",
       "concept_type": "definition",
@@ -637,7 +637,7 @@
 
     {
       "problem_id": "F024",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Liquidity Ratios",
       "concept_type": "calculation",
@@ -663,7 +663,7 @@
 
     {
       "problem_id": "F025",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Depreciation and Cash Flow",
       "concept_type": "analysis",
@@ -689,7 +689,7 @@
 
     {
       "problem_id": "F026",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Operating Cash Flow",
       "concept_type": "calculation",
@@ -716,7 +716,7 @@
 
     {
       "problem_id": "F027",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Leverage Ratios",
       "concept_type": "interpretation",
@@ -744,7 +744,7 @@
 
     {
       "problem_id": "F028",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Cross-Statement Analysis",
       "concept_type": "analysis",
@@ -771,7 +771,7 @@
 
     {
       "problem_id": "F029",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Accrual vs. Cash Accounting",
       "concept_type": "analysis",
@@ -797,7 +797,7 @@
 
     {
       "problem_id": "F030",
-      "lesson_id": "L102",
+      "lesson_id": "L002",
       "subject": "Finance",
       "subtopic": "Revenue Quality and Receivables",
       "concept_type": "analysis",
@@ -829,7 +829,7 @@
 
     {
       "problem_id": "F031",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Common Stock",
       "concept_type": "definition",
@@ -855,7 +855,7 @@
 
     {
       "problem_id": "F032",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Bond Fundamentals",
       "concept_type": "definition",
@@ -881,7 +881,7 @@
 
     {
       "problem_id": "F033",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Claim Priority in Bankruptcy",
       "concept_type": "definition",
@@ -909,7 +909,7 @@
 
     {
       "problem_id": "F034",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Bond Pricing",
       "concept_type": "calculation",
@@ -936,7 +936,7 @@
 
     {
       "problem_id": "F035",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Coupon Rate vs. Market Yield",
       "concept_type": "analysis",
@@ -962,7 +962,7 @@
 
     {
       "problem_id": "F036",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Equity Risk Premium",
       "concept_type": "definition",
@@ -988,7 +988,7 @@
 
     {
       "problem_id": "F037",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Duration and Interest Rate Risk",
       "concept_type": "analysis",
@@ -1016,7 +1016,7 @@
 
     {
       "problem_id": "F038",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Risk-Return Comparison",
       "concept_type": "analysis",
@@ -1042,7 +1042,7 @@
 
     {
       "problem_id": "F039",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Convertible Bonds",
       "concept_type": "analysis",
@@ -1068,7 +1068,7 @@
 
     {
       "problem_id": "F040",
-      "lesson_id": "L103",
+      "lesson_id": "L003",
       "subject": "Finance",
       "subtopic": "Yield to Maturity",
       "concept_type": "calculation",
@@ -1102,7 +1102,7 @@
 
     {
       "problem_id": "F041",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "WACC Definition",
       "concept_type": "definition",
@@ -1128,7 +1128,7 @@
 
     {
       "problem_id": "F042",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "WACC Components",
       "concept_type": "definition",
@@ -1154,7 +1154,7 @@
 
     {
       "problem_id": "F043",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "Tax Shield on Debt",
       "concept_type": "definition",
@@ -1182,7 +1182,7 @@
 
     {
       "problem_id": "F044",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "After-Tax Cost of Debt",
       "concept_type": "calculation",
@@ -1209,7 +1209,7 @@
 
     {
       "problem_id": "F045",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "Cost of Equity via CAPM",
       "concept_type": "calculation",
@@ -1236,7 +1236,7 @@
 
     {
       "problem_id": "F046",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "WACC Calculation",
       "concept_type": "calculation",
@@ -1263,7 +1263,7 @@
 
     {
       "problem_id": "F047",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "Capital Structure and WACC",
       "concept_type": "analysis",
@@ -1291,7 +1291,7 @@
 
     {
       "problem_id": "F048",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "WACC with Preferred Stock",
       "concept_type": "calculation",
@@ -1320,7 +1320,7 @@
 
     {
       "problem_id": "F049",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "WACC as Hurdle Rate",
       "concept_type": "analysis",
@@ -1347,7 +1347,7 @@
 
     {
       "problem_id": "F050",
-      "lesson_id": "L104",
+      "lesson_id": "L004",
       "subject": "Finance",
       "subtopic": "Trade-Off Theory of Capital Structure",
       "concept_type": "analysis",
@@ -1379,7 +1379,7 @@
 
     {
       "problem_id": "F051",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Simple Return",
       "concept_type": "calculation",
@@ -1406,7 +1406,7 @@
 
     {
       "problem_id": "F052",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Systematic vs. Unsystematic Risk",
       "concept_type": "definition",
@@ -1432,7 +1432,7 @@
 
     {
       "problem_id": "F053",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Beta",
       "concept_type": "definition",
@@ -1460,7 +1460,7 @@
 
     {
       "problem_id": "F054",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Sharpe Ratio",
       "concept_type": "calculation",
@@ -1487,7 +1487,7 @@
 
     {
       "problem_id": "F055",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "CAPM Expected Return",
       "concept_type": "calculation",
@@ -1515,7 +1515,7 @@
 
     {
       "problem_id": "F056",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Portfolio Return",
       "concept_type": "calculation",
@@ -1542,7 +1542,7 @@
 
     {
       "problem_id": "F057",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Standard Deviation as Risk Measure",
       "concept_type": "interpretation",
@@ -1571,7 +1571,7 @@
 
     {
       "problem_id": "F058",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Jensen's Alpha",
       "concept_type": "calculation",
@@ -1597,7 +1597,7 @@
 
     {
       "problem_id": "F059",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Diversification and Correlation",
       "concept_type": "analysis",
@@ -1625,7 +1625,7 @@
 
     {
       "problem_id": "F060",
-      "lesson_id": "L105",
+      "lesson_id": "L005",
       "subject": "Finance",
       "subtopic": "Risk-Adjusted Return Comparison",
       "concept_type": "analysis",
@@ -1657,7 +1657,7 @@
 
     {
       "problem_id": "F061",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Asset Bubbles",
       "concept_type": "definition",
@@ -1683,7 +1683,7 @@
 
     {
       "problem_id": "F062",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Mortgage-Backed Securities",
       "concept_type": "definition",
@@ -1709,7 +1709,7 @@
 
     {
       "problem_id": "F063",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Bank Runs",
       "concept_type": "definition",
@@ -1737,7 +1737,7 @@
 
     {
       "problem_id": "F064",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Systemic Risk",
       "concept_type": "definition",
@@ -1763,7 +1763,7 @@
 
     {
       "problem_id": "F065",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Leverage Amplification",
       "concept_type": "analysis",
@@ -1789,7 +1789,7 @@
 
     {
       "problem_id": "F066",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Credit Rating Agency Failures",
       "concept_type": "analysis",
@@ -1815,7 +1815,7 @@
 
     {
       "problem_id": "F067",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Central Bank Crisis Response",
       "concept_type": "analysis",
@@ -1843,7 +1843,7 @@
 
     {
       "problem_id": "F068",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Too Big To Fail",
       "concept_type": "analysis",
@@ -1869,7 +1869,7 @@
 
     {
       "problem_id": "F069",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "Contagion Mechanisms",
       "concept_type": "analysis",
@@ -1895,7 +1895,7 @@
 
     {
       "problem_id": "F070",
-      "lesson_id": "L106",
+      "lesson_id": "L006",
       "subject": "Finance",
       "subtopic": "LTCM and Model Risk",
       "concept_type": "analysis",
@@ -1927,7 +1927,7 @@
 
     {
       "problem_id": "F071",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Gordon Growth Model Inputs",
       "concept_type": "definition",
@@ -1953,7 +1953,7 @@
 
     {
       "problem_id": "F072",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Dividend Yield",
       "concept_type": "definition",
@@ -1979,7 +1979,7 @@
 
     {
       "problem_id": "F073",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Earnings vs. Dividends",
       "concept_type": "definition",
@@ -2007,7 +2007,7 @@
 
     {
       "problem_id": "F074",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Gordon Growth Model Calculation",
       "concept_type": "calculation",
@@ -2034,7 +2034,7 @@
 
     {
       "problem_id": "F075",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Sensitivity to Growth Rate",
       "concept_type": "analysis",
@@ -2060,7 +2060,7 @@
 
     {
       "problem_id": "F076",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Implied Required Return",
       "concept_type": "calculation",
@@ -2087,7 +2087,7 @@
 
     {
       "problem_id": "F077",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "GGM Constraints",
       "concept_type": "analysis",
@@ -2115,7 +2115,7 @@
 
     {
       "problem_id": "F078",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "Multi-Stage Dividend Model",
       "concept_type": "calculation",
@@ -2141,7 +2141,7 @@
 
     {
       "problem_id": "F079",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "DDM vs. Market Price",
       "concept_type": "analysis",
@@ -2167,7 +2167,7 @@
 
     {
       "problem_id": "F080",
-      "lesson_id": "L107",
+      "lesson_id": "L007",
       "subject": "Finance",
       "subtopic": "DDM Limitations",
       "concept_type": "analysis",
@@ -2199,7 +2199,7 @@
 
     {
       "problem_id": "F081",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Free Cash Flow Definition",
       "concept_type": "definition",
@@ -2225,7 +2225,7 @@
 
     {
       "problem_id": "F082",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Terminal Value in DCF",
       "concept_type": "definition",
@@ -2251,7 +2251,7 @@
 
     {
       "problem_id": "F083",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Depreciation Add-Back in FCF",
       "concept_type": "definition",
@@ -2279,7 +2279,7 @@
 
     {
       "problem_id": "F084",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "FCFF Calculation",
       "concept_type": "calculation",
@@ -2306,7 +2306,7 @@
 
     {
       "problem_id": "F085",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Terminal Value Calculation",
       "concept_type": "calculation",
@@ -2333,7 +2333,7 @@
 
     {
       "problem_id": "F086",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Simple DCF Valuation",
       "concept_type": "calculation",
@@ -2360,7 +2360,7 @@
 
     {
       "problem_id": "F087",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Working Capital Changes",
       "concept_type": "analysis",
@@ -2388,7 +2388,7 @@
 
     {
       "problem_id": "F088",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "FCFF vs. FCFE",
       "concept_type": "analysis",
@@ -2414,7 +2414,7 @@
 
     {
       "problem_id": "F089",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "DCF Sensitivity Analysis",
       "concept_type": "analysis",
@@ -2440,7 +2440,7 @@
 
     {
       "problem_id": "F090",
-      "lesson_id": "L108",
+      "lesson_id": "L008",
       "subject": "Finance",
       "subtopic": "Enterprise Value vs. Equity Value",
       "concept_type": "calculation",
@@ -2473,7 +2473,7 @@
 
     {
       "problem_id": "F091",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Random Variables in Finance",
       "concept_type": "definition",
@@ -2499,7 +2499,7 @@
 
     {
       "problem_id": "F092",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Normal Distribution of Returns",
       "concept_type": "definition",
@@ -2525,7 +2525,7 @@
 
     {
       "problem_id": "F093",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Volatility",
       "concept_type": "definition",
@@ -2553,7 +2553,7 @@
 
     {
       "problem_id": "F094",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Monte Carlo Simulation",
       "concept_type": "definition",
@@ -2579,7 +2579,7 @@
 
     {
       "problem_id": "F095",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Black-Scholes Inputs",
       "concept_type": "definition",
@@ -2605,7 +2605,7 @@
 
     {
       "problem_id": "F096",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Historical vs. Implied Volatility",
       "concept_type": "analysis",
@@ -2631,7 +2631,7 @@
 
     {
       "problem_id": "F097",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Random Walk Hypothesis",
       "concept_type": "analysis",
@@ -2659,7 +2659,7 @@
 
     {
       "problem_id": "F098",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Simulation Precision and Convergence",
       "concept_type": "analysis",
@@ -2685,7 +2685,7 @@
 
     {
       "problem_id": "F099",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Option Delta",
       "concept_type": "analysis",
@@ -2711,7 +2711,7 @@
 
     {
       "problem_id": "F100",
-      "lesson_id": "L109",
+      "lesson_id": "L009",
       "subject": "Finance",
       "subtopic": "Fat Tails and Model Limitations",
       "concept_type": "analysis",
@@ -2743,7 +2743,7 @@
 
     {
       "problem_id": "F101",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "TVM Recall",
       "concept_type": "integration",
@@ -2769,7 +2769,7 @@
 
     {
       "problem_id": "F102",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Financial Statement Integration",
       "concept_type": "integration",
@@ -2795,7 +2795,7 @@
 
     {
       "problem_id": "F103",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Cost of Capital Recall",
       "concept_type": "integration",
@@ -2823,7 +2823,7 @@
 
     {
       "problem_id": "F104",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Integrated DDM Valuation",
       "concept_type": "integration",
@@ -2850,7 +2850,7 @@
 
     {
       "problem_id": "F105",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Integrated DCF Valuation",
       "concept_type": "integration",
@@ -2877,7 +2877,7 @@
 
     {
       "problem_id": "F106",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Capital Structure and Project Evaluation",
       "concept_type": "integration",
@@ -2903,7 +2903,7 @@
 
     {
       "problem_id": "F107",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Crisis Analysis Integration",
       "concept_type": "integration",
@@ -2931,7 +2931,7 @@
 
     {
       "problem_id": "F108",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Full Valuation Case: DDM vs. Market Price",
       "concept_type": "integration",
@@ -2958,7 +2958,7 @@
 
     {
       "problem_id": "F109",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Capital Structure Decision Under Real Constraints",
       "concept_type": "integration",
@@ -2984,7 +2984,7 @@
 
     {
       "problem_id": "F110",
-      "lesson_id": "L110",
+      "lesson_id": "L010",
       "subject": "Finance",
       "subtopic": "Comprehensive Crisis and Valuation Scenario",
       "concept_type": "integration",

@@ -7,6 +7,8 @@
 
     {
       "lesson_id": "L000",
+      "lesson_type": "learn",
+      "chapter_id": 0,
       "topic": "Introduction to Finance",
       "lesson_path_id": 100,
       "lesson_difficulty": "easy",
@@ -23,9 +25,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P101", "P102", "P103"],
-        "moderate": ["P104", "P105", "P106", "P107"],
-        "hard":     ["P108", "P109", "P110"]
+        "easy":     ["F001", "F002", "F003"],
+        "moderate": ["F004", "F005", "F006", "F007"],
+        "hard":     ["F008", "F009", "F010"]
       }
     },
 
@@ -35,6 +37,8 @@
 
     {
       "lesson_id": "L001",
+      "lesson_type": "learn",
+      "chapter_id": 1,
       "topic": "Time Value of Money",
       "lesson_path_id": 101,
       "lesson_difficulty": "moderate",
@@ -51,9 +55,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P111", "P112", "P113"],
-        "moderate": ["P114", "P115", "P116", "P117"],
-        "hard":     ["P118", "P119", "P120"]
+        "easy":     ["F011", "F012", "F013"],
+        "moderate": ["F014", "F015", "F016", "F017"],
+        "hard":     ["F018", "F019", "F020"]
       }
     },
 
@@ -63,6 +67,8 @@
 
     {
       "lesson_id": "L002",
+      "lesson_type": "learn",
+      "chapter_id": 2,
       "topic": "Reading Financial Statements",
       "lesson_path_id": 102,
       "lesson_difficulty": "moderate",
@@ -79,9 +85,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P121", "P122", "P123"],
-        "moderate": ["P124", "P125", "P126", "P127"],
-        "hard":     ["P128", "P129", "P130"]
+        "easy":     ["F021", "F022", "F023"],
+        "moderate": ["F024", "F025", "F026", "F027"],
+        "hard":     ["F028", "F029", "F030"]
       }
     },
 
@@ -91,6 +97,8 @@
 
     {
       "lesson_id": "L003",
+      "lesson_type": "learn",
+      "chapter_id": 3,
       "topic": "Stocks vs. Bonds",
       "lesson_path_id": 103,
       "lesson_difficulty": "moderate",
@@ -107,9 +115,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P131", "P132", "P133"],
-        "moderate": ["P134", "P135", "P136", "P137"],
-        "hard":     ["P138", "P139", "P140"]
+        "easy":     ["F031", "F032", "F033"],
+        "moderate": ["F034", "F035", "F036", "F037"],
+        "hard":     ["F038", "F039", "F040"]
       }
     },
 
@@ -119,6 +127,8 @@
 
     {
       "lesson_id": "L004",
+      "lesson_type": "learn",
+      "chapter_id": 4,
       "topic": "Weighted Average Cost of Capital (WACC)",
       "lesson_path_id": 104,
       "lesson_difficulty": "hard",
@@ -135,9 +145,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P141", "P142", "P143"],
-        "moderate": ["P144", "P145", "P146", "P147"],
-        "hard":     ["P148", "P149", "P150"]
+        "easy":     ["F041", "F042", "F043"],
+        "moderate": ["F044", "F045", "F046", "F047"],
+        "hard":     ["F048", "F049", "F050"]
       }
     },
 
@@ -147,6 +157,8 @@
 
     {
       "lesson_id": "L005",
+      "lesson_type": "learn",
+      "chapter_id": 5,
       "topic": "Analyzing Returns",
       "lesson_path_id": 105,
       "lesson_difficulty": "hard",
@@ -163,9 +175,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P151", "P152", "P153"],
-        "moderate": ["P154", "P155", "P156", "P157"],
-        "hard":     ["P158", "P159", "P160"]
+        "easy":     ["F051", "F052", "F053"],
+        "moderate": ["F054", "F055", "F056", "F057"],
+        "hard":     ["F058", "F059", "F060"]
       }
     },
 
@@ -175,6 +187,8 @@
 
     {
       "lesson_id": "L006",
+      "lesson_type": "learn",
+      "chapter_id": 6,
       "topic": "Analyzing Financial Crises",
       "lesson_path_id": 106,
       "lesson_difficulty": "hard",
@@ -191,9 +205,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P161", "P162", "P163"],
-        "moderate": ["P164", "P165", "P166", "P167"],
-        "hard":     ["P168", "P169", "P170"]
+        "easy":     ["F061", "F062", "F063"],
+        "moderate": ["F064", "F065", "F066", "F067"],
+        "hard":     ["F068", "F069", "F070"]
       }
     },
 
@@ -203,6 +217,8 @@
 
     {
       "lesson_id": "L007",
+      "lesson_type": "learn",
+      "chapter_id": 7,
       "topic": "Dividend Growth Modeling",
       "lesson_path_id": 107,
       "lesson_difficulty": "hard",
@@ -219,9 +235,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P171", "P172", "P173"],
-        "moderate": ["P174", "P175", "P176", "P177"],
-        "hard":     ["P178", "P179", "P180"]
+        "easy":     ["F071", "F072", "F073"],
+        "moderate": ["F074", "F075", "F076", "F077"],
+        "hard":     ["F078", "F079", "F080"]
       }
     },
 
@@ -231,6 +247,8 @@
 
     {
       "lesson_id": "L008",
+      "lesson_type": "learn",
+      "chapter_id": 8,
       "topic": "Free Cash Flow Modeling",
       "lesson_path_id": 108,
       "lesson_difficulty": "hard",
@@ -247,9 +265,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P181", "P182", "P183"],
-        "moderate": ["P184", "P185", "P186", "P187"],
-        "hard":     ["P188", "P189", "P190"]
+        "easy":     ["F081", "F082", "F083"],
+        "moderate": ["F084", "F085", "F086", "F087"],
+        "hard":     ["F088", "F089", "F090"]
       }
     },
 
@@ -259,6 +277,8 @@
 
     {
       "lesson_id": "L009",
+      "lesson_type": "learn",
+      "chapter_id": 9,
       "topic": "Introduction to Stochastic Modeling",
       "lesson_path_id": 109,
       "lesson_difficulty": "hard",
@@ -275,9 +295,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P191", "P192", "P193"],
-        "moderate": ["P194", "P195", "P196", "P197"],
-        "hard":     ["P198", "P199", "P200"]
+        "easy":     ["F091", "F092", "F093"],
+        "moderate": ["F094", "F095", "F096", "F097"],
+        "hard":     ["F098", "F099", "F100"]
       }
     },
 
@@ -287,6 +307,8 @@
 
     {
       "lesson_id": "L010",
+      "lesson_type": "learn",
+      "chapter_id": 10,
       "topic": "Capstone: Integrated Financial Analysis",
       "lesson_path_id": 110,
       "lesson_difficulty": "hard",
@@ -303,9 +325,9 @@
       ],
       "hmm_mastery_threshold": 0.85,
       "problems": {
-        "easy":     ["P201", "P202", "P203"],
-        "moderate": ["P204", "P205", "P206", "P207"],
-        "hard":     ["P208", "P209", "P210"]
+        "easy":     ["F101", "F102", "F103"],
+        "moderate": ["F104", "F105", "F106", "F107"],
+        "hard":     ["F108", "F109", "F110"]
       }
     }
 

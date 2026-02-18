@@ -1,0 +1,469 @@
+{
+  "course_structure": {
+    "total_chapters": 11,
+    "chapters": [
+      {
+        "chapter_id": 0,
+        "chapter_title": "Introduction to Finance",
+        "expansion_note": "Sub-lessons L000_01 through L000_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M000_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L000",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D000_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D000_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M000_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 1,
+        "chapter_title": "Time Value of Money",
+        "expansion_note": "Sub-lessons L001_01 through L001_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M001_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L001",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D001_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D001_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M001_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 2,
+        "chapter_title": "Reading Financial Statements",
+        "expansion_note": "Sub-lessons L002_01 through L002_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M002_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L002",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D002_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D002_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M002_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 3,
+        "chapter_title": "Stocks vs. Bonds",
+        "expansion_note": "Sub-lessons L003_01 through L003_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M003_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L003",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D003_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D003_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M003_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 4,
+        "chapter_title": "Weighted Average Cost of Capital (WACC)",
+        "expansion_note": "Sub-lessons L004_01 through L004_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M004_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L004",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D004_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D004_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M004_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 5,
+        "chapter_title": "Analyzing Returns",
+        "expansion_note": "Sub-lessons L005_01 through L005_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M005_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L005",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D005_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D005_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M005_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 6,
+        "chapter_title": "Analyzing Financial Crises",
+        "expansion_note": "Sub-lessons L006_01 through L006_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M006_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L006",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D006_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D006_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M006_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 7,
+        "chapter_title": "Dividend Growth Modeling",
+        "expansion_note": "Sub-lessons L007_01 through L007_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M007_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L007",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D007_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D007_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M007_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 8,
+        "chapter_title": "Free Cash Flow Modeling",
+        "expansion_note": "Sub-lessons L008_01 through L008_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M008_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L008",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D008_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D008_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M008_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 9,
+        "chapter_title": "Introduction to Stochastic Modeling",
+        "expansion_note": "Sub-lessons L009_01 through L009_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M009_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L009",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D009_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D009_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M009_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      },
+      {
+        "chapter_id": 10,
+        "chapter_title": "Capstone: Integrated Financial Analysis",
+        "expansion_note": "Sub-lessons L010_01 through L010_08 will be inserted between sequence positions 2 and 3 (early learn cluster) and between positions 3 and 4 (late learn cluster) once created. Only course_structure.json requires updating at that stage.",
+        "sequence": [
+          {
+            "position": 1,
+            "type": "mindset",
+            "id": "M010_01",
+            "role": "opening",
+            "source_file": "mindsets.json"
+          },
+          {
+            "position": 2,
+            "type": "learn",
+            "id": "L010",
+            "role": "chapter_overview",
+            "source_file": "lessons.json"
+          },
+          {
+            "position": 3,
+            "type": "drill",
+            "id": "D010_01",
+            "role": "foundation_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 4,
+            "type": "drill",
+            "id": "D010_02",
+            "role": "application_drill",
+            "source_file": "drills.json"
+          },
+          {
+            "position": 5,
+            "type": "mindset",
+            "id": "M010_02",
+            "role": "closing",
+            "source_file": "mindsets.json"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "drills": [
+    {
+      "drill_id": "D000_01",
+      "chapter_id": 0,
+      "chapter_topic": "Introduction to Finance",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Finance Fundamentals: Vocabulary and Market Structure",
+      "description": "Covers the core vocabulary of finance including asset classification, market structure, liquidity, and the role of financial intermediaries. Tests conceptual recognition before any calculation is required — the emphasis is on precise definitions and the ability to distinguish between closely related terms.",
+      "problems": {
+        "easy": [
+          "F001",
+          "F002",
+          "F003"
+        ],
+        "moderate": [
+          "F004",
+          "F005"
+        ]
+      }
+    },
+    {
+      "drill_id": "D000_02",
+      "chapter_id": 0,
+      "chapter_topic": "Introduction to Finance",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Finance Application: Risk-Return and Capital Flows",
+      "description": "Applies risk-return concepts to multi-asset scenarios, tests the logic of diversification, and examines how capital flows between primary and secondary markets under different economic conditions. Problems require reasoning across multiple concepts simultaneously.",
+      "problems": {
+        "moderate": [
+          "F006",
+          "F007"
+        ],
+        "hard": [
+          "F008",
+          "F009",
+          "F010"
+        ]
+      }
+    },
+    {
+      "drill_id": "D001_01",
+      "chapter_id": 1,
+      "chapter_topic": "Time Value of Money",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "TVM Foundations: Present Value and Future Value",
+      "description": "Covers the foundational mechanics of present value and future value, including the distinction between simple and compound interest and the discounting of single cash flows. Builds the computational base that annuities, perpetuities, and NPV all depend on.",
+      "problems": {
+        "easy": [
+          "F011",
+          "F012",
+          "F013"
+        ],
+        "moderate": [
+          "F014",
+          "F015"
+        ]
+      }
+    },
+    {
+      "drill_id": "D001_02",
+      "chapter_id": 1,
+      "chapter_topic": "Time Value of Money",
+      "sequence": 5,
+      "focus": "application",
+      "title": "TVM Application: Annuities, Perpetuities, and NPV",
+      "description": "Extends TVM mechanics to equal payment streams and infinite series, then combines them into full NPV calculations across uneven cash flow scenarios. Problems introduce more complex timing, rate environments, and multi-period structures that appear directly in valuation models.",
+      "problems": {
+        "moderate": [
+          "F016",
+          "F017"
+        ],
+        "hard": [
+          "F018",
+          "F019",
+          "F020"
+        ]
+      }
+    },
+    {
+      "drill_id": "D002_01",
+      "chapter_id": 2,
+      "chapter_topic": "Reading Financial Statements",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Statement Basics: Income Statement and Balance Sheet",
+      "description": "Tests fluency with the income statement and balance sheet in isolation, including revenue recognition, COGS, EBITDA computation, and the classification of assets and liabilities. Each problem targets a specific line item or concept to build precise reading habits.",
+      "problems": {
+        "easy": [
+          "F021",
+          "F022",
+          "F023"
+        ],
+        "moderate": [
+          "F024",
+          "F025"
+        ]
+      }
+    },
+    {
+      "drill_id": "D002_02",
+      "chapter_id": 2,
+      "chapter_topic": "Reading Financial Statements",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Statement Application: Ratios and Three-Statement Links",
+      "description": "Tests the three-statement linkage including how net income flows into retained earnings and the cash flow statement, ratio analysis across profitability, liquidity, and leverage dimensions, and the interpretation of working capital changes as signals of operational health.",
+      "problems": {
+        "moderate": [
+          "F026",
+          "F027"
+        ],
+        "hard": [
+          "F028",
+          "F029",
+          "F030"
+        ]
+      }
+    },
+    {
+      "drill_id": "D003_01",
+      "chapter_id": 3,
+      "chapter_topic": "Stocks vs. Bonds",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Securities Fundamentals: Bond Pricing and Equity Rights",
+      "description": "Covers the fundamental characteristics of bonds and equities including bond pricing mechanics, coupon structures, dividend rights, and the conceptual basis for why bond prices move inversely with interest rates. Focuses on precise understanding of each instrument in isolation.",
+      "problems": {
+        "easy": [
+          "F031",
+          "F032",
+          "F033"
+        ],
+        "moderate": [
+          "F034",
+          "F035"
+        ]
+      }
+    },
+    {
+      "drill_id": "D003_02",
+      "chapter_id": 3,
+      "chapter_topic": "Stocks vs. Bonds",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Securities Application: YTM, Capital Structure, and Seniority",
+      "description": "Applies bond and equity concepts to yield-to-maturity calculations, capital structure seniority scenarios, and the trade-offs between different security types from both issuer and investor perspectives. Problems require integrating rights, pricing, and priority simultaneously.",
+      "problems": {
+        "moderate": [
+          "F036",
+          "F037"
+        ],
+        "hard": [
+          "F038",
+          "F039",
+          "F040"
+        ]
+      }
+    },
+    {
+      "drill_id": "D004_01",
+      "chapter_id": 4,
+      "chapter_topic": "Weighted Average Cost of Capital",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Cost of Capital Foundations: CAPM and Beta",
+      "description": "Covers the theoretical foundations of CAPM including the risk-free rate, the equity risk premium, and beta as a measure of systematic risk. Tests conceptual understanding of each component before the full WACC assembly is attempted.",
+      "problems": {
+        "easy": [
+          "F041",
+          "F042",
+          "F043"
+        ],
+        "moderate": [
+          "F044",
+          "F045"
+        ]
+      }
+    },
+    {
+      "drill_id": "D004_02",
+      "chapter_id": 4,
+      "chapter_topic": "Weighted Average Cost of Capital",
+      "sequence": 5,
+      "focus": "application",
+      "title": "WACC Application: Full Builds and Interpretation",
+      "description": "Covers full WACC construction by combining CAPM-derived cost of equity, after-tax cost of debt, and capital structure weights. Tests the interpretation of WACC outputs, sensitivity to input changes, and the ability to identify when a calculated WACC is implausible for the business being analysed.",
+      "problems": {
+        "moderate": [
+          "F046",
+          "F047"
+        ],
+        "hard": [
+          "F048",
+          "F049",
+          "F050"
+        ]
+      }
+    },
+    {
+      "drill_id": "D005_01",
+      "chapter_id": 5,
+      "chapter_topic": "Analyzing Returns",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Return Measurement: Calculation and Comparison",
+      "description": "Covers the measurement of holding period returns, the distinction between arithmetic and geometric mean returns, and the basic mechanics of comparing a portfolio's performance against a benchmark. Builds the quantitative foundation for risk-adjusted analysis.",
+      "problems": {
+        "easy": [
+          "F051",
+          "F052",
+          "F053"
+        ],
+        "moderate": [
+          "F054",
+          "F055"
+        ]
+      }
+    },
+    {
+      "drill_id": "D005_02",
+      "chapter_id": 5,
+      "chapter_topic": "Analyzing Returns",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Risk-Adjusted Returns: Sharpe, Alpha, and Attribution",
+      "description": "Covers risk-adjusted performance metrics including the Sharpe ratio, Treynor ratio, and Jensen's alpha, as well as the basics of return attribution. Tests the ability to compare investment strategies and manager track records on a genuinely like-for-like basis.",
+      "problems": {
+        "moderate": [
+          "F056",
+          "F057"
+        ],
+        "hard": [
+          "F058",
+          "F059",
+          "F060"
+        ]
+      }
+    },
+    {
+      "drill_id": "D006_01",
+      "chapter_id": 6,
+      "chapter_topic": "Analyzing Financial Crises",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Crisis Mechanics: Leverage and Systemic Risk Concepts",
+      "description": "Tests understanding of how leverage amplifies losses, the mechanics of liquidity crises, the role of moral hazard in crisis formation, and the conceptual structure of the Minsky cycle. Focuses on building a clear causal model of how individual failures become systemic events.",
+      "problems": {
+        "easy": [
+          "F061",
+          "F062",
+          "F063"
+        ],
+        "moderate": [
+          "F064",
+          "F065"
+        ]
+      }
+    },
+    {
+      "drill_id": "D006_02",
+      "chapter_id": 6,
+      "chapter_topic": "Analyzing Financial Crises",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Crisis Application: Contagion, Policy, and Scenario Analysis",
+      "description": "Applies crisis concepts to case-study scenarios involving leveraged institutions, contagion dynamics, fire sale spirals, and policy intervention trade-offs. Tests the ability to reason through the second and third-order consequences of financial stress, including the moral hazard implications of government bailouts.",
+      "problems": {
+        "moderate": [
+          "F066",
+          "F067"
+        ],
+        "hard": [
+          "F068",
+          "F069",
+          "F070"
+        ]
+      }
+    },
+    {
+      "drill_id": "D007_01",
+      "chapter_id": 7,
+      "chapter_topic": "Dividend Growth Modeling",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Dividend Valuation Foundations: Gordon Growth Model",
+      "description": "Covers the Gordon Growth Model in its basic single-stage form, including the formula, its core assumptions, and the estimation of a sustainable dividend growth rate from the retention ratio and return on equity. Tests both the mechanics and the conceptual logic behind the model.",
+      "problems": {
+        "easy": [
+          "F071",
+          "F072",
+          "F073"
+        ],
+        "moderate": [
+          "F074",
+          "F075"
+        ]
+      }
+    },
+    {
+      "drill_id": "D007_02",
+      "chapter_id": 7,
+      "chapter_topic": "Dividend Growth Modeling",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Dividend Valuation Application: Multi-Stage DDM",
+      "description": "Extends the DDM to two-stage growth scenarios, tests terminal value estimation in the dividend context, and applies the model critically to identify the specific conditions under which it produces unreliable outputs. Problems require choosing between model variants and defending those choices.",
+      "problems": {
+        "moderate": [
+          "F076",
+          "F077"
+        ],
+        "hard": [
+          "F078",
+          "F079",
+          "F080"
+        ]
+      }
+    },
+    {
+      "drill_id": "D008_01",
+      "chapter_id": 8,
+      "chapter_topic": "Free Cash Flow Modeling",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "FCF Foundations: Computing Free Cash Flow",
+      "description": "Tests the mechanics of computing free cash flow to the firm from income statement and balance sheet inputs, including the correct treatment of depreciation, capital expenditure, and changes in working capital. Builds the input-construction skills that every DCF model depends on.",
+      "problems": {
+        "easy": [
+          "F081",
+          "F082",
+          "F083"
+        ],
+        "moderate": [
+          "F084",
+          "F085"
+        ]
+      }
+    },
+    {
+      "drill_id": "D008_02",
+      "chapter_id": 8,
+      "chapter_topic": "Free Cash Flow Modeling",
+      "sequence": 5,
+      "focus": "application",
+      "title": "DCF Application: Terminal Value and Enterprise-to-Equity Bridge",
+      "description": "Covers terminal value estimation using both the Gordon Growth and exit multiple approaches, the arithmetic bridge from enterprise value to equity value per share, and sensitivity analysis on the assumptions that drive the majority of DCF output. Tests the full end-to-end model sequence.",
+      "problems": {
+        "moderate": [
+          "F086",
+          "F087"
+        ],
+        "hard": [
+          "F088",
+          "F089",
+          "F090"
+        ]
+      }
+    },
+    {
+      "drill_id": "D009_01",
+      "chapter_id": 9,
+      "chapter_topic": "Introduction to Stochastic Modeling",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Stochastic Concepts: GBM and Simulation Fundamentals",
+      "description": "Covers Geometric Brownian Motion and its two parameters, the conceptual mechanics of Monte Carlo simulation, and the interpretation of probability distributions applied to asset price forecasting. Builds the conceptual vocabulary before the quantitative applications are introduced.",
+      "problems": {
+        "easy": [
+          "F091",
+          "F092",
+          "F093"
+        ],
+        "moderate": [
+          "F094",
+          "F095"
+        ]
+      }
+    },
+    {
+      "drill_id": "D009_02",
+      "chapter_id": 9,
+      "chapter_topic": "Introduction to Stochastic Modeling",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Stochastic Application: VaR, Fat Tails, and Monte Carlo Interpretation",
+      "description": "Tests Value at Risk calculation and interpretation, the practical implications of fat-tailed and skewed distributions for risk measurement, and the application of Monte Carlo outputs to stress-testing a deterministic valuation model. Problems require integrating stochastic thinking with the valuation frameworks from earlier chapters.",
+      "problems": {
+        "moderate": [
+          "F096",
+          "F097"
+        ],
+        "hard": [
+          "F098",
+          "F099",
+          "F100"
+        ]
+      }
+    },
+    {
+      "drill_id": "D010_01",
+      "chapter_id": 10,
+      "chapter_topic": "Capstone: Integrated Financial Analysis",
+      "sequence": 3,
+      "focus": "foundation",
+      "title": "Integrated Analysis: Framework Selection and Valuation Setup",
+      "description": "Tests the ability to select and justify an appropriate valuation framework given a company's characteristics, dividend policy, growth stage, and available data. Covers the setup and scoping phase of a real analytical engagement before any numbers are run.",
+      "problems": {
+        "easy": [
+          "F101",
+          "F102",
+          "F103"
+        ],
+        "moderate": [
+          "F104",
+          "F105"
+        ]
+      }
+    },
+    {
+      "drill_id": "D010_02",
+      "chapter_id": 10,
+      "chapter_topic": "Capstone: Integrated Financial Analysis",
+      "sequence": 5,
+      "focus": "application",
+      "title": "Integrated Application: Full Valuation Case Studies",
+      "description": "Full integrated case studies requiring the simultaneous application of DCF, DDM, capital structure analysis, and probabilistic risk thinking to arrive at a valuation recommendation with explicit assumption disclosure. The highest-difficulty problems in the curriculum — designed to reflect actual analyst-level work.",
+      "problems": {
+        "moderate": [
+          "F106",
+          "F107"
+        ],
+        "hard": [
+          "F108",
+          "F109",
+          "F110"
+        ]
+      }
+    }
+  ]
+}
