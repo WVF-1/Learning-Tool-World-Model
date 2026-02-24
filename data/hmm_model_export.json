@@ -10,30 +10,25 @@
     0.2
   ],
   "transition_matrix": [
-    [
-      0.75,
-      0.25,
-      0.0
-    ],
-    [
-      0.0,
-      0.8,
-      0.2
-    ],
-    [
-      0.0,
-      0.0,
-      1.0
-    ]
+    [0.75, 0.25, 0.0],
+    [0.0,  0.80, 0.2],
+    [0.0,  0.0,  1.0]
   ],
   "base_mastery": {
-    "learning": 0.35,
-    "practicing": 0.6,
-    "mastered": 0.9
+    "learning":   0.35,
+    "practicing": 0.60,
+    "mastered":   0.90
   },
   "difficulty_multiplier": {
-    "easy": 1.0,
-    "moderate": 0.9,
-    "hard": 0.75
+    "easy":     1.00,
+    "moderate": 0.90,
+    "hard":     0.75
+  },
+  "inference_params": {
+    "slip":  0.10,
+    "guess": 0.25,
+    "mastery_threshold":        0.65,
+    "consecutive_required":     2,
+    "transition_ambiguity_cap": 0.50
   }
 }
