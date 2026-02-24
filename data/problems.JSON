@@ -1,12 +1,7 @@
 {
   "problems": [
 
-    // ─────────────────────────────────────────────
-    // L101 — FACTORING
-    // ─────────────────────────────────────────────
-
-    // EASY (P001–P003): Pattern recognition only — GCF, perfect squares, difference of squares
-    // No sign juggling, coefficients are small and familiar
+    
 
     {
       "problem_id": "P001",
@@ -78,8 +73,7 @@
       "distractor_pool_ids": ["B107", "B108", "B109"]
     },
 
-    // MODERATE (P004–P007): Monic trinomials requiring sign reasoning and factor pair searching
-    // Introduces negative signs and cases where the pattern is not immediately obvious
+   
 
     {
       "problem_id": "P004",
@@ -178,8 +172,7 @@
       "distractor_pool_ids": ["B119", "B120", "B121"]
     },
 
-    // HARD (P008–P010): Non-monic trinomials requiring the AC method or trial and error
-    // Introduces leading coefficients > 1 and larger products to reason through
+    
 
     {
       "problem_id": "P008",
@@ -259,12 +252,7 @@
       "distractor_pool_ids": ["B128", "B129", "B130"]
     },
 
-    // ─────────────────────────────────────────────
-    // L102 — QUADRATIC EQUATIONS
-    // ─────────────────────────────────────────────
-
-    // EASY (P011–P013): Solve by factoring — direct application of L101 skills
-    // Equations are already in standard form and factor cleanly
+  
 
     {
       "problem_id": "P011",
@@ -336,8 +324,6 @@
       "distractor_pool_ids": ["B137", "B138", "B139"]
     },
 
-    // MODERATE (P014–P017): Rearranging before solving, completing the square, non-monic factoring
-    // Requires multi-step reasoning before applying the Zero Product Property
 
     {
       "problem_id": "P014",
@@ -440,9 +426,7 @@
       "distractor_pool_ids": ["B149", "B150", "B151"]
     },
 
-    // HARD (P018–P020): Quadratic formula, analyzing the discriminant, and complex roots
-    // Requires full procedural fluency and conceptual understanding of what solutions mean
-
+ 
     {
       "problem_id": "P018",
       "lesson_id": "L102",
@@ -516,4 +500,5 @@
     }
 
   ]
+
 }
