@@ -1,9 +1,7 @@
 {
   "blocks": [
 
-    // ─────────────────────────────────────────────
-    // P001 — 4x^2 + 8x (GCF)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B001", "problem_id": "P001", "lesson_id": "L101", "content": "Identify the GCF of 4x² and 8x", "block_type": "correct", "position": 1, "step_label": "identify_gcf", "topic_tags": ["gcf", "factoring"] },
     { "block_id": "B002", "problem_id": "P001", "lesson_id": "L101", "content": "GCF = 4x", "block_type": "correct", "position": 2, "step_label": "state_gcf", "topic_tags": ["gcf", "factoring"] },
     { "block_id": "B003", "problem_id": "P001", "lesson_id": "L101", "content": "Divide each term by 4x: x + 2", "block_type": "correct", "position": 3, "step_label": "divide_terms", "topic_tags": ["gcf", "factoring"] },
@@ -12,9 +10,7 @@
     { "block_id": "B102", "problem_id": "P001", "lesson_id": "L101", "content": "Write the factored form: 4(x² + 2x)", "block_type": "distractor", "position": null, "distractor_reason": "incomplete_gcf_extraction", "topic_tags": ["gcf", "factoring"] },
     { "block_id": "B103", "problem_id": "P001", "lesson_id": "L101", "content": "GCF = 8x", "block_type": "distractor", "position": null, "distractor_reason": "overcounts_gcf_coefficient", "topic_tags": ["gcf", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P002 — x^2 + 6x + 9 (Perfect Square Trinomial)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B005", "problem_id": "P002", "lesson_id": "L101", "content": "Recognize: 9 = 3² and 6 = 2 × 3 — this fits a² + 2ab + b²", "block_type": "correct", "position": 1, "step_label": "recognize_pattern", "topic_tags": ["perfect_square", "factoring"] },
     { "block_id": "B006", "problem_id": "P002", "lesson_id": "L101", "content": "Apply the pattern: (a + b)² where a = x, b = 3", "block_type": "correct", "position": 2, "step_label": "apply_pattern", "topic_tags": ["perfect_square", "factoring"] },
     { "block_id": "B007", "problem_id": "P002", "lesson_id": "L101", "content": "Factored form: (x + 3)²", "block_type": "correct", "position": 3, "step_label": "write_factored_form", "topic_tags": ["perfect_square", "factoring"] },
@@ -22,9 +18,7 @@
     { "block_id": "B105", "problem_id": "P002", "lesson_id": "L101", "content": "Factored form: (x + 9)(x + 1)", "block_type": "distractor", "position": null, "distractor_reason": "wrong_factor_pair_of_constant", "topic_tags": ["perfect_square", "factoring"] },
     { "block_id": "B106", "problem_id": "P002", "lesson_id": "L101", "content": "Apply the pattern: (a - b)² where a = x, b = 3", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_on_pattern", "topic_tags": ["perfect_square", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P003 — x^2 - 25 (Difference of Squares)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B008", "problem_id": "P003", "lesson_id": "L101", "content": "Recognize: x² and 25 are both perfect squares, separated by subtraction", "block_type": "correct", "position": 1, "step_label": "recognize_pattern", "topic_tags": ["difference_of_squares", "factoring"] },
     { "block_id": "B009", "problem_id": "P003", "lesson_id": "L101", "content": "Apply the pattern: a² - b² = (a + b)(a - b) where a = x, b = 5", "block_type": "correct", "position": 2, "step_label": "apply_pattern", "topic_tags": ["difference_of_squares", "factoring"] },
     { "block_id": "B010", "problem_id": "P003", "lesson_id": "L101", "content": "Factored form: (x + 5)(x - 5)", "block_type": "correct", "position": 3, "step_label": "write_factored_form", "topic_tags": ["difference_of_squares", "factoring"] },
@@ -32,9 +26,7 @@
     { "block_id": "B108", "problem_id": "P003", "lesson_id": "L101", "content": "Factored form: (x + 5)²", "block_type": "distractor", "position": null, "distractor_reason": "ignores_subtraction_sign", "topic_tags": ["difference_of_squares", "factoring"] },
     { "block_id": "B109", "problem_id": "P003", "lesson_id": "L101", "content": "Apply the pattern: a² - b² = (a - b)(a - b)", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_on_second_factor", "topic_tags": ["difference_of_squares", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P004 — x^2 + 7x + 12 (Monic Trinomial)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B011", "problem_id": "P004", "lesson_id": "L101", "content": "Find two numbers that multiply to 12 and add to 7", "block_type": "correct", "position": 1, "step_label": "set_up_factor_pairs", "topic_tags": ["monic_trinomial", "factoring"] },
     { "block_id": "B012", "problem_id": "P004", "lesson_id": "L101", "content": "Factor pairs of 12: (1,12), (2,6), (3,4) — 3 + 4 = 7 ✓", "block_type": "correct", "position": 2, "step_label": "find_factor_pair", "topic_tags": ["monic_trinomial", "factoring"] },
     { "block_id": "B013", "problem_id": "P004", "lesson_id": "L101", "content": "Factored form: (x + 3)(x + 4)", "block_type": "correct", "position": 3, "step_label": "write_factored_form", "topic_tags": ["monic_trinomial", "factoring"] },
@@ -42,9 +34,7 @@
     { "block_id": "B111", "problem_id": "P004", "lesson_id": "L101", "content": "Factored form: (x + 1)(x + 12)", "block_type": "distractor", "position": null, "distractor_reason": "uses_extreme_factor_pair_without_checking_sum", "topic_tags": ["monic_trinomial", "factoring"] },
     { "block_id": "B112", "problem_id": "P004", "lesson_id": "L101", "content": "Find two numbers that multiply to 7 and add to 12", "block_type": "distractor", "position": null, "distractor_reason": "swaps_multiply_and_add_conditions", "topic_tags": ["monic_trinomial", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P005 — x^2 + 2x - 15 (Monic Trinomial, mixed signs)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B014", "problem_id": "P005", "lesson_id": "L101", "content": "Find two numbers that multiply to -15 and add to 2", "block_type": "correct", "position": 1, "step_label": "set_up_factor_pairs", "topic_tags": ["monic_trinomial", "factoring", "negative_constant"] },
     { "block_id": "B015", "problem_id": "P005", "lesson_id": "L101", "content": "Since product is negative, signs are opposite: 5 × -3 = -15, 5 + (-3) = 2 ✓", "block_type": "correct", "position": 2, "step_label": "find_signed_factor_pair", "topic_tags": ["monic_trinomial", "factoring", "negative_constant"] },
     { "block_id": "B016", "problem_id": "P005", "lesson_id": "L101", "content": "Factored form: (x + 5)(x - 3)", "block_type": "correct", "position": 3, "step_label": "write_factored_form", "topic_tags": ["monic_trinomial", "factoring", "negative_constant"] },
@@ -52,9 +42,7 @@
     { "block_id": "B114", "problem_id": "P005", "lesson_id": "L101", "content": "Since product is negative, both signs are negative: -5 × -3 = 15", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_reasoning_for_negative_product", "topic_tags": ["monic_trinomial", "factoring", "negative_constant"] },
     { "block_id": "B115", "problem_id": "P005", "lesson_id": "L101", "content": "Factored form: (x + 3)(x - 5)", "block_type": "distractor", "position": null, "distractor_reason": "reverses_factor_pair_order_changing_signs", "topic_tags": ["monic_trinomial", "factoring", "negative_constant"] },
 
-    // ─────────────────────────────────────────────
-    // P006 — x^2 - 5x + 6 (Monic Trinomial, negative middle)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B017", "problem_id": "P006", "lesson_id": "L101", "content": "Find two numbers that multiply to 6 and add to -5", "block_type": "correct", "position": 1, "step_label": "set_up_factor_pairs", "topic_tags": ["monic_trinomial", "factoring", "negative_middle"] },
     { "block_id": "B018", "problem_id": "P006", "lesson_id": "L101", "content": "Both numbers must be negative: -2 × -3 = 6, -2 + (-3) = -5 ✓", "block_type": "correct", "position": 2, "step_label": "find_signed_factor_pair", "topic_tags": ["monic_trinomial", "factoring", "negative_middle"] },
     { "block_id": "B019", "problem_id": "P006", "lesson_id": "L101", "content": "Factored form: (x - 2)(x - 3)", "block_type": "correct", "position": 3, "step_label": "write_factored_form", "topic_tags": ["monic_trinomial", "factoring", "negative_middle"] },
@@ -62,9 +50,7 @@
     { "block_id": "B117", "problem_id": "P006", "lesson_id": "L101", "content": "Factored form: (x - 6)(x + 1)", "block_type": "distractor", "position": null, "distractor_reason": "wrong_factor_pair_product_not_6", "topic_tags": ["monic_trinomial", "factoring", "negative_middle"] },
     { "block_id": "B118", "problem_id": "P006", "lesson_id": "L101", "content": "Both numbers must have opposite signs since middle term is negative", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_rule_for_positive_constant_negative_middle", "topic_tags": ["monic_trinomial", "factoring", "negative_middle"] },
 
-    // ─────────────────────────────────────────────
-    // P007 — 2x^2 + 10x + 12 (GCF then Trinomial)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B020", "problem_id": "P007", "lesson_id": "L101", "content": "Identify the GCF of all three terms: GCF = 2", "block_type": "correct", "position": 1, "step_label": "identify_gcf", "topic_tags": ["gcf", "monic_trinomial", "factoring"] },
     { "block_id": "B021", "problem_id": "P007", "lesson_id": "L101", "content": "Factor out 2: 2(x² + 5x + 6)", "block_type": "correct", "position": 2, "step_label": "factor_out_gcf", "topic_tags": ["gcf", "monic_trinomial", "factoring"] },
     { "block_id": "B022", "problem_id": "P007", "lesson_id": "L101", "content": "Factor x² + 5x + 6: find two numbers that multiply to 6 and add to 5 → 2 and 3", "block_type": "correct", "position": 3, "step_label": "factor_inner_trinomial", "topic_tags": ["gcf", "monic_trinomial", "factoring"] },
@@ -73,9 +59,7 @@
     { "block_id": "B120", "problem_id": "P007", "lesson_id": "L101", "content": "Factor out 2: 2(x² + 10x + 12)", "block_type": "distractor", "position": null, "distractor_reason": "does_not_divide_all_terms_by_gcf", "topic_tags": ["gcf", "monic_trinomial", "factoring"] },
     { "block_id": "B121", "problem_id": "P007", "lesson_id": "L101", "content": "Final factored form: 2(x + 1)(x + 6)", "block_type": "distractor", "position": null, "distractor_reason": "uses_wrong_factor_pair_for_inner_trinomial", "topic_tags": ["gcf", "monic_trinomial", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P008 — 2x^2 + 7x + 3 (AC Method)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B024", "problem_id": "P008", "lesson_id": "L101", "content": "Calculate AC = 2 × 3 = 6; find two numbers that multiply to 6 and add to 7", "block_type": "correct", "position": 1, "step_label": "ac_method_setup", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B025", "problem_id": "P008", "lesson_id": "L101", "content": "1 and 6 work: 1 × 6 = 6, 1 + 6 = 7 — rewrite 7x as x + 6x", "block_type": "correct", "position": 2, "step_label": "split_middle_term", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B026", "problem_id": "P008", "lesson_id": "L101", "content": "Group and factor: x(2x + 1) + 3(2x + 1)", "block_type": "correct", "position": 3, "step_label": "factor_by_grouping", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
@@ -84,9 +68,7 @@
     { "block_id": "B123", "problem_id": "P008", "lesson_id": "L101", "content": "Factored form: (2x + 3)(x + 1)", "block_type": "distractor", "position": null, "distractor_reason": "swaps_constants_in_final_factors", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B124", "problem_id": "P008", "lesson_id": "L101", "content": "Group and factor: 2x(x + 1) + 3(x + 1)", "block_type": "distractor", "position": null, "distractor_reason": "incorrect_grouping_step", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P009 — 3x^2 - 10x + 8 (AC Method, negative middle)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B028", "problem_id": "P009", "lesson_id": "L101", "content": "Calculate AC = 3 × 8 = 24; find two numbers that multiply to 24 and add to -10", "block_type": "correct", "position": 1, "step_label": "ac_method_setup", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B029", "problem_id": "P009", "lesson_id": "L101", "content": "-4 and -6 work: -4 × -6 = 24, -4 + (-6) = -10 — rewrite as 3x² - 4x - 6x + 8", "block_type": "correct", "position": 2, "step_label": "split_middle_term", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B030", "problem_id": "P009", "lesson_id": "L101", "content": "Group and factor: x(3x - 4) - 2(3x - 4)", "block_type": "correct", "position": 3, "step_label": "factor_by_grouping", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
@@ -95,9 +77,7 @@
     { "block_id": "B126", "problem_id": "P009", "lesson_id": "L101", "content": "Factored form: (3x - 2)(x - 4)", "block_type": "distractor", "position": null, "distractor_reason": "swaps_constants_in_final_factors", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B127", "problem_id": "P009", "lesson_id": "L101", "content": "Group and factor: x(3x - 6) - 2(3x - 4)", "block_type": "distractor", "position": null, "distractor_reason": "inconsistent_grouping", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P010 — 6x^2 + x - 12 (AC Method, large coefficient)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B032", "problem_id": "P010", "lesson_id": "L101", "content": "Calculate AC = 6 × -12 = -72; find two numbers that multiply to -72 and add to 1", "block_type": "correct", "position": 1, "step_label": "ac_method_setup", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B033", "problem_id": "P010", "lesson_id": "L101", "content": "9 and -8 work: 9 × -8 = -72, 9 + (-8) = 1 — rewrite as 6x² + 9x - 8x - 12", "block_type": "correct", "position": 2, "step_label": "split_middle_term", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B034", "problem_id": "P010", "lesson_id": "L101", "content": "Group and factor: 3x(2x + 3) - 4(2x + 3)", "block_type": "correct", "position": 3, "step_label": "factor_by_grouping", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
@@ -106,9 +86,7 @@
     { "block_id": "B129", "problem_id": "P010", "lesson_id": "L101", "content": "Factored form: (6x - 4)(x + 3)", "block_type": "distractor", "position": null, "distractor_reason": "does_not_simplify_leading_term_correctly", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
     { "block_id": "B130", "problem_id": "P010", "lesson_id": "L101", "content": "-9 and 8 work: -9 × 8 = -72, -9 + 8 = -1", "block_type": "distractor", "position": null, "distractor_reason": "reverses_signs_of_ac_pair_giving_wrong_sum", "topic_tags": ["non_monic_trinomial", "ac_method", "factoring"] },
 
-    // ─────────────────────────────────────────────
-    // P011 — x^2 + 6x + 9 = 0 (Solve: Perfect Square)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B036", "problem_id": "P011", "lesson_id": "L102", "content": "Factor the left side: (x + 3)² = 0", "block_type": "correct", "position": 1, "step_label": "factor_expression", "topic_tags": ["quadratic_equation", "factoring", "zero_product_property"] },
     { "block_id": "B037", "problem_id": "P011", "lesson_id": "L102", "content": "Apply the Zero Product Property: x + 3 = 0", "block_type": "correct", "position": 2, "step_label": "apply_zpp", "topic_tags": ["quadratic_equation", "factoring", "zero_product_property"] },
     { "block_id": "B038", "problem_id": "P011", "lesson_id": "L102", "content": "Solve: x = -3 (double root)", "block_type": "correct", "position": 3, "step_label": "state_solution", "topic_tags": ["quadratic_equation", "factoring", "zero_product_property"] },
@@ -116,9 +94,7 @@
     { "block_id": "B132", "problem_id": "P011", "lesson_id": "L102", "content": "Factor the left side: (x + 9)(x + 1) = 0", "block_type": "distractor", "position": null, "distractor_reason": "does_not_recognize_perfect_square_pattern", "topic_tags": ["quadratic_equation", "factoring", "zero_product_property"] },
     { "block_id": "B133", "problem_id": "P011", "lesson_id": "L102", "content": "Apply the Zero Product Property: x + 3 = 0 and x - 3 = 0", "block_type": "distractor", "position": null, "distractor_reason": "treats_double_root_as_two_different_roots", "topic_tags": ["quadratic_equation", "factoring", "zero_product_property"] },
 
-    // ─────────────────────────────────────────────
-    // P012 — x^2 - 16 = 0 (Solve: Difference of Squares)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B039", "problem_id": "P012", "lesson_id": "L102", "content": "Recognize: x² - 16 is a difference of squares", "block_type": "correct", "position": 1, "step_label": "recognize_pattern", "topic_tags": ["quadratic_equation", "difference_of_squares", "zero_product_property"] },
     { "block_id": "B040", "problem_id": "P012", "lesson_id": "L102", "content": "Factor: (x + 4)(x - 4) = 0", "block_type": "correct", "position": 2, "step_label": "factor_expression", "topic_tags": ["quadratic_equation", "difference_of_squares", "zero_product_property"] },
     { "block_id": "B041", "problem_id": "P012", "lesson_id": "L102", "content": "Apply the Zero Product Property: x + 4 = 0 → x = -4", "block_type": "correct", "position": 3, "step_label": "solve_first_factor", "topic_tags": ["quadratic_equation", "difference_of_squares", "zero_product_property"] },
@@ -127,9 +103,7 @@
     { "block_id": "B135", "problem_id": "P012", "lesson_id": "L102", "content": "Solve: x = 16", "block_type": "distractor", "position": null, "distractor_reason": "takes_square_root_without_applying_plus_minus", "topic_tags": ["quadratic_equation", "difference_of_squares", "zero_product_property"] },
     { "block_id": "B136", "problem_id": "P012", "lesson_id": "L102", "content": "Solve: x = 8 and x = -8", "block_type": "distractor", "position": null, "distractor_reason": "divides_by_2_instead_of_taking_square_root", "topic_tags": ["quadratic_equation", "difference_of_squares", "zero_product_property"] },
 
-    // ─────────────────────────────────────────────
-    // P013 — x^2 + 5x + 6 = 0 (Solve: Monic Trinomial)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B043", "problem_id": "P013", "lesson_id": "L102", "content": "Find two numbers that multiply to 6 and add to 5: 2 and 3", "block_type": "correct", "position": 1, "step_label": "find_factor_pair", "topic_tags": ["quadratic_equation", "monic_trinomial", "zero_product_property"] },
     { "block_id": "B044", "problem_id": "P013", "lesson_id": "L102", "content": "Factor: (x + 2)(x + 3) = 0", "block_type": "correct", "position": 2, "step_label": "factor_expression", "topic_tags": ["quadratic_equation", "monic_trinomial", "zero_product_property"] },
     { "block_id": "B045", "problem_id": "P013", "lesson_id": "L102", "content": "Apply the Zero Product Property: x + 2 = 0 → x = -2", "block_type": "correct", "position": 3, "step_label": "solve_first_factor", "topic_tags": ["quadratic_equation", "monic_trinomial", "zero_product_property"] },
@@ -138,9 +112,7 @@
     { "block_id": "B138", "problem_id": "P013", "lesson_id": "L102", "content": "Factor: (x + 1)(x + 6) = 0", "block_type": "distractor", "position": null, "distractor_reason": "uses_wrong_factor_pair", "topic_tags": ["quadratic_equation", "monic_trinomial", "zero_product_property"] },
     { "block_id": "B139", "problem_id": "P013", "lesson_id": "L102", "content": "Solve: x = 5 and x = 6", "block_type": "distractor", "position": null, "distractor_reason": "reads_coefficients_directly_as_solutions", "topic_tags": ["quadratic_equation", "monic_trinomial", "zero_product_property"] },
 
-    // ─────────────────────────────────────────────
-    // P014 — x^2 + 3x = 10 (Rearrange then Factor)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B047", "problem_id": "P014", "lesson_id": "L102", "content": "Rearrange into standard form: x² + 3x - 10 = 0", "block_type": "correct", "position": 1, "step_label": "rearrange_to_standard_form", "topic_tags": ["quadratic_equation", "rearranging", "zero_product_property"] },
     { "block_id": "B048", "problem_id": "P014", "lesson_id": "L102", "content": "Find two numbers that multiply to -10 and add to 3: 5 and -2", "block_type": "correct", "position": 2, "step_label": "find_factor_pair", "topic_tags": ["quadratic_equation", "rearranging", "zero_product_property"] },
     { "block_id": "B049", "problem_id": "P014", "lesson_id": "L102", "content": "Factor: (x + 5)(x - 2) = 0", "block_type": "correct", "position": 3, "step_label": "factor_expression", "topic_tags": ["quadratic_equation", "rearranging", "zero_product_property"] },
@@ -149,9 +121,7 @@
     { "block_id": "B141", "problem_id": "P014", "lesson_id": "L102", "content": "Factor x² + 3x = 10 directly without rearranging: x(x + 3) = 10", "block_type": "distractor", "position": null, "distractor_reason": "factors_without_moving_constant_to_left", "topic_tags": ["quadratic_equation", "rearranging", "zero_product_property"] },
     { "block_id": "B142", "problem_id": "P014", "lesson_id": "L102", "content": "Factor: (x - 5)(x + 2) = 0", "block_type": "distractor", "position": null, "distractor_reason": "reverses_signs_on_factors", "topic_tags": ["quadratic_equation", "rearranging", "zero_product_property"] },
 
-    // ─────────────────────────────────────────────
-    // P015 — x^2 + 4x - 1 = 0 (Completing the Square)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B051", "problem_id": "P015", "lesson_id": "L102", "content": "Move the constant: x² + 4x = 1", "block_type": "correct", "position": 1, "step_label": "isolate_variable_terms", "topic_tags": ["quadratic_equation", "completing_the_square"] },
     { "block_id": "B052", "problem_id": "P015", "lesson_id": "L102", "content": "Add (4/2)² = 4 to both sides: x² + 4x + 4 = 5", "block_type": "correct", "position": 2, "step_label": "complete_the_square", "topic_tags": ["quadratic_equation", "completing_the_square"] },
     { "block_id": "B053", "problem_id": "P015", "lesson_id": "L102", "content": "Factor the left side: (x + 2)² = 5", "block_type": "correct", "position": 3, "step_label": "factor_perfect_square", "topic_tags": ["quadratic_equation", "completing_the_square"] },
@@ -161,9 +131,7 @@
     { "block_id": "B144", "problem_id": "P015", "lesson_id": "L102", "content": "Add 4 to left side only: x² + 4x + 4 = 1", "block_type": "distractor", "position": null, "distractor_reason": "does_not_balance_equation_when_completing_square", "topic_tags": ["quadratic_equation", "completing_the_square"] },
     { "block_id": "B145", "problem_id": "P015", "lesson_id": "L102", "content": "Solve: x = 2 ± √5", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_on_final_solution", "topic_tags": ["quadratic_equation", "completing_the_square"] },
 
-    // ─────────────────────────────────────────────
-    // P016 — 2x^2 + 7x + 3 = 0 (Solve: AC Method)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B056", "problem_id": "P016", "lesson_id": "L102", "content": "Use the AC method: AC = 2 × 3 = 6; find 1 and 6", "block_type": "correct", "position": 1, "step_label": "ac_method_setup", "topic_tags": ["quadratic_equation", "non_monic", "zero_product_property"] },
     { "block_id": "B057", "problem_id": "P016", "lesson_id": "L102", "content": "Rewrite and group: x(2x + 1) + 3(2x + 1) = 0", "block_type": "correct", "position": 2, "step_label": "factor_by_grouping", "topic_tags": ["quadratic_equation", "non_monic", "zero_product_property"] },
     { "block_id": "B058", "problem_id": "P016", "lesson_id": "L102", "content": "Factor: (2x + 1)(x + 3) = 0", "block_type": "correct", "position": 3, "step_label": "factor_expression", "topic_tags": ["quadratic_equation", "non_monic", "zero_product_property"] },
@@ -172,9 +140,7 @@
     { "block_id": "B147", "problem_id": "P016", "lesson_id": "L102", "content": "Factor: (2x + 3)(x + 1) = 0", "block_type": "distractor", "position": null, "distractor_reason": "swaps_constants_in_factors", "topic_tags": ["quadratic_equation", "non_monic", "zero_product_property"] },
     { "block_id": "B148", "problem_id": "P016", "lesson_id": "L102", "content": "Solve: 2x + 1 = 0 → x = 2", "block_type": "distractor", "position": null, "distractor_reason": "subtracts_instead_of_divides_when_isolating_x", "topic_tags": ["quadratic_equation", "non_monic", "zero_product_property"] },
 
-    // ─────────────────────────────────────────────
-    // P017 — x^2 - 6x + 4 = 0 (Completing the Square, negative middle)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B060", "problem_id": "P017", "lesson_id": "L102", "content": "Move the constant: x² - 6x = -4", "block_type": "correct", "position": 1, "step_label": "isolate_variable_terms", "topic_tags": ["quadratic_equation", "completing_the_square", "negative_middle"] },
     { "block_id": "B061", "problem_id": "P017", "lesson_id": "L102", "content": "Add (-6/2)² = 9 to both sides: x² - 6x + 9 = 5", "block_type": "correct", "position": 2, "step_label": "complete_the_square", "topic_tags": ["quadratic_equation", "completing_the_square", "negative_middle"] },
     { "block_id": "B062", "problem_id": "P017", "lesson_id": "L102", "content": "Factor the left side: (x - 3)² = 5", "block_type": "correct", "position": 3, "step_label": "factor_perfect_square", "topic_tags": ["quadratic_equation", "completing_the_square", "negative_middle"] },
@@ -184,9 +150,7 @@
     { "block_id": "B150", "problem_id": "P017", "lesson_id": "L102", "content": "Factor the left side: (x + 3)² = 5", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_when_factoring_perfect_square", "topic_tags": ["quadratic_equation", "completing_the_square", "negative_middle"] },
     { "block_id": "B151", "problem_id": "P017", "lesson_id": "L102", "content": "Solve: x = -3 ± √5", "block_type": "distractor", "position": null, "distractor_reason": "wrong_sign_on_final_solution", "topic_tags": ["quadratic_equation", "completing_the_square", "negative_middle"] },
 
-    // ─────────────────────────────────────────────
-    // P018 — 3x^2 - 10x + 8 = 0 (Quadratic Formula)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B065", "problem_id": "P018", "lesson_id": "L102", "content": "Identify: a = 3, b = -10, c = 8", "block_type": "correct", "position": 1, "step_label": "identify_coefficients", "topic_tags": ["quadratic_equation", "quadratic_formula", "discriminant"] },
     { "block_id": "B066", "problem_id": "P018", "lesson_id": "L102", "content": "Calculate the discriminant: b² - 4ac = 100 - 96 = 4", "block_type": "correct", "position": 2, "step_label": "calculate_discriminant", "topic_tags": ["quadratic_equation", "quadratic_formula", "discriminant"] },
     { "block_id": "B067", "problem_id": "P018", "lesson_id": "L102", "content": "Apply the formula: x = (10 ± √4) / 6 = (10 ± 2) / 6", "block_type": "correct", "position": 3, "step_label": "apply_quadratic_formula", "topic_tags": ["quadratic_equation", "quadratic_formula", "discriminant"] },
@@ -196,9 +160,7 @@
     { "block_id": "B153", "problem_id": "P018", "lesson_id": "L102", "content": "Apply the formula: x = (-10 ± √4) / 6", "block_type": "distractor", "position": null, "distractor_reason": "does_not_negate_negative_b", "topic_tags": ["quadratic_equation", "quadratic_formula", "discriminant"] },
     { "block_id": "B154", "problem_id": "P018", "lesson_id": "L102", "content": "Apply the formula: x = (10 ± √4) / 3", "block_type": "distractor", "position": null, "distractor_reason": "uses_a_instead_of_2a_in_denominator", "topic_tags": ["quadratic_equation", "quadratic_formula", "discriminant"] },
 
-    // ─────────────────────────────────────────────
-    // P019 — 2x^2 - 4x - 3 = 0 (Quadratic Formula, irrational roots)
-    // ─────────────────────────────────────────────
+    
     { "block_id": "B070", "problem_id": "P019", "lesson_id": "L102", "content": "Identify: a = 2, b = -4, c = -3", "block_type": "correct", "position": 1, "step_label": "identify_coefficients", "topic_tags": ["quadratic_equation", "quadratic_formula", "irrational_roots"] },
     { "block_id": "B071", "problem_id": "P019", "lesson_id": "L102", "content": "Calculate the discriminant: (-4)² - 4(2)(-3) = 16 + 24 = 40", "block_type": "correct", "position": 2, "step_label": "calculate_discriminant", "topic_tags": ["quadratic_equation", "quadratic_formula", "irrational_roots"] },
     { "block_id": "B072", "problem_id": "P019", "lesson_id": "L102", "content": "Simplify √40 = 2√10", "block_type": "correct", "position": 3, "step_label": "simplify_radical", "topic_tags": ["quadratic_equation", "quadratic_formula", "irrational_roots"] },
@@ -208,9 +170,7 @@
     { "block_id": "B156", "problem_id": "P019", "lesson_id": "L102", "content": "Simplify √40 = 4√10", "block_type": "distractor", "position": null, "distractor_reason": "incorrect_radical_simplification", "topic_tags": ["quadratic_equation", "quadratic_formula", "irrational_roots"] },
     { "block_id": "B157", "problem_id": "P019", "lesson_id": "L102", "content": "Simplify: x = 4 ± 2√10 (forgets to divide entire numerator by 4)", "block_type": "distractor", "position": null, "distractor_reason": "omits_division_by_denominator_in_simplification", "topic_tags": ["quadratic_equation", "quadratic_formula", "irrational_roots"] },
 
-    // ─────────────────────────────────────────────
-    // P020 — x^2 + x + 1 = 0 (Discriminant Analysis, no real roots)
-    // ─────────────────────────────────────────────
+   
     { "block_id": "B075", "problem_id": "P020", "lesson_id": "L102", "content": "Identify: a = 1, b = 1, c = 1", "block_type": "correct", "position": 1, "step_label": "identify_coefficients", "topic_tags": ["quadratic_equation", "discriminant", "complex_roots"] },
     { "block_id": "B076", "problem_id": "P020", "lesson_id": "L102", "content": "Calculate the discriminant: b² - 4ac = 1 - 4 = -3", "block_type": "correct", "position": 2, "step_label": "calculate_discriminant", "topic_tags": ["quadratic_equation", "discriminant", "complex_roots"] },
     { "block_id": "B077", "problem_id": "P020", "lesson_id": "L102", "content": "Since the discriminant is negative, there are no real roots", "block_type": "correct", "position": 3, "step_label": "interpret_discriminant", "topic_tags": ["quadratic_equation", "discriminant", "complex_roots"] },
@@ -220,4 +180,5 @@
     { "block_id": "B160", "problem_id": "P020", "lesson_id": "L102", "content": "Since discriminant = -3, apply the formula and get x = (-1 ± √3) / 2", "block_type": "distractor", "position": null, "distractor_reason": "omits_imaginary_unit_i_from_complex_result", "topic_tags": ["quadratic_equation", "discriminant", "complex_roots"] }
 
   ]
+
 }
