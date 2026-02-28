@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "lesson_id": "L101",
+      "topic": "Factoring",
+      "lesson_path_id": 101,
+      "lesson_difficulty": "moderate",
+      "description": "Factoring in algebra is the process of rewriting an expression as a product of its factors, simplifying complex expressions and solving equations.",
+      "prerequisites": [],
+      "unlocks": ["L102"],
+      "next_lesson_id": "L102",
+      "progression_note": "Mastery of factoring prepares students to recognize the structure of quadratic expressions, which is the foundation for solving quadratic equations.",
+      "learning_objectives": [
+        "Identify common factoring patterns such as GCF, difference of squares, and perfect square trinomials",
+        "Factor monic and non-monic trinomials",
+        "Verify factored forms by expanding"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy": ["P001", "P002", "P003"],
+        "moderate": ["P004", "P005", "P006", "P007"],
+        "hard": ["P008", "P009", "P010"]
+      }
+    },
+    {
+      "lesson_id": "L102",
+      "topic": "Quadratic Equations",
+      "lesson_path_id": 102,
+      "lesson_difficulty": "hard",
+      "description": "A quadratic equation is a second-degree polynomial equation of the form ax^2 + bx + c = 0. Students will solve these using factoring, completing the square, and the quadratic formula.",
+      "prerequisites": ["L101"],
+      "unlocks": [],
+      "next_lesson_id": null,
+      "progression_note": "This lesson builds directly on factoring skills. Students who can factor trinomials will be able to solve quadratic equations by setting each factor equal to zero using the Zero Product Property.",
+      "learning_objectives": [
+        "Solve quadratic equations by factoring",
+        "Apply the Zero Product Property to find roots",
+        "Use the quadratic formula when factoring is not viable",
+        "Interpret solutions as x-intercepts on a parabola"
+      ],
+      "hmm_mastery_threshold": 0.85,
+      "problems": {
+        "easy": ["P011", "P012", "P013"],
+        "moderate": ["P014", "P015", "P016", "P017"],
+        "hard": ["P018", "P019", "P020"]
+      }
+    }
+  ]
+}
